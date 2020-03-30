@@ -10,7 +10,7 @@ A new Flutter package that displays a country with its respective state.
 
 [Example](https://github.com/mimi-tech/flutter_country_state/tree/master/example)
 
-To use this plugin :
+To use this package :
 * add the dependency to your [pubspec.yaml](https://github.com/mimi-tech/flutter_country_state/tree/master/pubspec.yaml) file.
 ```
 dependencies:
