@@ -4102,7 +4102,7 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
             child: TextField(
               controller: searchController,
               decoration: InputDecoration(
-                hintText: 'Search Contacts',
+                hintText: 'Search Country',
                 contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(32.0)),
@@ -4145,11 +4145,15 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
   }
 
   _selectedICountry(BuildContext context, String data) {
-    Navigator.pop(context);
+
     setState(() {
       Variables.property_country = data;
-      print(Variables.property_country);
       Navigator.pop(context);
+
+      /// please uncomment this and replace the COUNTRYlIST with the name of your class so that the country selected
+      /// will be shown.
+     /* Navigator.of(context).pushReplacement
+        (MaterialPageRoute(builder: (context) => CountrylIST()));*/
     });
 
   }
@@ -4167,7 +4171,7 @@ class _StateDialogState extends State<StateDialog> {
       child: Column(
         children: <Widget>[
           RaisedButton(
-              child: Text('state'),
+              child: Text('Pick state'),
               onPressed: (){
                 showC();
               }
@@ -4178,10 +4182,13 @@ class _StateDialogState extends State<StateDialog> {
     );
   }
   _userselectedCountryState(BuildContext context, String data) {
-    Navigator.pop(context);
     setState((){
       Variables.pstate = data;
+      /// please uncomment this and replace the COUNTRYLIST with the name of your class so that the state selected
+      /// will be shown.
       Navigator.pop(context);
+      /* Navigator.of(context).pushReplacement
+        (MaterialPageRoute(builder: (context) => CountryList()));*/
     });
 
 
@@ -4206,7 +4213,7 @@ class _StateDialogState extends State<StateDialog> {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[
-                                Text('select state'),
+                                Text('Select your state'),
                                 Align(
                                   alignment: Alignment.topRight,
                                   child: GestureDetector(

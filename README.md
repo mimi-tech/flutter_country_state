@@ -1,12 +1,15 @@
 # flutter_country_state
+
 A package for Flutter with a heart of gold.
-A new Flutter package that displays all countries with there respective state.
+A customizable Flutter package that displays all countries with there respective state.
 ### show some :heart: and star the repo to support the project.
 
 ## Screenshots
-<img src="ss1.jpg" height="300em" /> <img src="ss2.jpg" height="300em" /> <img src="ss3.jpg" height="300em" /> <img src="ss4.jpg" height="300em" />
 
-[Example]
+<img src="ss1.jpg" height="300em" /> <img src="ss2.jpg" height="300em" />
+<img src="ss3.jpg" height="300em" /> <img src="ss4.jpg" height="300em" />
+
+## Example
 
  Please run the app in the [Example](https://github.com/mimi-tech/flutter_country_state/tree/master/example)
 
@@ -18,6 +21,10 @@ dependencies:
     sdk: flutter
   flutter_country_state:
   ```
+## Important
+
+For the country and state selected to be displayed, Go the library and uncomment the routing, replace the class COUNTRYLIST with your own
+class name. THANKS
 
  ## Use It
   ``` dart
@@ -33,12 +40,19 @@ dependencies:
     Widget build(BuildContext context) {
       return Column(
         children: <Widget>[
+
+        //This displays the name of the state selected.
           Text( Variables.pstate ),
+          //This displays the name of the country selected
           Text( Variables.property_country ),
-          Container(child:  showCountry(),)
-          Container(child: StateDialog(),)
+          //Dialog showing all the countries.
+          Container(child:  showCountry(),),
+          //Dialog showing the state of the country selected
+          Container(child: StateDialog(),),
         ],
       );
     }
   }
 
+## checkOut
+Thanks. Happy coding!!!!!!!!!!!

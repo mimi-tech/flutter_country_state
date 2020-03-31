@@ -10,7 +10,7 @@ class showCountry extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RaisedButton(
-        child: Text('country'),
+        child: Text('pick country'),
         onPressed: () {
           showGeneralDialog(
               barrierColor: Colors.black.withOpacity(0.5),
