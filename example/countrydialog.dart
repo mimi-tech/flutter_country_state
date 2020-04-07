@@ -15,7 +15,12 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
   String filter;
   var items = List<String>();
   @override  initState() {
-    items.addAll(Country.Countrys);
+    var newList = [Country1.Countrys1,
+      Country2.country2, Country3.country3,
+      Country4.country4, Country5.country5,
+      Country6.country6, Country7.country7,
+    ].expand((x) => x).toList();
+    items.addAll(newList);
     searchController.addListener(() {
       setState(() {
         filter = searchController.text;

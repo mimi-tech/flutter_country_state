@@ -1,3 +1,5 @@
+///list of countries .sepreted because it will be merge in the init state for fast loading
+
 class Country1 {
   static List<String> Countrys1 = <String>[
     "Afghanistan", "Aland Islands", "Albania", "Algeria", "American Samoa", "Andorra",

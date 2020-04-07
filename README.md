@@ -24,7 +24,8 @@ class name. THANKS
  ## Use It
   ``` dart
  import 'package:flutter_country_state/flutter_country_state.dart';
-
+ import 'package:flutter_country_state/st.dart';
+ 
   class Country extends StatefulWidget {
     @override
     _CountryState createState() => _CountryState();
