@@ -2467,25 +2467,25 @@ class NorthernMariana{
 }
 class Norway{
   static List<String> States = <String>[
-    'Akershus '
-        'Astfold '
-        'Aust Agder '
-        'Buskerud '
-        'Finnmark '
-        'Hedmark '
-        'Hordaland '
-        'More Og Romsdal '
-        'Nord Trondelag '
-        'Nordland '
-        'Oppland'
-        'Oslo '
-        'Rogaland '
-        'Sogn Og Fjordane '
-        'Sor Trondelag '
-        'Telemark '
-        'Troms '
-        'Vest Agder '
-        'Vestfold '
+    'Akershus ',
+        'Astfold ',
+        'Aust Agder ',
+        'Buskerud ',
+        'Finnmark ',
+        'Hedmark ',
+        'Hordaland ',
+        'More Og Romsdal ',
+        'Nord Trondelag ',
+        'Nordland ',
+        'Oppland',
+        'Oslo ',
+        'Rogaland ',
+        'Sogn Og Fjordane ',
+        'Sor Trondelag ',
+        'Telemark ',
+        'Troms ',
+        'Vest Agder ',
+        'Vestfold ',
   ];
 }
 class Oman{
@@ -2683,22 +2683,22 @@ class Pitcairn{
 }
 class Poland{
   static List<String> States = <String>[
-    'Greater Poland'
-        'Kuyavian Pomeranian '
-        'Lesser Poland '
-        'Lodz '
-        'Lower Silesian '
-        'Lublin '
-        'Lubusz '
-        'Masovian '
-        'Opole '
-        'Podlachian'
-        'Pomeranian '
-        'Silesian '
-        'Subcarpathian '
-        'Swietokrzyski'
-        'Warmian Masurian '
-        'West Pomeranian '
+    'Greater Poland',
+        'Kuyavian Pomeranian ',
+        'Lesser Poland ',
+        'Lodz ',
+        'Lower Silesian ',
+        'Lublin ',
+        'Lubusz ',
+        'Masovian ',
+        'Opole ',
+        'Podlachian',
+        'Pomeranian ',
+        'Silesian ',
+        'Subcarpathian ',
+        'Swietokrzyski',
+        'Warmian Masurian ',
+        'West Pomeranian ',
   ];
 }
 class Portugal{
@@ -2956,76 +2956,76 @@ class Pierre{
 }
 class Turkey{
   static List<String> States = <String>[
-    'Adana '
-        'Adiyaman '
-        'Afyon '
-        'Agri '
-        'Amasya '
-        'Ankara '
-        'Antalya '
-        'Artvin '
-        'Aydin'
-        'Balikesir'
-        'Batman '
-        'Bilecik'
-        'Bingol '
-        'Bitlis '
-        'Bolu '
-        'Burdur '
-        'Bursa'
-        'Canakkale'
-        'Cankiri '
-        'Corum'
-        'Denizli '
+        'Adana ',
+        'Adiyaman ',
+        'Afyon ',
+        'Agri ',
+        'Amasya ',
+        'Ankara ',
+        'Antalya ',
+        'Artvin ',
+        'Aydin',
+        'Balikesir',
+        'Batman ',
+        'Bilecik',
+        'Bingol ',
+        'Bitlis ',
+        'Bolu ',
+        'Burdur ',
+        'Bursa',
+        'Canakkale',
+        'Cankiri ',
+        'Corum',
+        'Denizli ',
         'Diyarbakir '
-        'Edirne '
-        'Elazig '
-        'Erzincan '
-        'Erzurum '
-        'Eskisehir'
-        'Gaziantep'
-        'Giresun '
-        'Gumushane '
-        'Hakkari'
-        'Hatay '
-        'Isparta '
-        'Istanbul '
-        'Izmir '
-        'K. Maras '
-        'Karaman '
-        'Kars '
-        'Kastamonu '
-        'Kayseri '
-        'Kinkkale '
-        'Kirklareli '
-        'Kirsehir'
-        'Kocaeli '
-        'Konya '
-        'Kutahya '
-        'Malatya '
-        'Manisa '
-        'Mardin '
-        'Mersin '
-        'Mugla '
-        'Mus '
-        'Nevsehir '
-        'Nigde '
-        'Ordu'
-        'Rize '
-        'Sakarya '
-        'Samsun '
-        'Sanliurfa '
-        'Siirt '
-        'Sinop'
-        'Sivas '
-        'Tekirdag '
-        'Tokat '
-        'Trabzon '
-        'Tunceli'
-        'Usak'
-        'Van '
-        'Yozgat '
-        'Zinguldak'
+        'Edirne ',
+        'Elazig ',
+        'Erzincan ',
+        'Erzurum ',
+        'Eskisehir',
+        'Gaziantep',
+        'Giresun ',
+        'Gumushane ',
+        'Hakkari',
+        'Hatay ',
+        'Isparta ',
+        'Istanbul ',
+        'Izmir ',
+        'K. Maras ',
+        'Karaman ',
+        'Kars ',
+        'Kastamonu ',
+        'Kayseri ',
+        'Kinkkale ',
+        'Kirklareli ',
+        'Kirsehir',
+        'Kocaeli ',
+        'Konya ',
+        'Kutahya ',
+        'Malatya ',
+        'Manisa ',
+        'Mardin ',
+        'Mersin ',
+        'Mugla ',
+        'Mus ',
+        'Nevsehir ',
+        'Nigde ',
+        'Ordu',
+        'Rize ',
+        'Sakarya ',
+        'Samsun ',
+        'Sanliurfa ',
+        'Siirt ',
+        'Sinop',
+        'Sivas ',
+        'Tekirdag ',
+        'Tokat ',
+        'Trabzon ',
+        'Tunceli',
+        'Usak',
+        'Van ',
+        'Yozgat ',
+        'Zinguldak',
   ];
 }
 
@@ -3219,18 +3219,18 @@ class Spain{
 }
 class SriLanka{
   static List<String> States = <String>[
-    'Anuradhapura '
-        'Badulla'
-        'Batticaloa '
-        'Colombo '
-        'Galle '
-        'Jaffna '
-        'Kandy '
-        'Kilinochchi '
-        'Matara'
-        'Puttalam '
-        'Ratnapura '
-        'Trincomalee '
+    'Anuradhapura ',
+        'Badulla',
+        'Batticaloa ',
+        'Colombo ',
+        'Galle ',
+        'Jaffna ',
+        'Kandy ',
+        'Kilinochchi ',
+        'Matara',
+        'Puttalam ',
+        'Ratnapura ',
+        'Trincomalee ',
   ];
 }
 class Sudan{
@@ -3271,31 +3271,31 @@ class Swaziland{
 }
 class Sweden{
   static List<String> States = <String>[
-    'Ångermanland'
-        'Blekinge'
-        'Bohuslän'
-        'Dalarna'
-        'Dalsland'
-        'Gotland'
-        'Gästrikland'
-        'Halland'
-        'Hälsingland'
-        'Härjedalen'
-        'Jämtland'
-        'Lappland'
-        'Medelpad'
-        'Norrbotten'
-        'Närke'
-        'Öland'
-        'Östergötland'
-        'Skåne'
-        'Småland'
-        'Södermanland'
-        'Uppland'
-        'Värmland'
-        'Västmanland'
-        'Västerbotten'
-        'Västergötland'
+    'Ångermanland',
+        'Blekinge',
+        'Bohuslän',
+        'Dalarna',
+        'Dalsland',
+        'Gotland',
+        'Gästrikland',
+        'Halland',
+        'Hälsingland',
+        'Härjedalen',
+        'Jämtland',
+        'Lappland',
+        'Medelpad',
+        'Norrbotten',
+        'Närke',
+        'Öland',
+        'Östergötland',
+        'Skåne',
+        'Småland',
+        'Södermanland',
+        'Uppland',
+        'Värmland',
+        'Västmanland',
+        'Västerbotten',
+        'Västergötland',
   ];
 }
 class Switzerland{

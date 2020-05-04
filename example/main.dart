@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'countrydialog.dart';
-import 'dialog.dart';
-import 'variables.dart';
+import 'package:flutter_country_state/flutter_country_state.dart';
+import 'package:flutter_country_state/st.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'flutter_country_states page'),
     );
   }
 }
@@ -28,13 +28,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -47,90 +41,22 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Text(
-                'You have pushed the button this many times:',
-              ),
-              Text(
-                '$_counter',
-                style: Theme.of(context).textTheme.display1,
-              ),
+              //ToDo: first import the package
+
+//This displays the name of the state selected.
               Text( Variables.pstate ),
+              //This displays the name of the country selected
               Text( Variables.property_country ),
-            RaisedButton(
-                child: Text('country'),
-                onPressed: () {
-                  showGeneralDialog(
-                      barrierColor: Colors.black.withOpacity(0.5),
-                      transitionBuilder: (context, a1, a2, widget) {
-                        return Transform.scale(
-                            scale: a1.value,
-                            child: Opacity(
-                                opacity: a1.value,
-                                child: Dialog(
-                                    shape: RoundedRectangleBorder(
-                                        borderRadius: BorderRadius.circular(8.0)),
-
-                                    elevation: 4,
-                                    child: Column(
-                                        mainAxisSize: MainAxisSize.min,
-                                        children: <Widget>[
-                                          Row(
-                                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                            children: <Widget>[
-                                              Text('select your country'),
-                                              Align(
-                                                alignment: Alignment.topRight,
-                                                child: GestureDetector(
-                                                  onTap: () {
-                                                    Navigator.pop(context);
-                                                  },
-                                                  child: Icon(
-                                                    Icons.cancel,
-                                                    size: 42,
-                                                    color: Colors.white,
-                                                  ),
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-
-                                          Expanded(
-                                            child: SingleChildScrollView(
-                                                child:
-                                                Container(child:ShowMyDialog())
-
-                                            ),
-                                          ),
-                                        ]
-                                    )
-                                )
-                            )
-                        );
-                      },
-                      transitionDuration: Duration(milliseconds: 200),
-                      barrierDismissible: true,
-                      barrierLabel: '',
-                      context: context,
-// ignore: missing_return
-                      pageBuilder: (context, animation1, animation2) {}
-                  );
-
-
-                }
-            ),
-
-Container(child: StateDialog(),)
-
+              //Dialog showing all the countries.
+              Container(child:  showCountry(),),
+              //Dialog showing the state of the country selected
+              Container(child: StateDialog(),),
 
             ],
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ),
+
     );
   }
 }
