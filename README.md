@@ -8,6 +8,9 @@ A customizable Flutter package that displays all countries with there respective
 
  Please run the app in the [Example](https://github.com/mimi-tech/flutter_country_state/tree/master/example) folder
 
+##Screenshots
+<img src = "ss1.jpg" height="300em /> <img src = "ss2.jpg" height="300em /> <img src = "ss3.jpg" height="300em /> <img src = "ss4.jpg" height="300em />
+
 ## Installation
 * add the dependency to your [pubspec.yaml](https://github.com/mimi-tech/flutter_country_state/tree/master/pubspec.yaml) file.
 ```
@@ -16,10 +19,7 @@ dependencies:
     sdk: flutter
   flutter_country_state:
   ```
-## Important
 
-For the country and state selected to be displayed, Go the library and uncomment the routing, replace the class COUNTRYLIST with your own
-class name. THANKS
 
  ## Use It
   ``` dart
@@ -42,9 +42,9 @@ class name. THANKS
           //This displays the name of the country selected
           Text( Variables.property_country ),
           //Dialog showing all the countries.
-          Container(child:  showCountry(),),
+          Container(child:  showCountry(title:'country),),
           //Dialog showing the state of the country selected
-          Container(child: StateDialog(),),
+          Container(child: StateDialog(title:'state'),),
         ],
       );
     }

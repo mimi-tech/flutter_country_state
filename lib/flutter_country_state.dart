@@ -70,7 +70,11 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
                     child: Text(users.substring(0,1).toUpperCase()),
                   ),
                   title: Text(items[index],),
-                  onTap: () => _selectedICountry(context, items[index]),
+                  onTap: () {
+                    setState(() {
+                      _selectedICountry(context, items[index]);
+                    });
+                  }
 
                 ) : '${items[index]}'.toLowerCase()
                     .contains(filter.toLowerCase())
@@ -81,7 +85,11 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
                     child: Text(users.substring(0,1).toUpperCase()),
                   ),
                   title: Text(items[index],),
-                  onTap: () => _selectedICountry(context, items[index]),
+                  onTap: () {
+                    setState(() {
+                      _selectedICountry(context, items[index]);
+                    });
+                  }
 
                 ):  Container();
               }
@@ -96,18 +104,15 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
 
     setState(() {
       Variables.property_country = data;
-      Navigator.pop(context);
 
-      /// please uncomment this and replace the COUNTRYlIST with the name of your class so that the country selected
-      /// will be shown.
-     /* Navigator.of(context).pushReplacement
-        (MaterialPageRoute(builder: (context) => CountrylIST()));*/
     });
-
+    Navigator.pop(context);
   }
 }
 
 class StateDialog extends StatefulWidget {
+  StateDialog({this.title});
+  final String title;
   @override
   _StateDialogState createState() => _StateDialogState();
 }
@@ -118,9 +123,9 @@ class _StateDialogState extends State<StateDialog> {
     return Container(
       child: Column(
         children: <Widget>[
-          RaisedButton(
-              child: Text('Pick state'),
-              onPressed: (){
+          GestureDetector(
+              child: Text(widget.title),
+              onTap: (){
                 showC();
               }
           )
@@ -132,13 +137,9 @@ class _StateDialogState extends State<StateDialog> {
   _userselectedCountryState(BuildContext context, String data) {
     setState((){
       Variables.pstate = data;
-      /// please uncomment this and replace the COUNTRYLIST with the name of your class so that the state selected
-      /// will be shown.
-      Navigator.pop(context);
-      /* Navigator.of(context).pushReplacement
-        (MaterialPageRoute(builder: (context) => CountryList()));*/
-    });
 
+    });
+Navigator.pop(context);
 
   }
 
@@ -196,7 +197,11 @@ class _StateDialogState extends State<StateDialog> {
                                         title: Text(StateDialogs.stateItems[index],),
 
 
-                                        onTap: () => _userselectedCountryState(context, StateDialogs.stateItems[index]),
+                                        onTap: (){
+                                          setState(() {
+                                            _userselectedCountryState(context, StateDialogs.stateItems[index]);
+                                          });
+                                        }
                                       ) ;
                                     }
                                 ),

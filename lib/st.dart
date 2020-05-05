@@ -4,14 +4,15 @@ import 'package:flutter_country_state/flutter_country_state.dart';
 
 class showCountry extends StatelessWidget {
   const showCountry({
-    Key key,
-  }) : super(key: key);
+    this.title
 
+  }) ;
+final String title;
   @override
   Widget build(BuildContext context) {
-    return RaisedButton(
-        child: Text('pick country'),
-        onPressed: () {
+    return GestureDetector(
+        child: Text(title),
+        onTap: () {
           showGeneralDialog(
               barrierColor: Colors.black.withOpacity(0.5),
               transitionBuilder: (context, a1, a2, widget) {
