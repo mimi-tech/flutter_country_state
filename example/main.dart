@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_country_state/flutter_country_state.dart';
-import 'package:flutter_country_state/st.dart';
 
 
 void main() => runApp(MyApp());
@@ -10,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'flutter_country_states page',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -43,14 +42,122 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               //ToDo: first import the package
 
-//This displays the name of the state selected.
-              Text( Variables.pstate ),
-              //This displays the name of the country selected
-              Text( Variables.property_country ),
-              //Dialog showing all the countries.
-              Container(child:  showCountry(),),
-              //Dialog showing the state of the country selected
-              Container(child: StateDialog(),),
+              GestureDetector(
+                  child:Padding(
+                    padding: EdgeInsets.symmetric(horizontal:20),
+                    child: Align(
+                      alignment: Alignment.topLeft,
+                      child:  Column(
+                        children: <Widget>[
+                          Text('select country',
+
+                          ),
+                          Text(Variables.country,
+
+                          )
+                        ],
+                      ),
+
+
+                    ),
+                  ),
+                  onTap: () {
+                    showDialog(
+                        context: context,
+                        child: SimpleDialog(
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8.0)),
+                          elevation: 4,
+                          children: <Widget>[
+
+                            Align(
+                              alignment: Alignment.topRight,
+                              child: GestureDetector(
+                                  onTap: (){
+                                    Navigator.of(context).push
+                                      (MaterialPageRoute(builder: (context) => YourClassName()));
+
+                                  },
+                                  child: Padding(
+                                    padding: EdgeInsets.only(right:18.0),
+                                    child: Material(
+                                      color:Colors.red,
+                                      child: Text('Done',
+
+                                      ),
+                                    ),
+                                  )
+                              ),
+                            ),
+                            SingleChildScrollView(
+                                child: Container(child: ShowMyDialog(
+                                  searchHint: 'Search country',
+                                  substringBackground: Colors.green,
+                                ))
+
+                            )
+                          ],
+
+                        )
+                    );
+                  }
+              ),
+
+              /*for states selected*/
+
+              GestureDetector(
+                  child:Padding(
+                    padding: EdgeInsets.symmetric(horizontal:20),
+                    child: Align(
+                        alignment: Alignment.topLeft,
+                        child: Column(
+                          children: <Widget>[
+                            Text( 'select state',
+                            ),
+                            Text( Variables.state,
+                            ),
+                          ],
+                        )
+
+                    ),
+                  ),
+                  onTap: (){
+                    showDialog(
+                        context: context,
+                        child: SimpleDialog(
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8.0)),
+                          elevation: 4,
+                          children: <Widget>[
+                            Align(
+                              alignment: Alignment.topRight,
+                              child: GestureDetector(
+                                  onTap: (){
+                                    Navigator.of(context).push
+                                      (MaterialPageRoute(builder: (context) => YourClassName()));
+
+                                  },
+                                  child: Padding(
+                                    padding: EdgeInsets.only(right:18.0),
+                                    child: Material(
+                                      color:Colors.red,
+                                      child: Text('Done',
+
+                                      ),
+                                    ),
+                                  )
+                              ),
+                            ),
+
+                            SingleChildScrollView(child: Container(child:StateDialog(),),)
+
+                          ],
+
+                        )
+                    );
+
+                  }
+              ),
 
             ],
           ),

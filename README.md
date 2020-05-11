@@ -8,9 +8,6 @@ A customizable Flutter package that displays all countries with there respective
 
  Please run the app in the [Example](https://github.com/mimi-tech/flutter_country_state/tree/master/example) folder
 
-##Screenshots
-<img src = "ss1.jpg" height="300em /> <img src = "ss2.jpg" height="300em /> <img src = "ss3.jpg" height="300em /> <img src = "ss4.jpg" height="300em />
-
 ## Installation
 * add the dependency to your [pubspec.yaml](https://github.com/mimi-tech/flutter_country_state/tree/master/pubspec.yaml) file.
 ```
@@ -20,36 +17,153 @@ dependencies:
   flutter_country_state:
   ```
 
-
+ ### You can also change the style of the text of list of the country and states
  ## Use It
+ ### This will display the countries
   ``` dart
+ import 'package:flutter/material.dart';
+ import 'package:flutter/cupertino.dart';
  import 'package:flutter_country_state/flutter_country_state.dart';
- import 'package:flutter_country_state/st.dart';
- 
-  class Country extends StatefulWidget {
-    @override
-    _CountryState createState() => _CountryState();
+
+ class ShowCountry extends StatelessWidget {
+
+
+   @override
+   Widget build(BuildContext context) {
+     return   GestureDetector(
+                              child:Padding(
+                                padding: EdgeInsets.symmetric(horizontal:20),
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child:  Column(
+                                    children: <Widget>[
+                                      Text('select country',
+
+                                      ),
+                                      Text(Variables.country,
+
+                                      )
+                                    ],
+                                  ),
+
+
+                                ),
+                              ),
+                              onTap: () {
+                                showDialog(
+                                    context: context,
+                                    child: SimpleDialog(
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.circular(8.0)),
+                                      elevation: 4,
+                                      children: <Widget>[
+
+                                        Align(
+                                          alignment: Alignment.topRight,
+                                          child: GestureDetector(
+                                              onTap: (){
+                                                Navigator.of(context).push
+                                                  (MaterialPageRoute(builder: (context) => YourClassName()));
+
+                                              },
+                                              child: Padding(
+                                                padding: EdgeInsets.only(right:18.0),
+                                                child: Material(
+                                                  color:Colors.red,
+                                                  child: Text('Done',
+
+                                                  ),
+                                                ),
+                                              )
+                                          ),
+                                        ),
+                                        SingleChildScrollView(
+                                            child: Container(child: ShowMyDialog(
+                                              searchHint: 'Search country',
+                                              substringBackground: Colors.green,
+                                            ))
+
+                                        )
+                                      ],
+
+                                    )
+                                );
+                              }
+                          ),
+
+   }
+ }
+```
+### This will display the states of the country selected
+ ``` dart
+import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_country_state/flutter_country_state.dart';
+class ShowState extends StatefulWidget {
+
+  @override
+  _ShowStateState createState() => _ShowStateState();
+}
+
+class _ShowStateState extends State<ShowState> {
+  @override
+  Widget build(BuildContext context) {
+    return  GestureDetector(
+                              child:Padding(
+                                padding: EdgeInsets.symmetric(horizontal:20),
+                                child: Align(
+                                    alignment: Alignment.topLeft,
+                                    child: Column(
+                                      children: <Widget>[
+                                        Text( 'select state',
+                                        ),
+                                        Text( Variables.state,
+                                        ),
+                                      ],
+                                    )
+
+                                ),
+                              ),
+                              onTap: (){
+                                showDialog(
+                                    context: context,
+                                    child: SimpleDialog(
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.circular(8.0)),
+                                      elevation: 4,
+                                      children: <Widget>[
+                                        Align(
+                                          alignment: Alignment.topRight,
+                                          child: GestureDetector(
+                                              onTap: (){
+                                                Navigator.of(context).push
+                                                  (MaterialPageRoute(builder: (context) => YourClassName()));
+
+                                              },
+                                              child: Padding(
+                                                padding: EdgeInsets.only(right:18.0),
+                                                child: Material(
+                                                  color:Colors.red,
+                                                  child: Text('Done',
+
+                                                  ),
+                                                ),
+                                              )
+                                          ),
+                                        ),
+
+                                        SingleChildScrollView(child: Container(child:StateDialog(),),)
+
+                                      ],
+
+                                    )
+                                );
+
+                              }
+                          ),
+
   }
-
-  class _CountryState extends State<Country> {
-    @override
-    Widget build(BuildContext context) {
-      return Column(
-        children: <Widget>[
-
-        //This displays the name of the state selected.
-          Text( Variables.pstate ),
-          //This displays the name of the country selected
-          Text( Variables.property_country ),
-          //Dialog showing all the countries.
-          Container(child:  showCountry(title:'country),),
-          //Dialog showing the state of the country selected
-          Container(child: StateDialog(title:'state'),),
-        ],
-      );
-    }
-  }
-
+}
 ```
 
 ## Check this
