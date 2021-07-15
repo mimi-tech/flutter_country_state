@@ -1,78 +1,223 @@
 ///list of states of each country
 
-class StateDialogs{
+class StateDialogs {
   static List<String> stateItems = [];
 }
-class CountryWidget{
+
+class CountryWidget {
   static List<String> countryItems = [];
 }
 
-class Afghanistan{
+class Afghanistan {
   static List<String> States = <String>[
-    'Kabul' , 'Kandahar', 'Herat', 'Mazar-i-Sharif', 'Kunduz', 'Jalalabad', ' Lashkar Gah ', 'Taluqan' , 'Puli Khumri', 'Khost' , 'Ghazni', 'Sheberghan' , 'Sari Pul', 'Farah',
+    'Kabul',
+    'Kandahar',
+    'Herat',
+    'Mazar-i-Sharif',
+    'Kunduz',
+    'Jalalabad',
+    ' Lashkar Gah ',
+    'Taluqan',
+    'Puli Khumri',
+    'Khost',
+    'Ghazni',
+    'Sheberghan',
+    'Sari Pul',
+    'Farah',
   ];
 }
-class Albania{
+
+class Albania {
   static List<String> States = <String>[
-    'Berat' , 'Dibër', 'Durrës', 'Elbasan', 'Fier', 'Gjirokastër', ' Korçë ', 'Kukës' , 'Lezhë', 'Shkodër	' , 'Tiranë', 'Vlorë'
+    'Berat',
+    'Dibër',
+    'Durrës',
+    'Elbasan',
+    'Fier',
+    'Gjirokastër',
+    ' Korçë ',
+    'Kukës',
+    'Lezhë',
+    'Shkodër	',
+    'Tiranë',
+    'Vlorë'
   ];
 }
-class Algeria{
+
+class Algeria {
   static List<String> States = <String>[
-    'Algiers' , 'Oran', 'Constantine', 'Annaba', 'Blida', '	Batna', 'Djelfa ', 'Sétif' , 'Sidi Bel Abbès', 'Biskra	' , 'Tébessa', 'El Oued',
-    'Skikda','Tiaret','Béjaïa','Tlemcen','Ouargla','Béchar','Mostaganem','Bordj Bou Arréridj','Chlef','	Souk Ahras', 'Médéa','El Eulma','Touggourt',
-    'Ghardaïa','Saïda','Laghouat','M Sila', 'Jijel','Relizane','Guelma','Aïn Béïda','Khenchela','Bousaada','	Mascara','	Tindouf','Tizi Ouzou',
+    'Algiers',
+    'Oran',
+    'Constantine',
+    'Annaba',
+    'Blida',
+    '	Batna',
+    'Djelfa ',
+    'Sétif',
+    'Sidi Bel Abbès',
+    'Biskra	',
+    'Tébessa',
+    'El Oued',
+    'Skikda',
+    'Tiaret',
+    'Béjaïa',
+    'Tlemcen',
+    'Ouargla',
+    'Béchar',
+    'Mostaganem',
+    'Bordj Bou Arréridj',
+    'Chlef',
+    '	Souk Ahras',
+    'Médéa',
+    'El Eulma',
+    'Touggourt',
+    'Ghardaïa',
+    'Saïda',
+    'Laghouat',
+    'M Sila',
+    'Jijel',
+    'Relizane',
+    'Guelma',
+    'Aïn Béïda',
+    'Khenchela',
+    'Bousaada',
+    '	Mascara',
+    '	Tindouf',
+    'Tizi Ouzou',
   ];
 }
-class Andorra{
+
+class Andorra {
+  static List<String> States = <String>['Sant Julia de Loria', 'Ordino', 'La Massana', 'Encamp', 'Canillo', '	Andorra la Vella', ' Escaldes-Engordany '];
+}
+
+class Angola {
   static List<String> States = <String>[
-    'Sant Julia de Loria' , 'Ordino', 'La Massana', 'Encamp', 'Canillo', '	Andorra la Vella', ' Escaldes-Engordany '
+    'Bengo',
+    'Benguela',
+    'Bié',
+    'Cabinda',
+    'Cuando Cubango',
+    'Cuanza Norte',
+    'Cuanza Sul',
+    ' Cunene',
+    ' Huambo',
+    'Huíla',
+    'Luanda',
+    'Lunda Norte',
+    'Lunda Sul',
+    'Malanje',
+    'Moxico',
+    'Namibe',
+    'Uíge',
+    'Zaire',
   ];
 }
-class Angola{
+
+class Anguilla {
   static List<String> States = <String>[
-    'Bengo' , 'Benguela', 'Bié', 'Cabinda', 'Cuando Cubango', 'Cuanza Norte', 'Cuanza Sul',
-    ' Cunene',' Huambo','Huíla', 'Luanda','Lunda Norte','Lunda Sul','Malanje','Moxico','Namibe',
-    'Uíge','Zaire',
+    'Blowing Point',
+    'Sandy Ground',
+    'Sandy Hill',
+    'The Valley',
+    ' East End',
+    'North Hill',
+    'West End',
+    'South Hill',
+    'The Quarter',
+    'North Side',
+    'Island Harbour',
+    'George Hill',
+    'Stoney Ground',
+    'The Farrington',
   ];
 }
-class Anguilla{
+
+class Antarctica {
   static List<String> States = <String>[
-    'Blowing Point' , 'Sandy Ground', 'Sandy Hill', 'The Valley', ' East End', 'North Hill', 'West End',
-    'South Hill','The Quarter','North Side', 'Island Harbour','George Hill','Stoney Ground','The Farrington',
+    'Blowing Point',
+    ' Sandy Ground',
+    'Sandy Hill',
+    'The Valley',
+    ' East End',
+    'North Hill',
+    'West End',
+    'South Hill',
+    'The Quarter',
+    'North Side',
+    'Island Harbour',
+    'George Hill',
+    'Stoney Ground',
+    'The Farrington',
   ];
 }
-class Antarctica{
+
+class Antigua {
   static List<String> States = <String>[
-    'Blowing Point' , ' Sandy Ground', 'Sandy Hill', 'The Valley', ' East End', 'North Hill', 'West End',
-    'South Hill','The Quarter','North Side', 'Island Harbour','George Hill','Stoney Ground','The Farrington',
+    '	Havlo',
+    ' 	Victoria',
+    'North Antarctica',
+    'Byrdland',
+    ' Newbin',
+    '	Atchabinic',
   ];
 }
-class Antigua{
+
+class Argentina {
   static List<String> States = <String>[
-    '	Havlo' , ' 	Victoria', 'North Antarctica', 'Byrdland', ' Newbin', '	Atchabinic',
+    '	Catamarca',
+    ' Chaco ',
+    ' Chubut',
+    'Ciudad De Buenos Aires',
+    ' Cordoba',
+    '	Corrientes',
+    'Entre Rios',
+    'Formosa',
+    'Jujuy ',
+    'La Pampa',
+    'La Rioja',
+    'Mendoza',
+    'Misiones ',
+    'Neuquen',
+    'Rio Negro',
+    'Salta ',
+    'San Juan ',
+    'San Luis',
+    'Santa Cruz ',
+    'Santa Fe ',
+    'Santiago Del Estero',
+    'Tierra Del Fuego',
+    'Tucuman',
   ];
 }
-class Argentina{
+
+class Armenia {
   static List<String> States = <String>[
-    '	Catamarca' , ' Chaco ', ' Chubut', 'Ciudad De Buenos Aires', ' Cordoba', '	Corrientes', 'Entre Rios',
-    'Formosa','Jujuy ','La Pampa', 'La Rioja','Mendoza','Misiones ','Neuquen',
-    'Rio Negro','Salta ','San Juan ', 'San Luis','Santa Cruz ','Santa Fe ','Santiago Del Estero',
-    'Tierra Del Fuego','Tucuman',
+    '	Aragatsotn',
+    ' 	Ararat ',
+    'Erevan',
+    'Gegharkunik',
+    ' Lori',
+    '	Shirak',
+    'Tavush',
+    'Vayots Dzor',
   ];
 }
-class Armenia{
+
+class Australia {
   static List<String> States = <String>[
-    '	Aragatsotn' , ' 	Ararat ', 'Erevan', 'Gegharkunik', ' Lori', '	Shirak','Tavush','Vayots Dzor',
+    'New South Wales',
+    'Queensland',
+    'South Australia',
+    'Tasmania',
+    'Victoria',
+    'Western Australia',
+    'Australian Capital Territory',
+    'Northern Territory',
   ];
 }
-class Australia{
-  static List<String> States = <String>[
-    'New South Wales', 'Queensland', 'South Australia', 'Tasmania',
-    'Victoria', 'Western Australia', 'Australian Capital Territory', 'Northern Territory',
-  ];
-}
-class Austria{
+
+class Austria {
   static List<String> States = <String>[
     'Burgenland',
     'Kärnten ',
@@ -85,7 +230,8 @@ class Austria{
     'Wien',
   ];
 }
-class Azerbaijan{
+
+class Azerbaijan {
   static List<String> States = <String>[
     'Ali Bayramli ',
     'Astara',
@@ -105,9 +251,9 @@ class Azerbaijan{
     ' Zengilan',
   ];
 }
-class Bahamas{
-  static List<String> States = <String>[
 
+class Bahamas {
+  static List<String> States = <String>[
     'New Providence	',
     'Freeport	',
     'Marsh Harbour',
@@ -131,9 +277,9 @@ class Bahamas{
     ' Kemps Bay',
   ];
 }
-class Bahrain{
-  static List<String> States = <String>[
 
+class Bahrain {
+  static List<String> States = <String>[
     'Al Manamah	',
     'Sitrah	',
     'Al Mintaqah al Gharbiyah	',
@@ -150,7 +296,8 @@ class Bahrain{
     'Al Hadd',
   ];
 }
-class Bangladesh{
+
+class Bangladesh {
   static List<String> States = <String>[
     'Barisal ',
     'Chittagong ',
@@ -160,12 +307,14 @@ class Bangladesh{
     'Sylhet',
   ];
 }
-class Barbados{
+
+class Barbados {
   static List<String> States = <String>[
     'Saint Michael',
   ];
 }
-class Belarus{
+
+class Belarus {
   static List<String> States = <String>[
     'Brest ',
     'Homyel',
@@ -175,7 +324,8 @@ class Belarus{
     'Vitsyebsk',
   ];
 }
-class Belgium{
+
+class Belgium {
   static List<String> States = <String>[
     'Antwerp ',
     'Arlon',
@@ -189,7 +339,8 @@ class Belgium{
     'Namur',
   ];
 }
-class Belize{
+
+class Belize {
   static List<String> States = <String>[
     'Belize ',
     'Cayo ',
@@ -199,7 +350,8 @@ class Belize{
     'Toledo',
   ];
 }
-class Benin{
+
+class Benin {
   static List<String> States = <String>[
     'Alibori ',
     'Atakora ',
@@ -211,7 +363,8 @@ class Benin{
     'Zou',
   ];
 }
-class Bermuda{
+
+class Bermuda {
   static List<String> States = <String>[
     'Saint George	',
     'Hamilton	',
@@ -225,7 +378,8 @@ class Bermuda{
     'Paget',
   ];
 }
-class Bhutan{
+
+class Bhutan {
   static List<String> States = <String>[
     'Bumthang',
     'Trongsa',
@@ -248,7 +402,8 @@ class Bhutan{
     'Lhuntse',
   ];
 }
-class Bolivia{
+
+class Bolivia {
   static List<String> States = <String>[
     'Chuquisaca',
     'Cochabamba',
@@ -261,9 +416,9 @@ class Bolivia{
     'Tarija',
   ];
 }
-class Bosnia{
-  static List<String> States = <String>[
 
+class Bosnia {
+  static List<String> States = <String>[
     'Herzegovina Neretva ',
     'Sarajevo',
     'Serbian Republic ',
@@ -271,7 +426,8 @@ class Bosnia{
     'Zenica Doboj',
   ];
 }
-class Botswana{
+
+class Botswana {
   static List<String> States = <String>[
     'Central ',
     'Ghanzi ',
@@ -283,12 +439,14 @@ class Botswana{
     'Southern',
   ];
 }
-class Brunei{
+
+class Brunei {
   static List<String> States = <String>[
     'Brunei And Muara',
   ];
 }
-class Bulgaria{
+
+class Bulgaria {
   static List<String> States = <String>[
     'Burgas ',
     'Dobrich ',
@@ -308,10 +466,10 @@ class Bulgaria{
     'Varna ',
     'Veliko Tarnovo ',
     'Vratsa ',
-
   ];
 }
-class BurkinaFaso{
+
+class BurkinaFaso {
   static List<String> States = <String>[
     'Ban',
     'Bazega ',
@@ -347,7 +505,8 @@ class BurkinaFaso{
     'Zoundweogo',
   ];
 }
-class Burundi{
+
+class Burundi {
   static List<String> States = <String>[
     'Bubanza ',
     'Bujumbura Mairie',
@@ -364,19 +523,40 @@ class Burundi{
     'Ruyigi',
   ];
 }
-class Brazil{
+
+class Brazil {
   static List<String> States = <String>[
-    "Acre", "Alagoas", "Amazonas", "Amapá", "Bahia",
-    "Ceará", "Distrito Federal", "Espírito Santo", "Goiás",
-    "Maranhão", "Minas Gerais", "Mato Grosso do Sul",
-    "Mato Grosso", "Pará", "Paraíba", "Pernambuco", "Piauí",
-    "Paraná", "Rio de Janeiro", "Rio Grande do Norte",
-    "Rondônia", "Roraima",
-    "Rio Grande do Sul", "Santa Catarina", "Sergipe",
-    "São Paulo", "Tocantins",
+    "Acre",
+    "Alagoas",
+    "Amazonas",
+    "Amapá",
+    "Bahia",
+    "Ceará",
+    "Distrito Federal",
+    "Espírito Santo",
+    "Goiás",
+    "Maranhão",
+    "Minas Gerais",
+    "Mato Grosso do Sul",
+    "Mato Grosso",
+    "Pará",
+    "Paraíba",
+    "Pernambuco",
+    "Piauí",
+    "Paraná",
+    "Rio de Janeiro",
+    "Rio Grande do Norte",
+    "Rondônia",
+    "Roraima",
+    "Rio Grande do Sul",
+    "Santa Catarina",
+    "Sergipe",
+    "São Paulo",
+    "Tocantins",
   ];
 }
-class Cambodia{
+
+class Cambodia {
   static List<String> States = <String>[
     'Banteay Meanchey ',
     'Batdambang ',
@@ -399,7 +579,8 @@ class Cambodia{
     'Takev',
   ];
 }
-class Cameroon{
+
+class Cameroon {
   static List<String> States = <String>[
     'Adamaoua ',
     'Centre ',
@@ -413,7 +594,8 @@ class Cameroon{
     'Sud Ouest',
   ];
 }
-class CapeVerde{
+
+class CapeVerde {
   static List<String> States = <String>[
     'São Domingos	',
     'Brava	',
@@ -433,7 +615,8 @@ class CapeVerde{
     'Tarrafal',
   ];
 }
-class Canada{
+
+class Canada {
   static List<String> States = <String>[
     'Alberta',
     'British Columbia',
@@ -447,7 +630,8 @@ class Canada{
     'Saskatchewan',
   ];
 }
-class CaymanIslands{
+
+class CaymanIslands {
   static List<String> States = <String>[
     'Creek',
     'Eastern',
@@ -457,7 +641,8 @@ class CaymanIslands{
     'West End',
   ];
 }
-class CentralAfrica{
+
+class CentralAfrica {
   static List<String> States = <String>[
     ' Bamingui Bangoran ',
     'Bangui ',
@@ -477,7 +662,8 @@ class CentralAfrica{
     'Vakaga',
   ];
 }
-class Chad{
+
+class Chad {
   static List<String> States = <String>[
     'Batha ',
     'Bet',
@@ -494,7 +680,8 @@ class Chad{
     'Wadi Fira ',
   ];
 }
-class Chile{
+
+class Chile {
   static List<String> States = <String>[
     'Aisen Del General Carlos Ibanez Del Campo ',
     'Antofagasta ',
@@ -514,7 +701,8 @@ class Chile{
     'Valparaiso'
   ];
 }
-class China{
+
+class China {
   static List<String> States = <String>[
     'Anhui ',
     'Beijin',
@@ -548,7 +736,8 @@ class China{
     'Zhejiang ',
   ];
 }
-class Colombia{
+
+class Colombia {
   static List<String> States = <String>[
     'Amazonas ',
     'Antioquia ',
@@ -583,14 +772,17 @@ class Colombia{
     'Vaupes ',
   ];
 }
-class Comoros{
+
+class Comoros {
   static List<String> States = <String>[
-    'Moheli','	Grande Comore','Ndzuwani',
+    'Moheli',
+    '	Grande Comore',
+    'Ndzuwani',
   ];
 }
-class Congo{
-  static List<String> States = <String>[
 
+class Congo {
+  static List<String> States = <String>[
     'Kinshasa	Kinshasa',
     'Kongo Central	Matadi	',
     'Kwango	Kenge',
@@ -617,10 +809,10 @@ class Congo{
     'Haut-Lomami	Kamina',
     'Lualaba	Kolwezi',
     'Haut-Katanga	Lubumbashi',
-
   ];
 }
-class CostaRica{
+
+class CostaRica {
   static List<String> States = <String>[
     'Alajuela ',
     'Cartago',
@@ -631,9 +823,9 @@ class CostaRica{
     'San Jose',
   ];
 }
-class Cote{
-  static List<String> States = <String>[
 
+class Cote {
+  static List<String> States = <String>[
     'Agneby ',
     'Bafing ',
     'Bas Sassandra ',
@@ -655,7 +847,8 @@ class Cote{
     'Zanzan ',
   ];
 }
-class Croatia{
+
+class Croatia {
   static List<String> States = <String>[
     'Brodsko Posavska ',
     'Dubrovacko Neretvanska ',
@@ -669,7 +862,8 @@ class Croatia{
     'Zadarska ',
   ];
 }
-class Cuba{
+
+class Cuba {
   static List<String> States = <String>[
     'Pinar del Río',
     'Artemisa',
@@ -689,12 +883,18 @@ class Cuba{
     'Isla de la Juventud',
   ];
 }
-class Cyprus{
+
+class Cyprus {
   static List<String> States = <String>[
-    'Larnaca','Limassol ','Paphos ','Famagusta','Kyrenia',
+    'Larnaca',
+    'Limassol ',
+    'Paphos ',
+    'Famagusta',
+    'Kyrenia',
   ];
 }
-class CzechRepublic{
+
+class CzechRepublic {
   static List<String> States = <String>[
     'Hlavni mesto Praha	',
     'Moravskoslezsky kraj	',
@@ -712,7 +912,8 @@ class CzechRepublic{
     'Liberecky kraj	',
   ];
 }
-class Denmark{
+
+class Denmark {
   static List<String> States = <String>[
     'Hovedstaden ',
     'Midtjylland ',
@@ -721,7 +922,8 @@ class Denmark{
     'Syddanmark ',
   ];
 }
-class Djibouti{
+
+class Djibouti {
   static List<String> States = <String>[
     'Ali Sabieh ',
     'Dikhil ',
@@ -730,7 +932,8 @@ class Djibouti{
     'Tadjourah',
   ];
 }
-class Dominica{
+
+class Dominica {
   static List<String> States = <String>[
     'Saint George	',
     'Saint Patrick	',
@@ -744,7 +947,8 @@ class Dominica{
     'Saint Mark	',
   ];
 }
-class DominicanRepublic{
+
+class DominicanRepublic {
   static List<String> States = <String>[
     'Azua',
     'Bahoruco ',
@@ -778,7 +982,8 @@ class DominicanRepublic{
     'Valverde ',
   ];
 }
-class Ecuador{
+
+class Ecuador {
   static List<String> States = <String>[
     'Azuay',
     'Bolivar',
@@ -802,7 +1007,8 @@ class Ecuador{
     'Zamora Chinchipe ',
   ];
 }
-class Egypt{
+
+class Egypt {
   static List<String> States = <String>[
     'Ad Daqahliyah',
     'Al Bahr Al Ahmar ',
@@ -829,10 +1035,10 @@ class Egypt{
     'Matruh',
     'Qina',
     'Shamal Sina' ',Suhaj ',
-
   ];
 }
-class ElSalvador{
+
+class ElSalvador {
   static List<String> States = <String>[
     'Ahuachapan ',
     'Cabanas ',
@@ -850,7 +1056,8 @@ class ElSalvador{
     'Usulutan',
   ];
 }
-class EquatorialGuinea{
+
+class EquatorialGuinea {
   static List<String> States = <String>[
     'Annobón	San Antonio de Palé',
     'Bioko Norte	Rebol',
@@ -862,7 +1069,8 @@ class EquatorialGuinea{
     'Djibloho	Ciudad de la Paz',
   ];
 }
-class Eritrea{
+
+class Eritrea {
   static List<String> States = <String>[
     'Anseba ',
     'Debub ',
@@ -872,7 +1080,8 @@ class Eritrea{
     'Semenawi Keyih Bahri ',
   ];
 }
-class Estonia{
+
+class Estonia {
   static List<String> States = <String>[
     'Harju ',
     'Ida Viru ',
@@ -882,7 +1091,8 @@ class Estonia{
     'Viljandi ',
   ];
 }
-class Ethiopia{
+
+class Ethiopia {
   static List<String> States = <String>[
     'Harju',
     'Ida Viru ',
@@ -892,12 +1102,14 @@ class Ethiopia{
     'Viljandi',
   ];
 }
-class Faroe{
+
+class Faroe {
   static List<String> States = <String>[
     'Faroe Islands',
   ];
 }
-class France{
+
+class France {
   static List<String> States = <String>[
     'Alsace',
     'Amapa',
@@ -929,22 +1141,26 @@ class France{
     'Rhone Alpes',
   ];
 }
-class FrenchGuiana{
+
+class FrenchGuiana {
   static List<String> States = <String>[
     'French Guiana',
   ];
 }
-class FrenchPolynesia{
+
+class FrenchPolynesia {
   static List<String> States = <String>[
     'French Polynesia',
   ];
 }
-class FrenchSouthern{
+
+class FrenchSouthern {
   static List<String> States = <String>[
     'French Southern Territories',
   ];
 }
-class Gabon{
+
+class Gabon {
   static List<String> States = <String>[
     'Estuaire',
     'Haut Ogooue ',
@@ -957,7 +1173,8 @@ class Gabon{
     'Wouleu Ntem',
   ];
 }
-class Gambia{
+
+class Gambia {
   static List<String> States = <String>[
     'Western',
     'Lower River',
@@ -967,7 +1184,8 @@ class Gambia{
     'North Bank',
   ];
 }
-class Germany{
+
+class Germany {
   static List<String> States = <String>[
     'Berlin',
     'Bayern (Bavaria)',
@@ -987,7 +1205,8 @@ class Germany{
     'Bremen',
   ];
 }
-class Ghana{
+
+class Ghana {
   static List<String> States = <String>[
     ' Accra',
     'Ashanti ',
@@ -1002,12 +1221,14 @@ class Ghana{
     'Western ',
   ];
 }
-class Gibraltar{
+
+class Gibraltar {
   static List<String> States = <String>[
     'Gibraltar',
   ];
 }
-class Greece{
+
+class Greece {
   static List<String> States = <String>[
     'Anatoliki Makedonia Kai Thraki ',
     'Attiki ',
@@ -1023,7 +1244,8 @@ class Greece{
     'Voreio Aigaio ',
   ];
 }
-class GreenLand{
+
+class GreenLand {
   static List<String> States = <String>[
     'Kommune Kujalleq ',
     'Kommuneqarfik Sermersooq ',
@@ -1032,7 +1254,8 @@ class GreenLand{
     'Qeqqata Kommunia ',
   ];
 }
-class Fiji{
+
+class Fiji {
   static List<String> States = <String>[
     'Ba',
     'Bua',
@@ -1050,7 +1273,8 @@ class Fiji{
     'Tailevu',
   ];
 }
-class Finland{
+
+class Finland {
   static List<String> States = <String>[
     'Central Finland ',
     'Eastern Finland ',
@@ -1069,7 +1293,8 @@ class Finland{
     'Western Finland ',
   ];
 }
-class India{
+
+class India {
   static List<String> States = <String>[
     'Andhra Pradesh',
     'Arunachal Pradesh',
@@ -1109,7 +1334,8 @@ class India{
     'Puducherry',
   ];
 }
-class Grenada{
+
+class Grenada {
   static List<String> States = <String>[
     'Saint John	',
     'Saint Andrew	',
@@ -1119,12 +1345,14 @@ class Grenada{
     'Saint George	',
   ];
 }
-class Guadeloupe{
+
+class Guadeloupe {
   static List<String> States = <String>[
     'Guadeloupe',
   ];
 }
-class Guam{
+
+class Guam {
   static List<String> States = <String>[
     'Piti Municipality',
     'Santa Rita Municipality',
@@ -1147,7 +1375,8 @@ class Guam{
     'Mongmong-Toto-Maite Municipality',
   ];
 }
-class Guatemala{
+
+class Guatemala {
   static List<String> States = <String>[
     'Alta Verapaz',
     'Baja Verapaz ',
@@ -1173,7 +1402,8 @@ class Guatemala{
     'Zacapa ',
   ];
 }
-class Guernsey{
+
+class Guernsey {
   static List<String> States = <String>[
     'Saint Pierre du Bois',
     'Torteva',
@@ -1188,7 +1418,8 @@ class Guernsey{
     'Alderney',
   ];
 }
-class Guinea{
+
+class Guinea {
   static List<String> States = <String>[
     'Boke ',
     'Conakry ',
@@ -1200,7 +1431,8 @@ class Guinea{
     'Nzerekore ',
   ];
 }
-class GuineaBissau{
+
+class GuineaBissau {
   static List<String> States = <String>[
     'Bissau	',
     'Oio	',
@@ -1213,7 +1445,8 @@ class GuineaBissau{
     ' Biombo	',
   ];
 }
-class Honduras{
+
+class Honduras {
   static List<String> States = <String>[
     'Atlantida',
     'Choluteca ',
@@ -1235,7 +1468,8 @@ class Honduras{
     'Yoro ',
   ];
 }
-class Hong{
+
+class Hong {
   static List<String> States = <String>[
     'Islands',
     'Kwai Tsing',
@@ -1257,7 +1491,8 @@ class Hong{
     'Wan Chai',
   ];
 }
-class Hungary{
+
+class Hungary {
   static List<String> States = <String>[
     'Bacs Kiskun ',
     'Baranya',
@@ -1281,7 +1516,8 @@ class Hungary{
     'Zala ',
   ];
 }
-class Guyana{
+
+class Guyana {
   static List<String> States = <String>[
     'Barima Waini ',
     'Cuyuni Mazaruni ',
@@ -1293,7 +1529,8 @@ class Guyana{
     'Upper Takutu Upper Essequibo ',
   ];
 }
-class Haiti{
+
+class Haiti {
   static List<String> States = <String>[
     'Centre',
     'Grand anse ',
@@ -1304,16 +1541,17 @@ class Haiti{
     'Ouest',
     'Sud ',
     'Sud Est ',
-
   ];
 }
-class Herzegovina{
+
+class Herzegovina {
   static List<String> States = <String>[
     ' Bosnia and Herzegovina	',
     'Republika Srpska	',
   ];
 }
-class Iceland{
+
+class Iceland {
   static List<String> States = <String>[
     'Akrahreppur ',
     'Akureyri ',
@@ -1325,7 +1563,8 @@ class Iceland{
     'Vesturland ',
   ];
 }
-class Indonesia{
+
+class Indonesia {
   static List<String> States = <String>[
     'Aceh',
     'Bali ',
@@ -1362,7 +1601,8 @@ class Indonesia{
     'Yogyakarta',
   ];
 }
-class Iran{
+
+class Iran {
   static List<String> States = <String>[
     'Alborz ',
     'Ardabil ',
@@ -1397,7 +1637,8 @@ class Iran{
     'Zanjan ',
   ];
 }
-class Iraq{
+
+class Iraq {
   static List<String> States = <String>[
     'Al Anbar ',
     'Al Basrah ',
@@ -1417,7 +1658,8 @@ class Iraq{
     'Wasit ',
   ];
 }
-class Ireland{
+
+class Ireland {
   static List<String> States = <String>[
     "Clare",
     "Cork",
@@ -1432,10 +1674,10 @@ class Ireland{
     "Monaghan",
     "Roscommon",
     "Sligo",
-
   ];
 }
-class Isle{
+
+class Isle {
   static List<String> States = <String>[
     'ndreas	',
     'rbory	',
@@ -1463,7 +1705,8 @@ class Isle{
     'Sant0',
   ];
 }
-class Israel{
+
+class Israel {
   static List<String> States = <String>[
     'Hadarom',
     'Haifa',
@@ -1471,10 +1714,10 @@ class Israel{
     'Hazafon',
     'Jerusalem ',
     'Tel Aviv ',
-
   ];
 }
-class Italy{
+
+class Italy {
   static List<String> States = <String>[
     "Agrigento",
     "Alessandria",
@@ -1588,7 +1831,8 @@ class Italy{
     "Vibo Valentia",
   ];
 }
-class Jamaica{
+
+class Jamaica {
   static List<String> States = <String>[
     'Westmoreland	',
     'Trelawny',
@@ -1606,9 +1850,9 @@ class Jamaica{
     'Clarendon	',
   ];
 }
-class Japan{
-  static List<String> States = <String>[
 
+class Japan {
+  static List<String> States = <String>[
     'Tōkyō	',
     'Kanagawa	',
     'Ōsaka	',
@@ -1658,7 +1902,8 @@ class Japan{
     'Tottori	',
   ];
 }
-class Jordan{
+
+class Jordan {
   static List<String> States = <String>[
     'Amman ',
     'Aqaba ',
@@ -1671,7 +1916,8 @@ class Jordan{
     'Zarqa',
   ];
 }
-class Kazakhstan{
+
+class Kazakhstan {
   static List<String> States = <String>[
     'Almaty ',
     'Aqmola',
@@ -1689,7 +1935,8 @@ class Kazakhstan{
     'Zhambyl',
   ];
 }
-class Kenya{
+
+class Kenya {
   static List<String> States = <String>[
     'Central',
     'Coast ',
@@ -1701,7 +1948,8 @@ class Kenya{
     'Western',
   ];
 }
-class southKorea{
+
+class southKorea {
   static List<String> States = <String>[
     'Busan ',
     'Chungcheongbuk Do ',
@@ -1719,7 +1967,8 @@ class southKorea{
     'Ulsan ',
   ];
 }
-class northKorea{
+
+class northKorea {
   static List<String> States = <String>[
     'Chagang',
     'North Hamgyong',
@@ -1732,16 +1981,17 @@ class northKorea{
     'Ryanggang',
   ];
 }
-class Kuwait{
+
+class Kuwait {
   static List<String> States = <String>[
     'Al Ahmadi',
     'Al Jahrah',
     'Al Kuwayt ',
     'Hawalli ',
-
   ];
 }
-class Kyrgyzstan{
+
+class Kyrgyzstan {
   static List<String> States = <String>[
     'Bishkek ',
     'Jalal Abad ',
@@ -1751,7 +2001,8 @@ class Kyrgyzstan{
     'Ysyk Kol ',
   ];
 }
-class Mexico{
+
+class Mexico {
   static List<String> States = <String>[
     "Aguascalientes",
     "Baja California",
@@ -1787,18 +2038,49 @@ class Mexico{
     "Zacatecas",
   ];
 }
-class Nigeria{
+
+class Nigeria {
   static List<String> NigeriaStates = <String>[
-    'Abia','Abuja', 'Adamawa' ,'AkwaIbom '  ,'Anambra',
-    'Bauchi',  'Bayelsa', 'Benue', 'Brono' ,'Cross River ',
-    'Delta'  , 'Edo'  'Ebonyi' , 'Ekiti', 'Enugu', 'Gombe' , 'Imo',
-    'Jigawa',  'Kaduna' , 'Kano' , 'Katsina'  , 'Kebbi' , 'Kogi',
-    'Kwara' , 'Lagos'  , 'Niger' ,  'Ogun' ,  'Ondo' , 'Osun',  'Oyo',
-    'Nassarawa' , 'Plateau',  'Rivers'  , 'Sokoto'
-    ,'Taraba'  , 'Yobe' ,  'Zamfara'
+    'Abia',
+    'Abuja',
+    'Adamawa',
+    'AkwaIbom ',
+    'Anambra',
+    'Bauchi',
+    'Bayelsa',
+    'Benue',
+    'Brono',
+    'Cross River ',
+    'Delta',
+    'Edo' 'Ebonyi',
+    'Ekiti',
+    'Enugu',
+    'Gombe',
+    'Imo',
+    'Jigawa',
+    'Kaduna',
+    'Kano',
+    'Katsina',
+    'Kebbi',
+    'Kogi',
+    'Kwara',
+    'Lagos',
+    'Niger',
+    'Ogun',
+    'Ondo',
+    'Osun',
+    'Oyo',
+    'Nassarawa',
+    'Plateau',
+    'Rivers',
+    'Sokoto',
+    'Taraba',
+    'Yobe',
+    'Zamfara'
   ];
 }
-class Laos{
+
+class Laos {
   static List<String> States = <String>[
     'Attapu',
     'Bokeo',
@@ -1813,10 +2095,10 @@ class Laos{
     'Vientiane',
     'Xaignabouri',
     'Xiangkhoang ',
-
   ];
 }
-class Latvia{
+
+class Latvia {
   static List<String> States = <String>[
     'Daugavpils ',
     'Jelgava ',
@@ -1826,7 +2108,8 @@ class Latvia{
     'Ventspils ',
   ];
 }
-class Lebanon{
+
+class Lebanon {
   static List<String> States = <String>[
     'An Nabatiyah ',
     'Beirut ',
@@ -1835,7 +2118,8 @@ class Lebanon{
     'South Lebanon ',
   ];
 }
-class Lesotho{
+
+class Lesotho {
   static List<String> States = <String>[
     'Berea ',
     'Leribe ',
@@ -1846,7 +2130,8 @@ class Lesotho{
     'Quthing ',
   ];
 }
-class Liberia{
+
+class Liberia {
   static List<String> States = <String>[
     'Bong ',
     'Grand Bassa ',
@@ -1862,7 +2147,8 @@ class Liberia{
     'Sinoe ',
   ];
 }
-class Liechtenstein{
+
+class Liechtenstein {
   static List<String> States = <String>[
     'Schaan	',
     'Vaduz	',
@@ -1877,9 +2163,9 @@ class Liechtenstein{
     'Planken	',
   ];
 }
-class Lithuania{
-  static List<String> States = <String>[
 
+class Lithuania {
+  static List<String> States = <String>[
     'Vilniaus Apskritis	',
     'Kauno Apskritis	',
     'Panevėžio Apskritis	',
@@ -1892,17 +2178,23 @@ class Lithuania{
     'Utenos Apskritis	',
   ];
 }
-class Luxembourg{
+
+class Luxembourg {
   static List<String> States = <String>[
-    'Diekirch','Grevenmacher','Luxembourg',
+    'Diekirch',
+    'Grevenmacher',
+    'Luxembourg',
   ];
 }
-class Macao{
+
+class Macao {
   static List<String> States = <String>[
-    'Ilhas','Macau',
+    'Ilhas',
+    'Macau',
   ];
 }
-class Macedonia{
+
+class Macedonia {
   static List<String> States = <String>[
     'Karpoš',
     'Kumanovo	',
@@ -2028,7 +2320,8 @@ class Macedonia{
     'Vinica	',
   ];
 }
-class Madagascar{
+
+class Madagascar {
   static List<String> States = <String>[
     'Antananarivo ',
     'Antsiranana ',
@@ -2036,10 +2329,10 @@ class Madagascar{
     'Mahajanga ',
     'Toamasina ',
     'Toliary ',
-
   ];
 }
-class Malawi{
+
+class Malawi {
   static List<String> States = <String>[
     'Blantyre ',
     'Chiradzulu ',
@@ -2060,7 +2353,8 @@ class Malawi{
     'Zomba',
   ];
 }
-class Malaysia{
+
+class Malaysia {
   static List<String> States = <String>[
     'Johor',
     'Kedah',
@@ -2079,7 +2373,8 @@ class Malaysia{
     'Terengganu',
   ];
 }
-class Maldives{
+
+class Maldives {
   static List<String> States = <String>[
     'Maale	',
     'Seenu	',
@@ -2102,7 +2397,8 @@ class Maldives{
     'Dhaalu	',
   ];
 }
-class Mali{
+
+class Mali {
   static List<String> States = <String>[
     'Bamako ',
     'Gao ',
@@ -2114,18 +2410,20 @@ class Mali{
     'Timbuktu ',
   ];
 }
-class Malta{
+
+class Malta {
   static List<String> States = <String>[
     'Malta',
-
   ];
 }
-class Martinique{
+
+class Martinique {
   static List<String> States = <String>[
     'Martinique',
   ];
 }
-class Mauritania{
+
+class Mauritania {
   static List<String> States = <String>[
     'Adrar ',
     'Assaba ',
@@ -2141,7 +2439,8 @@ class Mauritania{
     'Trarza ',
   ];
 }
-class Mauritius{
+
+class Mauritius {
   static List<String> States = <String>[
     'Plaines Wilhems	',
     'Port Louis	',
@@ -2156,7 +2455,8 @@ class Mauritius{
     'Agalega Islands	',
   ];
 }
-class Mayotte{
+
+class Mayotte {
   static List<String> States = <String>[
     'Acoua',
     'Bandraboua	',
@@ -2176,18 +2476,24 @@ class Mayotte{
     'Tsingoni	',
   ];
 }
-class Micronesia{
+
+class Micronesia {
   static List<String> States = <String>[
-    'Yap','	Chuuk','Pohnpei','Kosrae',
+    'Yap',
+    '	Chuuk',
+    'Pohnpei',
+    'Kosrae',
   ];
 }
 
-class Miquelon{
+class Miquelon {
   static List<String> States = <String>[
-    'Miquelon-Langlade', 'Saint-Pierre',
+    'Miquelon-Langlade',
+    'Saint-Pierre',
   ];
 }
-class Moldova{
+
+class Moldova {
   static List<String> States = <String>[
     'Balti ',
     'Bender ',
@@ -2196,12 +2502,16 @@ class Moldova{
     'Transnistria',
   ];
 }
-class Monaco{
+
+class Monaco {
   static List<String> States = <String>[
-    'La Condamine','Monaco','Monte-Carlo',
+    'La Condamine',
+    'Monaco',
+    'Monte-Carlo',
   ];
 }
-class Mongolia{
+
+class Mongolia {
   static List<String> States = <String>[
     'Arhangay ',
     'Bayan Olgiy ',
@@ -2225,7 +2535,8 @@ class Mongolia{
     'Uvs',
   ];
 }
-class Montenegro{
+
+class Montenegro {
   static List<String> States = <String>[
     'Cetinje',
     'Danilovgrad',
@@ -2253,12 +2564,16 @@ class Montenegro{
     'Žabljak	',
   ];
 }
-class Montserrat{
+
+class Montserrat {
   static List<String> States = <String>[
-    'Saint Anthony','Saint Georges','Saint Peter',
+    'Saint Anthony',
+    'Saint Georges',
+    'Saint Peter',
   ];
 }
-class Morocco{
+
+class Morocco {
   static List<String> States = <String>[
     'Chaouia-Ouardigha	',
     'Doukkala-Abda	',
@@ -2277,7 +2592,8 @@ class Morocco{
     'Taza-Al Hoceima-Taounate	',
   ];
 }
-class Mozambique{
+
+class Mozambique {
   static List<String> States = <String>[
     'Cabo Delgado',
     'Gaza ',
@@ -2291,7 +2607,8 @@ class Mozambique{
     'Zambezia ',
   ];
 }
-class Namibia{
+
+class Namibia {
   static List<String> States = <String>[
     'Caprivi',
     'Erongo ',
@@ -2307,7 +2624,8 @@ class Namibia{
     'Otjozondjupa ',
   ];
 }
-class Nauru{
+
+class Nauru {
   static List<String> States = <String>[
     'Aiwo	',
     'Anabar	',
@@ -2325,7 +2643,8 @@ class Nauru{
     'Yaren	',
   ];
 }
-class Nepal{
+
+class Nepal {
   static List<String> States = <String>[
     'Achham',
     'Banke',
@@ -2343,7 +2662,8 @@ class Nepal{
     'Sagarmatha',
   ];
 }
-class Netherlands{
+
+class Netherlands {
   static List<String> States = <String>[
     'Drenthe ',
     'Friesland ',
@@ -2357,15 +2677,22 @@ class Netherlands{
     'Overijssel ',
     'Utrecht ',
     'Zeeland ',
+  ];
+}
 
-  ];
-}
-class NetherlandsAntilles{
+class NetherlandsAntilles {
   static List<String> States = <String>[
-    'Curaçao','Bonaire','	Aruba','Sint Maarten','Sint Eustatius','Saba','	Netherlands Antilles',
+    'Curaçao',
+    'Bonaire',
+    '	Aruba',
+    'Sint Maarten',
+    'Sint Eustatius',
+    'Saba',
+    '	Netherlands Antilles',
   ];
 }
-class Nevis{
+
+class Nevis {
   static List<String> States = <String>[
     'Saint George Basseterre	',
     'Saint John Figtree	',
@@ -2383,12 +2710,16 @@ class Nevis{
     'Trinity Palmetto Point	',
   ];
 }
-class NewCaledonia{
+
+class NewCaledonia {
   static List<String> States = <String>[
-    'South Province','North Province','Loyalty Islands Province',
+    'South Province',
+    'North Province',
+    'Loyalty Islands Province',
   ];
 }
-class Zealand{
+
+class Zealand {
   static List<String> States = <String>[
     'Auckland ',
     'Bay Of Plenty ',
@@ -2404,7 +2735,8 @@ class Zealand{
     'West Coast ',
   ];
 }
-class Nicaragua{
+
+class Nicaragua {
   static List<String> States = <String>[
     'Atlantico Norte ',
     'Atlantico Sur ',
@@ -2424,7 +2756,8 @@ class Nicaragua{
     'Nueva Segovia ',
   ];
 }
-class Niger{
+
+class Niger {
   static List<String> States = <String>[
     'Agadez',
     'Diffa ',
@@ -2435,7 +2768,8 @@ class Niger{
     'Zinder',
   ];
 }
-class Myanmar{
+
+class Myanmar {
   static List<String> States = <String>[
     'Kachin State ',
     'Kayah State ',
@@ -2446,7 +2780,8 @@ class Myanmar{
     'Shan State ',
   ];
 }
-class NorthernMariana{
+
+class NorthernMariana {
   static List<String> States = <String>[
     'Farallon de Pajaros (Urracas)',
     'Maug Islands',
@@ -2465,30 +2800,32 @@ class NorthernMariana{
     'Rota',
   ];
 }
-class Norway{
+
+class Norway {
   static List<String> States = <String>[
     'Akershus ',
-        'Astfold ',
-        'Aust Agder ',
-        'Buskerud ',
-        'Finnmark ',
-        'Hedmark ',
-        'Hordaland ',
-        'More Og Romsdal ',
-        'Nord Trondelag ',
-        'Nordland ',
-        'Oppland',
-        'Oslo ',
-        'Rogaland ',
-        'Sogn Og Fjordane ',
-        'Sor Trondelag ',
-        'Telemark ',
-        'Troms ',
-        'Vest Agder ',
-        'Vestfold ',
+    'Astfold ',
+    'Aust Agder ',
+    'Buskerud ',
+    'Finnmark ',
+    'Hedmark ',
+    'Hordaland ',
+    'More Og Romsdal ',
+    'Nord Trondelag ',
+    'Nordland ',
+    'Oppland',
+    'Oslo ',
+    'Rogaland ',
+    'Sogn Og Fjordane ',
+    'Sor Trondelag ',
+    'Telemark ',
+    'Troms ',
+    'Vest Agder ',
+    'Vestfold ',
   ];
 }
-class Oman{
+
+class Oman {
   static List<String> States = <String>[
     'Ad Dakhiliyah',
     'Ad Dhahirah',
@@ -2503,7 +2840,8 @@ class Oman{
     'Musandam',
   ];
 }
-class Pakistan{
+
+class Pakistan {
   static List<String> States = <String>[
     'Azad Jammu and Kashmir',
     'Balochistan',
@@ -2514,7 +2852,8 @@ class Pakistan{
     'Sindh',
   ];
 }
-class Palau{
+
+class Palau {
   static List<String> States = <String>[
     'Kayangel State',
     'Babeldaob',
@@ -2527,7 +2866,6 @@ class Palau{
     'Ngeremlengui',
     'Ngatpang ',
     'Ngiwal ',
-
     'Angaur ',
     'Koror ',
     'Peleliu ',
@@ -2536,7 +2874,8 @@ class Palau{
     'Sonsorol',
   ];
 }
-class Palestinian{
+
+class Palestinian {
   static List<String> States = <String>[
     'Jenin',
     'Tuba',
@@ -2556,7 +2895,8 @@ class Palestinian{
     'Rafah',
   ];
 }
-class Panama{
+
+class Panama {
   static List<String> States = <String>[
     'Bocas Del Toro',
     'Chiriqui ',
@@ -2570,7 +2910,8 @@ class Panama{
     'Veraguas ',
   ];
 }
-class Papua{
+
+class Papua {
   static List<String> States = <String>[
     'Central ',
     'Chimbu ',
@@ -2592,7 +2933,8 @@ class Papua{
     'Western Highlands',
   ];
 }
-class Paraguay{
+
+class Paraguay {
   static List<String> States = <String>[
     'Alto Paraguay ',
     'Alto Parana ',
@@ -2613,7 +2955,8 @@ class Paraguay{
     'San Pedro ',
   ];
 }
-class Peru{
+
+class Peru {
   static List<String> States = <String>[
     'Amazonas ',
     'Ancash ',
@@ -2641,7 +2984,8 @@ class Peru{
     'Ucayali ',
   ];
 }
-class Philippines{
+
+class Philippines {
   static List<String> States = <String>[
     'Agusan Del Norte ',
     'Albay ',
@@ -2676,32 +3020,35 @@ class Philippines{
     'Zamboanga Del Sur ',
   ];
 }
-class Pitcairn{
+
+class Pitcairn {
   static List<String> States = <String>[
     'Pitcairn',
   ];
 }
-class Poland{
+
+class Poland {
   static List<String> States = <String>[
     'Greater Poland',
-        'Kuyavian Pomeranian ',
-        'Lesser Poland ',
-        'Lodz ',
-        'Lower Silesian ',
-        'Lublin ',
-        'Lubusz ',
-        'Masovian ',
-        'Opole ',
-        'Podlachian',
-        'Pomeranian ',
-        'Silesian ',
-        'Subcarpathian ',
-        'Swietokrzyski',
-        'Warmian Masurian ',
-        'West Pomeranian ',
+    'Kuyavian Pomeranian ',
+    'Lesser Poland ',
+    'Lodz ',
+    'Lower Silesian ',
+    'Lublin ',
+    'Lubusz ',
+    'Masovian ',
+    'Opole ',
+    'Podlachian',
+    'Pomeranian ',
+    'Silesian ',
+    'Subcarpathian ',
+    'Swietokrzyski',
+    'Warmian Masurian ',
+    'West Pomeranian ',
   ];
 }
-class Portugal{
+
+class Portugal {
   static List<String> States = <String>[
     'Aveiro ',
     'Azores ',
@@ -2724,11 +3071,14 @@ class Portugal{
     'Viseu ',
   ];
 }
-class Principe{
+
+class Principe {
   static List<String> States = <String>[
-    'Príncipe','São Tomé',
+    'Príncipe',
+    'São Tomé',
   ];
 }
+
 class Rico {
   static List<String> States = <String>[
     'Aguirre	',
@@ -2752,9 +3102,9 @@ class Rico {
     'Vega',
   ];
 }
-class Qatar{
-  static List<String> States = <String>[
 
+class Qatar {
+  static List<String> States = <String>[
     'Ad Dawḩah	',
     'Al Khawr	',
     'Al Jumaliyah	',
@@ -2766,7 +3116,8 @@ class Qatar{
     'Al Wakrah Municipality	',
   ];
 }
-class Romania{
+
+class Romania {
   static List<String> States = <String>[
     'Alba ',
     'Arad ',
@@ -2810,7 +3161,8 @@ class Romania{
     'Vrance',
   ];
 }
-class Russia{
+
+class Russia {
   static List<String> States = <String>[
     'Adyge',
     'Aga Burya',
@@ -2871,8 +3223,9 @@ class Russia{
     'Orel',
     'Orenburg',
     'Penza',
-    'Per',''
-        'Primorye' ,
+    'Per',
+    ''
+        'Primorye',
     'Pskov',
     'Rostov ',
     'Ryazan',
@@ -2880,27 +3233,35 @@ class Russia{
     'Sakhalin ',
     'Samara',
     'Saratov',
-    'Smolensk',''
-        'Stavropol'',Sverdlovsk ',
+    'Smolensk',
+    ''
+        'Stavropol'
+        ',Sverdlovsk ',
     'Tambov',
     'Tatarstan',
     'Taymyr ',
     'Tomsk',
     'Tula',
     'Tuva',
-    'Tver',''
-        'Tyumen'',Udmurt',''
+    'Tver',
+    ''
+        'Tyumen'
+        ',Udmurt',
+    ''
         'Ul yanovsk',
     'Ust Orda Buryat',
     'Vladimir',
     'Volgograd',
     'Vologda',
     'Voronezh',
-    'Yamal Nenets',''
-        'Yaroslavl'',Yevre',
+    'Yamal Nenets',
+    ''
+        'Yaroslavl'
+        ',Yevre',
   ];
 }
-class Rwanda{
+
+class Rwanda {
   static List<String> States = <String>[
     'Eastern ',
     'Kigali City ',
@@ -2909,14 +3270,16 @@ class Rwanda{
     'Western ',
   ];
 }
-class Helena{
+
+class Helena {
   static List<String> States = <String>[
     'Ascension	',
     'Saint Helena	',
     'Tristan da Cunha	',
   ];
 }
-class Kitts{
+
+class Kitts {
   static List<String> States = <String>[
     'Saint George Basseterre	',
     'Saint John Figtree	',
@@ -2934,7 +3297,8 @@ class Kitts{
     'Trinity Palmetto Point	',
   ];
 }
-class Lucia{
+
+class Lucia {
   static List<String> States = <String>[
     'Castries	',
     'Vieux-Fort	',
@@ -2949,87 +3313,90 @@ class Lucia{
     'Praslin	',
   ];
 }
-class Pierre{
+
+class Pierre {
   static List<String> States = <String>[
-    'Miquelon-Langlade','Saint-Pierre',
-  ];
-}
-class Turkey{
-  static List<String> States = <String>[
-        'Adana ',
-        'Adiyaman ',
-        'Afyon ',
-        'Agri ',
-        'Amasya ',
-        'Ankara ',
-        'Antalya ',
-        'Artvin ',
-        'Aydin',
-        'Balikesir',
-        'Batman ',
-        'Bilecik',
-        'Bingol ',
-        'Bitlis ',
-        'Bolu ',
-        'Burdur ',
-        'Bursa',
-        'Canakkale',
-        'Cankiri ',
-        'Corum',
-        'Denizli ',
-        'Diyarbakir '
-        'Edirne ',
-        'Elazig ',
-        'Erzincan ',
-        'Erzurum ',
-        'Eskisehir',
-        'Gaziantep',
-        'Giresun ',
-        'Gumushane ',
-        'Hakkari',
-        'Hatay ',
-        'Isparta ',
-        'Istanbul ',
-        'Izmir ',
-        'K. Maras ',
-        'Karaman ',
-        'Kars ',
-        'Kastamonu ',
-        'Kayseri ',
-        'Kinkkale ',
-        'Kirklareli ',
-        'Kirsehir',
-        'Kocaeli ',
-        'Konya ',
-        'Kutahya ',
-        'Malatya ',
-        'Manisa ',
-        'Mardin ',
-        'Mersin ',
-        'Mugla ',
-        'Mus ',
-        'Nevsehir ',
-        'Nigde ',
-        'Ordu',
-        'Rize ',
-        'Sakarya ',
-        'Samsun ',
-        'Sanliurfa ',
-        'Siirt ',
-        'Sinop',
-        'Sivas ',
-        'Tekirdag ',
-        'Tokat ',
-        'Trabzon ',
-        'Tunceli',
-        'Usak',
-        'Van ',
-        'Yozgat ',
-        'Zinguldak',
+    'Miquelon-Langlade',
+    'Saint-Pierre',
   ];
 }
 
-class Samoa{
+class Turkey {
+  static List<String> States = <String>[
+    'Adana ',
+    'Adiyaman ',
+    'Afyon ',
+    'Agri ',
+    'Amasya ',
+    'Ankara ',
+    'Antalya ',
+    'Artvin ',
+    'Aydin',
+    'Balikesir',
+    'Batman ',
+    'Bilecik',
+    'Bingol ',
+    'Bitlis ',
+    'Bolu ',
+    'Burdur ',
+    'Bursa',
+    'Canakkale',
+    'Cankiri ',
+    'Corum',
+    'Denizli ',
+    'Diyarbakir '
+        'Edirne ',
+    'Elazig ',
+    'Erzincan ',
+    'Erzurum ',
+    'Eskisehir',
+    'Gaziantep',
+    'Giresun ',
+    'Gumushane ',
+    'Hakkari',
+    'Hatay ',
+    'Isparta ',
+    'Istanbul ',
+    'Izmir ',
+    'K. Maras ',
+    'Karaman ',
+    'Kars ',
+    'Kastamonu ',
+    'Kayseri ',
+    'Kinkkale ',
+    'Kirklareli ',
+    'Kirsehir',
+    'Kocaeli ',
+    'Konya ',
+    'Kutahya ',
+    'Malatya ',
+    'Manisa ',
+    'Mardin ',
+    'Mersin ',
+    'Mugla ',
+    'Mus ',
+    'Nevsehir ',
+    'Nigde ',
+    'Ordu',
+    'Rize ',
+    'Sakarya ',
+    'Samsun ',
+    'Sanliurfa ',
+    'Siirt ',
+    'Sinop',
+    'Sivas ',
+    'Tekirdag ',
+    'Tokat ',
+    'Trabzon ',
+    'Tunceli',
+    'Usak',
+    'Van ',
+    'Yozgat ',
+    'Zinguldak',
+  ];
+}
+
+class Samoa {
   static List<String> States = <String>[
     'Aiga-i-le-Tai	',
     'Atua	',
@@ -3043,9 +3410,9 @@ class Samoa{
     'Vaisigano	',
   ];
 }
-class SanMarino{
-  static List<String> States = <String>[
 
+class SanMarino {
+  static List<String> States = <String>[
     'Serravalle	',
     'San Marino	',
     'Acquaviva	',
@@ -3056,12 +3423,20 @@ class SanMarino{
     'Borgo Maggiore	',
   ];
 }
-class Sao{
+
+class Sao {
   static List<String> States = <String>[
-    'Água Grande','Cantagalo','	Caué','Lembá','	Lobata','Mé-Zóchi','Autonomous Region of Príncipe',
+    'Água Grande',
+    'Cantagalo',
+    '	Caué',
+    'Lembá',
+    '	Lobata',
+    'Mé-Zóchi',
+    'Autonomous Region of Príncipe',
   ];
 }
-class Saudi{
+
+class Saudi {
   static List<String> States = <String>[
     'Al Hudud Ash Shamaliyah ',
     'Al Jawf ',
@@ -3069,7 +3444,8 @@ class Saudi{
     'Al Quassim ',
     'Ar Riyad ',
     'Ash Sharqiyah',
-    'Asir ',''
+    'Asir ',
+    ''
         'Ha il ',
     'Jizan',
     'Makkah ',
@@ -3077,9 +3453,9 @@ class Saudi{
     'Tabuk',
   ];
 }
-class Senegal{
-  static List<String> States = <String>[
 
+class Senegal {
+  static List<String> States = <String>[
     'Dakar ',
     'Diourbel ',
     'Fatick',
@@ -3092,7 +3468,8 @@ class Senegal{
     'Ziguinchor ',
   ];
 }
-class Serbia{
+
+class Serbia {
   static List<String> States = <String>[
     'Grad Beograd ',
     'Juzno Backi',
@@ -3103,7 +3480,8 @@ class Serbia{
         'Sumadijski ',
   ];
 }
-class Seychelles{
+
+class Seychelles {
   static List<String> States = <String>[
     'Beau Vallon	',
     'Anse Boileau	',
@@ -3115,7 +3493,8 @@ class Seychelles{
     'Bel Air	',
     'Bel Ombre	',
     'Cascade	',
-    'Glacis	',''
+    'Glacis	',
+    ''
         'Grand Anse	',
     'La Digue	',
     'La Riviere Anglaise	',
@@ -3129,19 +3508,17 @@ class Seychelles{
     'Takamaka	',
   ];
 }
-class Sieere{
-  static List<String> States = <String>[
 
+class Sieere {
+  static List<String> States = <String>[
     'Kailahun',
     'Kenema',
     'Kono',
-
     'Bombali',
     'Kambia',
     'Koinadugu',
     'Port Loko',
     'Tonkolili',
-
     ' Bo',
     'Bonthe',
     'Moyamba',
@@ -3151,12 +3528,17 @@ class Sieere{
     'Western Area Urban (Freetown)	',
   ];
 }
-class Singapore{
+
+class Singapore {
   static List<String> States = <String>[
-    'Central Region','East Region','North Region','North-East Region',
+    'Central Region',
+    'East Region',
+    'North Region',
+    'North-East Region',
   ];
 }
-class Slovakia{
+
+class Slovakia {
   static List<String> States = <String>[
     'Banskobystricky ',
     'Bratislavsky ',
@@ -3166,7 +3548,8 @@ class Slovakia{
     'Zilinsky ',
   ];
 }
-class SouthAfrica{
+
+class SouthAfrica {
   static List<String> States = <String>[
     'Eastern Cape ',
     'Gauteng',
@@ -3179,17 +3562,22 @@ class SouthAfrica{
     'Western Cape ',
   ];
 }
-class Slovenia{
+
+class Slovenia {
   static List<String> States = <String>[
     'Slovenia',
   ];
 }
-class SolomonIslands{
+
+class SolomonIslands {
   static List<String> States = <String>[
-    'Choiseul ','Guadalcanal','Temotu ',
+    'Choiseul ',
+    'Guadalcanal',
+    'Temotu ',
   ];
 }
-class Somalia{
+
+class Somalia {
   static List<String> States = <String>[
     'Bakool',
     'Banaadir',
@@ -3206,34 +3594,79 @@ class Somalia{
     'Shabeellaha Hoose',
   ];
 }
-class Spain{
+
+class Spain {
   static List<String> States = <String>[
-    'Álava',' Albacete','Alicante','Almería','Asturias',' Ávila','Badajoz','Balearic Islands',
-    'Barcelona','Biscay;','Burgos','Cáceres',' Cádiz','Cantabria','Castellón;',
-    'Ciudad Real','Córdoba','Cuenca',' Gipuzkoa','Girona',' Granada','Guadalajara',
-    'Huelva','Huesca',' Jaén','La Rioja','Las Palmas',' León',' Lleida','Lugo',
-    'Madrid',' Málaga',' Murcia','Navarre','Ourense ','Palencia','Pontevedra',
-    ' Salamanca','Santa Cruz de Tenerife','Segovia',' Seville',' Soria','Tarragona',
-    'Teruel','Toledo','Valencia;','Valladolid','Zamora',' Zaragoza',
+    'Álava',
+    ' Albacete',
+    'Alicante',
+    'Almería',
+    'Asturias',
+    ' Ávila',
+    'Badajoz',
+    'Balearic Islands',
+    'Barcelona',
+    'Biscay;',
+    'Burgos',
+    'Cáceres',
+    ' Cádiz',
+    'Cantabria',
+    'Castellón;',
+    'Ciudad Real',
+    'Córdoba',
+    'Cuenca',
+    ' Gipuzkoa',
+    'Girona',
+    ' Granada',
+    'Guadalajara',
+    'Huelva',
+    'Huesca',
+    ' Jaén',
+    'La Rioja',
+    'Las Palmas',
+    ' León',
+    ' Lleida',
+    'Lugo',
+    'Madrid',
+    ' Málaga',
+    ' Murcia',
+    'Navarre',
+    'Ourense ',
+    'Palencia',
+    'Pontevedra',
+    ' Salamanca',
+    'Santa Cruz de Tenerife',
+    'Segovia',
+    ' Seville',
+    ' Soria',
+    'Tarragona',
+    'Teruel',
+    'Toledo',
+    'Valencia;',
+    'Valladolid',
+    'Zamora',
+    ' Zaragoza',
   ];
 }
-class SriLanka{
+
+class SriLanka {
   static List<String> States = <String>[
     'Anuradhapura ',
-        'Badulla',
-        'Batticaloa ',
-        'Colombo ',
-        'Galle ',
-        'Jaffna ',
-        'Kandy ',
-        'Kilinochchi ',
-        'Matara',
-        'Puttalam ',
-        'Ratnapura ',
-        'Trincomalee ',
+    'Badulla',
+    'Batticaloa ',
+    'Colombo ',
+    'Galle ',
+    'Jaffna ',
+    'Kandy ',
+    'Kilinochchi ',
+    'Matara',
+    'Puttalam ',
+    'Ratnapura ',
+    'Trincomalee ',
   ];
 }
-class Sudan{
+
+class Sudan {
   static List<String> States = <String>[
     'Khartoum',
     'North Kordofan',
@@ -3255,50 +3688,51 @@ class Sudan{
     'West Kordofan',
   ];
 }
-class Suriname{
-  static List<String> States = <String>[
 
-  ];
+class Suriname {
+  static List<String> States = <String>[];
 }
-class Swaziland{
+
+class Swaziland {
   static List<String> States = <String>[
     'Hhohho',
     'Lubombo ',
     'Manzini',
     'Shiselweni ',
-
   ];
 }
-class Sweden{
+
+class Sweden {
   static List<String> States = <String>[
     'Ångermanland',
-        'Blekinge',
-        'Bohuslän',
-        'Dalarna',
-        'Dalsland',
-        'Gotland',
-        'Gästrikland',
-        'Halland',
-        'Hälsingland',
-        'Härjedalen',
-        'Jämtland',
-        'Lappland',
-        'Medelpad',
-        'Norrbotten',
-        'Närke',
-        'Öland',
-        'Östergötland',
-        'Skåne',
-        'Småland',
-        'Södermanland',
-        'Uppland',
-        'Värmland',
-        'Västmanland',
-        'Västerbotten',
-        'Västergötland',
+    'Blekinge',
+    'Bohuslän',
+    'Dalarna',
+    'Dalsland',
+    'Gotland',
+    'Gästrikland',
+    'Halland',
+    'Hälsingland',
+    'Härjedalen',
+    'Jämtland',
+    'Lappland',
+    'Medelpad',
+    'Norrbotten',
+    'Närke',
+    'Öland',
+    'Östergötland',
+    'Skåne',
+    'Småland',
+    'Södermanland',
+    'Uppland',
+    'Värmland',
+    'Västmanland',
+    'Västerbotten',
+    'Västergötland',
   ];
 }
-class Switzerland{
+
+class Switzerland {
   static List<String> States = <String>[
     'Aarga',
     'Appenzell Ausserrhoden ',
@@ -3328,11 +3762,12 @@ class Switzerland{
     'Zurich',
   ];
 }
-class Syria{
+
+class Syria {
   static List<String> States = <String>[
     'Aleppo (halab) ',
     'Ar Raqqah',
-    'As Suwayda''   ,Damascus',
+    'As Suwayda' '   ,Damascus',
     'Dara ',
     'Dayr Az Zawr',
     'Golan ',
@@ -3344,7 +3779,8 @@ class Syria{
     'Tartus ',
   ];
 }
-class USA{
+
+class USA {
   static List<String> States = <String>[
     'Indiana ',
     'Utah ',
@@ -3388,10 +3824,10 @@ class USA{
     'Connecticut',
     'Vermont',
     'Delaware',
-
   ];
 }
-class Tawian{
+
+class Tawian {
   static List<String> States = <String>[
     'Changhua ',
     'Chiayi',
@@ -3414,7 +3850,8 @@ class Tawian{
     'Yunlin',
   ];
 }
-class Tobago{
+
+class Tobago {
   static List<String> States = <String>[
     'San Fernando',
     'Caroni',
@@ -3430,7 +3867,8 @@ class Tobago{
     'Mayaro',
   ];
 }
-class Togo{
+
+class Togo {
   static List<String> States = <String>[
     'Centrale ',
     'Kara ',
@@ -3439,13 +3877,19 @@ class Togo{
     'Savanes ',
   ];
 }
-class Vincent{
+
+class Vincent {
   static List<String> States = <String>[
-    'Parish of Saint Patrick','Parish of Saint George','Parish of Saint David',
-    '	Parish of Saint Andrew','Grenadines','Parish of Charlotte',
+    'Parish of Saint Patrick',
+    'Parish of Saint George',
+    'Parish of Saint David',
+    '	Parish of Saint Andrew',
+    'Grenadines',
+    'Parish of Charlotte',
   ];
 }
-class Tajikistan{
+
+class Tajikistan {
   static List<String> States = <String>[
     'Gorno Badakhshan',
     'Khatlon ',
@@ -3453,7 +3897,8 @@ class Tajikistan{
     'Tadzhikistan Territories ',
   ];
 }
-class Tanzania{
+
+class Tanzania {
   static List<String> States = <String>[
     'Arusha ',
     'Dar Es Salaam ',
@@ -3481,25 +3926,46 @@ class Tanzania{
     'Zanzibar West ',
   ];
 }
-class Tokelau{
+
+class Tokelau {
   static List<String> States = <String>[
-    'Atafu','Nukunonu','Fakaofo',
+    'Atafu',
+    'Nukunonu',
+    'Fakaofo',
   ];
 }
-class Tonga{
+
+class Tonga {
   static List<String> States = <String>[
-    'Vava','Tongatapu','Ha',
+    'Vava',
+    'Tongatapu',
+    'Ha',
   ];
 }
-class Trinidad{
+
+class Trinidad {
   static List<String> States = <String>[
-    'San Juan–Laventille','Borough of Arima','Couva-Tabaquite-Talparo','Tobago',
-    'Tunapuna–Piarco','Penal–Debe','Siparia''Port of Spain','Rio Claro–Mayaro','Diego Martin region',
-    'Siparia region','Princes Town region','Mayaro-Rio Claro','	City of San Fernando',
-    'Penal–Debe','Sangre Grande region','Borough of Chaguanas','Sangre Grande region',
+    'San Juan–Laventille',
+    'Borough of Arima',
+    'Couva-Tabaquite-Talparo',
+    'Tobago',
+    'Tunapuna–Piarco',
+    'Penal–Debe',
+    'Siparia' 'Port of Spain',
+    'Rio Claro–Mayaro',
+    'Diego Martin region',
+    'Siparia region',
+    'Princes Town region',
+    'Mayaro-Rio Claro',
+    '	City of San Fernando',
+    'Penal–Debe',
+    'Sangre Grande region',
+    'Borough of Chaguanas',
+    'Sangre Grande region',
   ];
 }
-class Thailand{
+
+class Thailand {
   static List<String> States = <String>[
     'Ang Thong ',
     'Bangkok Metropolis ',
@@ -3577,7 +4043,8 @@ class Thailand{
     'Yasothon ',
   ];
 }
-class Tunisia{
+
+class Tunisia {
   static List<String> States = <String>[
     'Beja ',
     'Bizerte ',
@@ -3603,7 +4070,8 @@ class Tunisia{
     'Zaghouan ',
   ];
 }
-class Turkeys{
+
+class Turkeys {
   static List<String> States = <String>[
     'Adana ',
     'Adiyaman ',
@@ -3677,23 +4145,34 @@ class Turkeys{
         'Zinguldak '
   ];
 }
-class Turkmenistan{
+
+class Turkmenistan {
+  static List<String> States = <String>['Ashgabat', 'Ahal Region', 'Balkan Region	', 'Daşoguz Region', 'Lebap Region	', 'Mary Region'];
+}
+
+class Turks {
   static List<String> States = <String>[
-    'Ashgabat','Ahal Region','Balkan Region	','Daşoguz Region','Lebap Region	','Mary Region'
+    'Grand Turk',
+    '	Salt Cay',
   ];
 }
-class Turks{
+
+class Tuvalu {
   static List<String> States = <String>[
-    'Grand Turk','	Salt Cay',
+    'Funafuti',
+    'Nanumea',
+    'Nui',
+    'Nukufetau',
+    'Nukulaelae',
+    'Vaitupu',
+    'Nanumanga',
+    'Niulakita',
+    'Niutao',
+    'Tuvalu',
   ];
 }
-class Tuvalu{
-  static List<String> States = <String>[
-    'Funafuti','Nanumea','Nui','Nukufetau','Nukulaelae','Vaitupu','Nanumanga','Niulakita',
-    'Niutao','Tuvalu',
-  ];
-}
-class Uganda{
+
+class Uganda {
   static List<String> States = <String>[
     'Adjumani ',
     'Arua Municipality ',
@@ -3737,7 +4216,8 @@ class Uganda{
     'Wakiso ',
   ];
 }
-class Ukraine{
+
+class Ukraine {
   static List<String> States = <String>[
     'Čėrkasy',
     'Cherkasy',
@@ -3767,10 +4247,10 @@ class Ukraine{
     'Zakarpattja',
     'Zaporižžija',
     'Žytomyr',
-
   ];
 }
-class Uk{
+
+class Uk {
   static List<String> States = <String>[
     'Aberdeen ',
     'Bath And North East Somerset',
@@ -3825,7 +4305,8 @@ class Uk{
     'York ',
   ];
 }
-class Uruguay{
+
+class Uruguay {
   static List<String> States = <String>[
     'Artigas ',
     'Canelones ',
@@ -3848,7 +4329,8 @@ class Uruguay{
     'Treinta Y Tres ',
   ];
 }
-class Uzbekistan{
+
+class Uzbekistan {
   static List<String> States = <String>[
     'Andijon ',
     'Bukhoro ',
@@ -3865,12 +4347,12 @@ class Uzbekistan{
     'Tashkent ',
   ];
 }
-class Vanuatu{
-  static List<String> States = <String>[
-    '	Tafea','Shefa','Malampa','Sanma,'
-  ];
+
+class Vanuatu {
+  static List<String> States = <String>['	Tafea', 'Shefa', 'Malampa', 'Sanma,'];
 }
-class Venezuela{
+
+class Venezuela {
   static List<String> States = <String>[
     'Amazonas ',
     'Anzoategui ',
@@ -3897,7 +4379,8 @@ class Venezuela{
     'Zulia ',
   ];
 }
-class Vietnam{
+
+class Vietnam {
   static List<String> States = <String>[
     'An Giang ',
     'Ba Riavung Tau ',
@@ -3955,29 +4438,37 @@ class Vietnam{
     'Yen Bai ',
   ];
 }
-class Wallis{
+
+class Wallis {
   static List<String> States = <String>[
-    'Hihifo','Hahake','Mua','	Alo','Sigave',
+    'Hihifo',
+    'Hahake',
+    'Mua',
+    '	Alo',
+    'Sigave',
   ];
 }
-class Yemen{
+
+class Yemen {
   static List<String> States = <String>[
     'Adan',
-    'Al Bayda'',Al Hudaydah ',
+    'Al Bayda' ',Al Hudaydah ',
     'Al Mahrah',
     'Amanat Al Asimah',
     'Dhama',
     'Hadramawt ',
     'Hajjah ',
     'Ibb ',
-    'Lahij ',''
+    'Lahij ',
+    ''
         'Ma rib ',
     'Sadah ',
     'Shabwah ',
     'Taizz ',
   ];
 }
-class Zambia{
+
+class Zambia {
   static List<String> States = <String>[
     'Central ',
     'Copperbelt ',
@@ -3990,7 +4481,8 @@ class Zambia{
     'Western ',
   ];
 }
-class Zimbabwe{
+
+class Zimbabwe {
   static List<String> States = <String>[
     'Bulawayo ',
     'Harare ',
@@ -4004,7 +4496,8 @@ class Zimbabwe{
     'Midlands ',
   ];
 }
-class Arab{
+
+class Arab {
   static List<String> States = <String>[
     'Abu Dhabi',
     'Dubay ',
