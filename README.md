@@ -4,6 +4,9 @@ A package for Flutter with a heart of gold.
 A customizable Flutter package that displays all countries with there respective state.
 ### show some :heart: and star the repo to support the project.
 
+![ss1](https://user-images.githubusercontent.com/62711340/129450400-bf1c7471-ec54-4de3-bcd8-2ae203a61b37.jpg)
+
+
 ## Example
 
  Please run the app in the [Example](https://github.com/mimi-tech/flutter_country_state/tree/master/example) folder
