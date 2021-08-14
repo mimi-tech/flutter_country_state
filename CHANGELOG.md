@@ -1,3 +1,5 @@
-## [0.1.3+5] - 2020-31-03
+## [0.2.0] - 2020-10-11
 
-* A customizable Flutter package that displays a country with its respective state.
+## [0.2.1] - 2021-08-14
+
+* NullSafety.

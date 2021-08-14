@@ -37,9 +37,7 @@ dependencies:
                                   alignment: Alignment.topLeft,
                                   child:  Column(
                                     children: <Widget>[
-                                      Text('select country',
-
-                                      ),
+                                      Text('select country' ),
                                       Text(Variables.country,
 
                                       )
@@ -62,9 +60,7 @@ dependencies:
                                           alignment: Alignment.topRight,
                                           child: GestureDetector(
                                               onTap: (){
-                                                Navigator.of(context).push
-                                                  (MaterialPageRoute(builder: (context) => YourClassName()));
-
+                                               //Redirect to the screen of your choice or pop out
                                               },
                                               child: Padding(
                                                 padding: EdgeInsets.only(right:18.0),
@@ -79,8 +75,14 @@ dependencies:
                                         ),
                                         SingleChildScrollView(
                                             child: Container(child: ShowMyDialog(
-                                              searchHint: 'Search country',
-                                              substringBackground: Colors.green,
+                                           searchHint: 'Search country',
+                                           substringBackground: Colors.green,
+                                           textColors: Colors.black,
+                                           substringTextColor: Colors.white,
+                                           fontSize: 18,
+                                           substringFontSize: 14,
+                                           fontFamily: '',
+                                           fontStyle: FontStyle.normal,
                                             ))
 
                                         )
@@ -127,7 +129,7 @@ class _ShowStateState extends State<ShowState> {
                               onTap: (){
                                 showDialog(
                                     context: context,
-                                    child: SimpleDialog(
+                                    builder: (context) => SimpleDialog(
                                       shape: RoundedRectangleBorder(
                                           borderRadius: BorderRadius.circular(8.0)),
                                       elevation: 4,
@@ -136,9 +138,7 @@ class _ShowStateState extends State<ShowState> {
                                           alignment: Alignment.topRight,
                                           child: GestureDetector(
                                               onTap: (){
-                                                Navigator.of(context).push
-                                                  (MaterialPageRoute(builder: (context) => YourClassName()));
-
+                                                //Redirect to the screen of your choice or pop out
                                               },
                                               child: Padding(
                                                 padding: EdgeInsets.only(right:18.0),
@@ -152,7 +152,15 @@ class _ShowStateState extends State<ShowState> {
                                           ),
                                         ),
 
-                                        SingleChildScrollView(child: Container(child:StateDialog(),),)
+                                        SingleChildScrollView(child: Container(child:StateDialog(
+                                        substringTextColor: Colors.white,
+                                        fontSize: 18,
+                                        textColors: Colors.black,
+                                        substringFontSize: 14,
+                                        fontFamily: '',
+                                        fontStyle: FontStyle.normal,
+                                        substringBackground: Colors.blueAccent,
+                                        ),),)
 
                                       ],
 

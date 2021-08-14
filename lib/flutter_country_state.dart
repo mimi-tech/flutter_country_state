@@ -11,14 +11,14 @@ class Variables{
 }
 class ShowMyDialog extends StatefulWidget {
   ShowMyDialog({
-    @required this.substringBackground,
-    this.textColors,
-    @required this.searchHint,
-    this.fontStyle,
-    this.fontFamily,
-    this.substringTextColor,
-    this.fontSize,
-    this.substringFontSize});
+    required this.substringBackground,
+    required this.textColors,
+    required this.searchHint,
+    required this.fontStyle,
+    required this.fontFamily,
+    required this.substringTextColor,
+    required this.fontSize,
+    required this.substringFontSize});
 
   final Color substringBackground;
   final Color textColors;
@@ -35,10 +35,11 @@ class ShowMyDialog extends StatefulWidget {
 
 class _ShowMyDialogState extends State<ShowMyDialog> {
   TextEditingController searchController = new TextEditingController();
-  String filter;
-  var itemscolor = List<String>();
-  var items = List<String>();
+  late String filter;
+  var itemscolor = <String>[];
+  var items = <String>[];
   @override  initState() {
+    super.initState();
     ///merging the list of countries for fast loading
     var newList = [Country1.Countrys1,
       Country2.country2, Country3.country3,
@@ -83,57 +84,65 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
               itemCount:items.length,
               itemBuilder: (context, index) {
                 var users = items[index];
-                return filter == null || filter == "" ? ListTile(
-                  leading: CircleAvatar(
-                    backgroundColor: itemscolor.contains(items[index])? Colors.red:widget.substringTextColor,
-                    child: Text(users.substring(0,1).toUpperCase(),
-                    style: TextStyle(
-                      color:widget.substringTextColor,
-                      fontStyle: widget.fontStyle,
-                      fontFamily: widget.fontFamily,
-                      fontSize: widget.substringFontSize,
-
-                    ),),
-                  ),
-                  title: Text(items[index],
-                  style: TextStyle(
-                      color: itemscolor.contains(items[index])? Colors.red:widget.textColors,
-                      fontStyle: widget.fontStyle,
-                    fontFamily: widget.fontFamily,
-                    fontSize: widget.fontSize
-                  ),),
-                  onTap: () {
-                    setState(() {
-                      _selectedICountry(context, items[index]);
-                    });
-                  }
-
-                ) : '${items[index]}'.toLowerCase()
-                    .contains(filter.toLowerCase())
-                    ? ListTile(
-                  leading: CircleAvatar(
-                    backgroundColor: itemscolor.contains(items[index])? Colors.red:widget.substringTextColor,
-                    child: Text(users.substring(0,1).toUpperCase(),
+                return filter == "" ? Container(
+                  width: double.maxFinite,
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: itemscolor.contains(items[index])? Colors.blue:widget.substringTextColor,
+                      child: Text(users.substring(0,1).toUpperCase(),
                       style: TextStyle(
-                        color: widget.substringTextColor,
+                        color:widget.substringTextColor,
                         fontStyle: widget.fontStyle,
                         fontFamily: widget.fontFamily,
+                        fontSize: widget.substringFontSize,
+
                       ),),
-                  ),
-                  title: Text(items[index],
+                    ),
+                    title: Text(items[index],
                     style: TextStyle(
-                        color: itemscolor.contains(items[index])? Colors.red:widget.textColors,
+                        color: itemscolor.contains(items[index])? Colors.blue:widget.textColors,
                         fontStyle: widget.fontStyle,
                       fontFamily: widget.fontFamily,
-                        fontSize: widget.fontSize
+                      fontSize: widget.fontSize
                     ),),
+                    onTap: () {
+                      setState(() {
+                        _selectedICountry(context, items[index]);
+                      });
+                    }
+
+                  ),
+                ) : '${items[index]}'.toLowerCase()
+                    .contains(filter.toLowerCase())
+                    ? Container(
+                  width: double.maxFinite,
+                      child: ListTile(
+                  leading: CircleAvatar(
+                      backgroundColor: itemscolor.contains(items[index])? Colors.blue:widget.substringTextColor,
+                      child: Text(users.substring(0,1).toUpperCase(),
+                        style: TextStyle(
+                          color: widget.substringTextColor,
+                          fontStyle: widget.fontStyle,
+                          fontFamily: widget.fontFamily,
+                        ),),
+                  ),
+                  title: Text(items[index],
+                      style: TextStyle(
+                          color: itemscolor.contains(items[index])? Colors.blue:widget.textColors,
+                          fontStyle: widget.fontStyle,
+                        fontFamily: widget.fontFamily,
+                          fontSize: widget.fontSize
+                      ),),
                   onTap: () {
-                    setState(() {
-                      _selectedICountry(context, items[index]);
-                    });
+                      setState(() {
+                        _selectedICountry(context, items[index]);
+                      });
                   }
 
-                ):  Container();
+                ),
+                    ):  Container(
+                  width: double.maxFinite,
+                );
               }
           ),
         ],
@@ -155,13 +164,13 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
 
 class StateDialog extends StatefulWidget {
   StateDialog({
-    this.substringBackground,
-    this.textColors,
-    this.substringTextColor,
-    this.fontStyle,
-    this.fontFamily,
-    this.fontSize,
-    this.substringFontSize
+    required this.substringBackground,
+    required this.textColors,
+    required this.substringTextColor,
+    required this.fontStyle,
+    required this.fontFamily,
+    required this.fontSize,
+    required this.substringFontSize
   });
 
   final Color textColors;
@@ -175,7 +184,7 @@ class StateDialog extends StatefulWidget {
   _StateDialogState createState() => _StateDialogState();
 }
 class _StateDialogState extends State<StateDialog> {
-  var itemcolor = List<String>();
+  var itemcolor = <String>[];
   @override
   Widget build(BuildContext context){
 
@@ -1296,31 +1305,34 @@ class _StateDialogState extends State<StateDialog> {
       itemCount:StateDialogs.stateItems.length,
       itemBuilder: (context, index) {
         var users = StateDialogs.stateItems[index];
-        return  ListTile(
-            leading: CircleAvatar(
-              foregroundColor: Colors.white,
-              backgroundColor: itemcolor.contains(StateDialogs.stateItems[index])? Colors.red:widget.substringBackground,
-              child: Text(users.substring(0,1).toUpperCase(),
+        return  Container(
+       width: double.maxFinite,
+          child: ListTile(
+              leading: CircleAvatar(
+                foregroundColor: Colors.white,
+                backgroundColor: itemcolor.contains(StateDialogs.stateItems[index])? Colors.blue:widget.substringBackground,
+                child: Text(users.substring(0,1).toUpperCase(),
     style: TextStyle(
     color:widget.substringTextColor,
     fontStyle: widget.fontStyle,
     fontFamily: widget.fontFamily,
     ),),
-            ),
-            title: Text(StateDialogs.stateItems[index],
-              style: TextStyle(
+              ),
+              title: Text(StateDialogs.stateItems[index],
+                style: TextStyle(
 
-    color: itemcolor.contains(StateDialogs.stateItems[index])? Colors.red:widget.textColors,
+    color: itemcolor.contains(StateDialogs.stateItems[index])? Colors.blue:widget.textColors,
 
     fontStyle: widget.fontStyle,
     fontFamily: widget.fontFamily,
     fontSize: widget.fontSize
     ),),
-            onTap: (){
-              setState(() {
-                _userselectedCountryState(context, StateDialogs.stateItems[index]);
-              });
-            }
+              onTap: (){
+                setState(() {
+                  _userselectedCountryState(context, StateDialogs.stateItems[index]);
+                });
+              }
+          ),
         ) ;
       }
       ),
