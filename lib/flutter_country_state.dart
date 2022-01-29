@@ -35,7 +35,7 @@ class ShowMyDialog extends StatefulWidget {
 
 class _ShowMyDialogState extends State<ShowMyDialog> {
   TextEditingController searchController = new TextEditingController();
-  late String filter;
+   String filter = '';
   var itemscolor = <String>[];
   var items = <String>[];
   @override  initState() {
