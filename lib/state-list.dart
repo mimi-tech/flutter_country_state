@@ -3877,6 +3877,47 @@ class Uzbekistan{
     'Tashkent ',
   ];
 }
+
+class US{
+  static List<String> States = <String>[
+    'New York City',
+    'Los Angeles',
+    'Chicago',
+    'Brooklyn',
+    'Houston',
+    'Queens',
+    'Philadelphia',
+    'Phoenix',
+    'Manhattan',
+    'San Antonio',
+    'San Diego',
+    'The Bronx',
+    'Dallas',
+    'San Jose',
+    'Austin',
+    'Jacksonville',
+    'San Francisco',
+    'Columbus',
+    'Fort Worth',
+    'Indianapolis',
+    'Charlotte',
+    'Seattle',
+    'Denver',
+    'El Paso',
+    'Detroit',
+    'Boston',
+    'Memphis',
+    'New South Memphis',
+    'Portland',
+    'Oklahoma City',
+    'Las Vegas',
+    'Baltimore',
+    'Washington, D.C.',
+    'Milwaukee',
+
+  ];
+}
+
 class Vanuatu{
   static List<String> States = <String>[
     'Tafea','Shefa','Malampa','Sanma,'

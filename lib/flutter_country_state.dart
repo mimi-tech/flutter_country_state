@@ -1236,6 +1236,11 @@ class _StateDialogState extends State<StateDialog> {
     StateDialogs.stateItems.clear();
     StateDialogs.stateItems.addAll(Uk.States);
     });
+    }else if(Variables.country == 'United States of America'){
+    setState(() {
+    StateDialogs.stateItems.clear();
+    StateDialogs.stateItems.addAll(US.States);
+    });
     }else if(Variables.country == 'Uzbekistan'){
     setState(() {
     StateDialogs.stateItems.clear();
