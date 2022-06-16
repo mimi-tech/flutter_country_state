@@ -2,8 +2,8 @@
 
 class Country1 {
   static List<String> Countrys1 = <String>[
-    "Afghanistan", "Aland Islands", "Albania", "Algeria", "American Samoa", "Andorra",
-    "Angola", "Anguilla", "Antarctica", "Antigua", "Argentina", "Armenia", "Aruba",
+    "Afghanistan", "Albania", "Algeria", "American Samoa", "Andorra",
+    "Angola", "Anguilla", "Antarctica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba",
     "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh","Arab",
     "Barbados", "Barbuda", "Belarus", "Belgium", "Belize", "Benin", "Bermuda",
     "Bhutan", "Bolivia", "Bosnia", "Botswana", "Bouvet Island", "Brazil", "British",
@@ -70,7 +70,7 @@ class Country6{
 
 class Country7{
   static List<String> country7 = <String>[
-    "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "USA", "Uruguay", "US Minor Outlying Islands", "Uzbekistan",
+    "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "US Minor Outlying Islands", "Uzbekistan",
     "Vanuatu", "Vatican City State", "Venezuela", "Vietnam", "Wallis",
     "Yemen", "Zambia", "Zimbabwe"
   ];

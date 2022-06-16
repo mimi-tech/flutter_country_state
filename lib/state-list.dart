@@ -44,18 +44,18 @@ class Anguilla{
 }
 class Antarctica{
   static List<String> States = <String>[
-    'Blowing Point' , ' Sandy Ground', 'Sandy Hill', 'The Valley', ' East End', 'North Hill', 'West End',
+    'Blowing Point' , ' Sandy Ground', 'Sandy Hill', 'The Valley', 'East End', 'North Hill', 'West End',
     'South Hill','The Quarter','North Side', 'Island Harbour','George Hill','Stoney Ground','The Farrington',
   ];
 }
 class Antigua{
   static List<String> States = <String>[
-    '	Havlo' , ' 	Victoria', 'North Antarctica', 'Byrdland', ' Newbin', '	Atchabinic',
+    'Havlo' , 'Victoria', 'North Antarctica', 'Byrdland', 'Newbin', 'Atchabinic',
   ];
 }
 class Argentina{
   static List<String> States = <String>[
-    '	Catamarca' , ' Chaco ', ' Chubut', 'Ciudad De Buenos Aires', ' Cordoba', '	Corrientes', 'Entre Rios',
+    'Catamarca' , 'Chaco', 'Chubut', 'Ciudad De Buenos Aires', 'Cordoba', 'Corrientes', 'Entre Rios',
     'Formosa','Jujuy ','La Pampa', 'La Rioja','Mendoza','Misiones ','Neuquen',
     'Rio Negro','Salta ','San Juan ', 'San Luis','Santa Cruz ','Santa Fe ','Santiago Del Estero',
     'Tierra Del Fuego','Tucuman',
@@ -63,7 +63,7 @@ class Argentina{
 }
 class Armenia{
   static List<String> States = <String>[
-    '	Aragatsotn' , ' 	Ararat ', 'Erevan', 'Gegharkunik', ' Lori', '	Shirak','Tavush','Vayots Dzor',
+    'Aragatsotn' , 'Ararat ', 'Erevan', 'Gegharkunik', 'Lori', 'Shirak','Tavush','Vayots Dzor',
   ];
 }
 class Australia{
@@ -87,7 +87,7 @@ class Austria{
 }
 class Azerbaijan{
   static List<String> States = <String>[
-    'Ali Bayramli ',
+    'Ali Bayramli',
     'Astara',
     'Baki ',
     'Gadaba',
@@ -101,8 +101,8 @@ class Azerbaijan{
     'Sumqayit',
     'Tovuz',
     'Xocali ',
-    ' Yevlax ',
-    ' Zengilan',
+    'Yevlax ',
+    'Zengilan',
   ];
 }
 class Bahamas{
@@ -121,14 +121,14 @@ class Bahamas{
     'Acklins and Crooked Islands',
     'Green Turtle Cay	',
     'Inagua	',
-    'Nichollstown and Berry Islands	',
-    'Mayaguana	',
-    'Ragged Island	',
+    'Nichollstown and Berry Islands',
+    'Mayaguana',
+    'Ragged Island',
     'Cat Island',
     'Governors Harbour',
     'Exuma	',
     'Sandy Point',
-    ' Kemps Bay',
+    'Kemps Bay',
   ];
 }
 class Bahrain{
@@ -386,15 +386,15 @@ class Cambodia{
     'Kampong Thum ',
     'Kampot ',
     'Kaoh Kong ',
-    ' Kracheh ',
+    'Kracheh ',
     'Mondol Kiri ',
     'Phnom Penh ',
-    ' Pouthisat ',
+    'Pouthisat ',
     'Preah Vihea',
     'Prey Veng ',
     'Rotanokiri ',
     'Siemreab ',
-    ' Stng Treng ',
+    'Stng Treng ',
     'Svay Rieng',
     'Takev',
   ];
@@ -459,7 +459,7 @@ class CaymanIslands{
 }
 class CentralAfrica{
   static List<String> States = <String>[
-    ' Bamingui Bangoran ',
+    'Bamingui Bangoran ',
     'Bangui ',
     'Basse Kotto ',
     'Haut Mbomou ',
@@ -585,7 +585,7 @@ class Colombia{
 }
 class Comoros{
   static List<String> States = <String>[
-    'Moheli','	Grande Comore','Ndzuwani',
+    'Moheli','Grande Comore','Ndzuwani',
   ];
 }
 class Congo{
@@ -989,7 +989,7 @@ class Germany{
 }
 class Ghana{
   static List<String> States = <String>[
-    ' Accra',
+    'Accra',
     'Ashanti ',
     'Brong Ahafo ',
     'Central ',
@@ -1210,7 +1210,7 @@ class GuineaBissau{
     'Bolama	',
     'Tombali	',
     'Quinara	',
-    ' Biombo	',
+    'Biombo	',
   ];
 }
 class Honduras{
@@ -1309,7 +1309,7 @@ class Haiti{
 }
 class Herzegovina{
   static List<String> States = <String>[
-    ' Bosnia and Herzegovina	',
+    'Bosnia and Herzegovina	',
     'Republika Srpska	',
   ];
 }
@@ -2072,7 +2072,7 @@ class Malaysia{
     'Pahang',
     'Perlis',
     'Penang',
-    ' Labuan',
+    'Labuan',
     'Malaysia',
     'Sabah',
     'Sarawak',
@@ -2362,7 +2362,7 @@ class Netherlands{
 }
 class NetherlandsAntilles{
   static List<String> States = <String>[
-    'Curaçao','Bonaire','	Aruba','Sint Maarten','Sint Eustatius','Saba','	Netherlands Antilles',
+    'Curaçao','Bonaire','Aruba','Sint Maarten','Sint Eustatius','Saba','Netherlands Antilles',
   ];
 }
 class Nevis{
@@ -2453,8 +2453,8 @@ class NorthernMariana{
     'Asuncion',
     'Agrihan (Agrigan)',
     'Pagan',
-    ' Alamagan',
-    ' Guguan',
+    'Alamagan',
+    'Guguan',
     'Zealandia Ban',
     'Sarigan',
     'Anatahan',
@@ -2550,7 +2550,7 @@ class Palestinian{
     'Bethlehem',
     'Hebron',
     'North Gaza',
-    ' Gaza',
+    'Gaza',
     'Deir Al-Balah',
     'Khan Yunis',
     'Rafah',
@@ -2617,24 +2617,24 @@ class Peru{
   static List<String> States = <String>[
     'Amazonas ',
     'Ancash ',
-    'Apurimac ',
+    'Apurímac ',
     'Arequipa ',
     'Ayacucho',
     'Cajamarca ',
-    'Callao ',
-    'Cusco ',
+    'Cuzco ',
     'Huancavelica ',
-    'Huanuco ',
+    'Huánuco ',
     'Ica ',
-    'Junin ',
+    'Junín ',
     'La Libertad ',
     'Lambayeque ',
     'Lima ',
-    'Loreto (',
-    'Madre De Dios ',
+    'Loreto ',
+    'Madre de Dios ',
     'Moquegua ',
     'Pasco ',
-    'Piura',
+    'Piura ',
+    'Puno ',
     'San Martin',
     'Tacna ',
     'Tumbes ',
@@ -2880,7 +2880,7 @@ class Russia{
     'Sakhalin ',
     'Samara',
     'Saratov',
-    'Smolensk',''
+    'Smolensk',
         'Stavropol'',Sverdlovsk ',
     'Tambov',
     'Tatarstan',
@@ -3069,7 +3069,7 @@ class Saudi{
     'Al Quassim ',
     'Ar Riyad ',
     'Ash Sharqiyah',
-    'Asir ',''
+    'Asir ',
         'Ha il ',
     'Jizan',
     'Makkah ',
@@ -3142,11 +3142,11 @@ class Sieere{
     'Port Loko',
     'Tonkolili',
 
-    ' Bo',
+    'Bo',
     'Bonthe',
     'Moyamba',
     'Pujehun',
-    ''
+
         'Western Area Rural	',
     'Western Area Urban (Freetown)	',
   ];
@@ -3208,13 +3208,13 @@ class Somalia{
 }
 class Spain{
   static List<String> States = <String>[
-    'Álava',' Albacete','Alicante','Almería','Asturias',' Ávila','Badajoz','Balearic Islands',
+    'Álava','Albacete','Alicante','Almería','Asturias',' Ávila','Badajoz','Balearic Islands',
     'Barcelona','Biscay;','Burgos','Cáceres',' Cádiz','Cantabria','Castellón;',
-    'Ciudad Real','Córdoba','Cuenca',' Gipuzkoa','Girona',' Granada','Guadalajara',
+    'Ciudad Real','Córdoba','Cuenca',' Gipuzkoa','Girona','Granada','Guadalajara',
     'Huelva','Huesca',' Jaén','La Rioja','Las Palmas',' León',' Lleida','Lugo',
     'Madrid',' Málaga',' Murcia','Navarre','Ourense ','Palencia','Pontevedra',
     ' Salamanca','Santa Cruz de Tenerife','Segovia',' Seville',' Soria','Tarragona',
-    'Teruel','Toledo','Valencia;','Valladolid','Zamora',' Zaragoza',
+    'Teruel','Toledo','Valencia;','Valladolid','Zamora','Zaragoza',
   ];
 }
 class SriLanka{
@@ -3388,6 +3388,18 @@ class USA{
     'Connecticut',
     'Vermont',
     'Delaware',
+    'Wyoming',
+    'New York',
+    'Rhode Island',
+    'South Dakota',
+    'Washington',
+    'Wisconsin',
+    'Pennsylvania',
+    'New Hampshire',
+    'Michigan',
+    'Minnesota',
+    'Hawaii',
+    'Idaho'
 
   ];
 }
@@ -3442,7 +3454,7 @@ class Togo{
 class Vincent{
   static List<String> States = <String>[
     'Parish of Saint Patrick','Parish of Saint George','Parish of Saint David',
-    '	Parish of Saint Andrew','Grenadines','Parish of Charlotte',
+    'Parish of Saint Andrew','Grenadines','Parish of Charlotte',
   ];
 }
 class Tajikistan{
@@ -3698,8 +3710,8 @@ class Uganda{
     'Adjumani ',
     'Arua Municipality ',
     'Aswa ',
-    ' Bamunanika',
-    ' Budadiri',
+    'Bamunanika',
+    'Budadiri',
     'Bungokho ',
     'Busia ',
     'Busujju ',
@@ -3867,7 +3879,7 @@ class Uzbekistan{
 }
 class Vanuatu{
   static List<String> States = <String>[
-    '	Tafea','Shefa','Malampa','Sanma,'
+    'Tafea','Shefa','Malampa','Sanma,'
   ];
 }
 class Venezuela{

@@ -12,22 +12,23 @@ class Variables{
 class ShowMyDialog extends StatefulWidget {
   ShowMyDialog({
     required this.substringBackground,
-    required this.textColors,
     required this.searchHint,
-    required this.fontStyle,
-    required this.fontFamily,
-    required this.substringTextColor,
-    required this.fontSize,
-    required this.substringFontSize});
+    required this.subStringStyle,
+    required this.style,
+    required this.searchStyle,
+    required this.selectedCountryBackgroundColor,
+    required this.notSelectedCountryBackgroundColor,
+
+  });
 
   final Color substringBackground;
-  final Color textColors;
   final String searchHint;
-  final Color substringTextColor;
-  final FontStyle fontStyle;
-  final String fontFamily;
-  final double fontSize;
-  final double substringFontSize;
+
+  final TextStyle style;
+  final TextStyle subStringStyle;
+  final TextStyle searchStyle;
+  final Color selectedCountryBackgroundColor;
+  final Color notSelectedCountryBackgroundColor;
 
   @override
   _ShowMyDialogState createState() => _ShowMyDialogState();
@@ -54,109 +55,94 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
       });
     });
   }
+  List<int>selectedIndex = [];
   @override  void dispose() {
     searchController.dispose();
     super.dispose();
   }
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
-        children: <Widget>[
-
-          Padding(
-            padding: EdgeInsets.only(left:8.0, right:8.0,top: 20),
-            child: TextField(
-              controller: searchController,
-              decoration: InputDecoration(
-                hintText: widget.searchHint,
-                contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-                border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(32.0)),
-              ),
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Padding(
+          padding: EdgeInsets.only(left:8.0, right:8.0,top: 20),
+          child: TextField(
+            style: widget.searchStyle,
+            controller: searchController,
+            decoration: InputDecoration(
+              hintText: widget.searchHint,
+              contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+              border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(32.0)),
             ),
           ),
-
-          ///listview for country list with search
-          ListView.builder(
-              shrinkWrap: true,
-              physics: BouncingScrollPhysics(),
-              itemCount:items.length,
-              itemBuilder: (context, index) {
-                var users = items[index];
-                return filter == "" ? Container(
-                  width: double.maxFinite,
-                  child: ListTile(
-                    leading: CircleAvatar(
-                      backgroundColor: itemscolor.contains(items[index])? Colors.blue:widget.substringTextColor,
-                      child: Text(users.substring(0,1).toUpperCase(),
-                      style: TextStyle(
-                        color:widget.substringTextColor,
-                        fontStyle: widget.fontStyle,
-                        fontFamily: widget.fontFamily,
-                        fontSize: widget.substringFontSize,
-
-                      ),),
-                    ),
-                    title: Text(items[index],
-                    style: TextStyle(
-                        color: itemscolor.contains(items[index])? Colors.blue:widget.textColors,
-                        fontStyle: widget.fontStyle,
-                      fontFamily: widget.fontFamily,
-                      fontSize: widget.fontSize
-                    ),),
-                    onTap: () {
-                      setState(() {
-                        _selectedICountry(context, items[index]);
-                      });
-                    }
-
-                  ),
-                ) : '${items[index]}'.toLowerCase()
-                    .contains(filter.toLowerCase())
-                    ? Container(
-                  width: double.maxFinite,
+        ),
+        Expanded(
+          child: ListView(
+            children: [
+              ListView.builder(
+                  shrinkWrap: true,
+                  physics: BouncingScrollPhysics(),
+                  itemCount:items.length,
+                  itemBuilder: (context, index) {
+                    var users = items[index];
+                    return filter == "" ? Container(
+                      width: double.maxFinite,
+                      color: selectedIndex.contains(index)?widget.selectedCountryBackgroundColor:widget.notSelectedCountryBackgroundColor,
                       child: ListTile(
-                  leading: CircleAvatar(
-                      backgroundColor: itemscolor.contains(items[index])? Colors.blue:widget.substringTextColor,
-                      child: Text(users.substring(0,1).toUpperCase(),
-                        style: TextStyle(
-                          color: widget.substringTextColor,
-                          fontStyle: widget.fontStyle,
-                          fontFamily: widget.fontFamily,
-                        ),),
-                  ),
-                  title: Text(items[index],
-                      style: TextStyle(
-                          color: itemscolor.contains(items[index])? Colors.blue:widget.textColors,
-                          fontStyle: widget.fontStyle,
-                        fontFamily: widget.fontFamily,
-                          fontSize: widget.fontSize
-                      ),),
-                  onTap: () {
-                      setState(() {
-                        _selectedICountry(context, items[index]);
-                      });
-                  }
 
-                ),
-                    ):  Container(
-                  width: double.maxFinite,
-                );
-              }
+                        leading: CircleAvatar(
+                          backgroundColor:  widget.substringBackground,
+                          child: Text(users.substring(0,1).toUpperCase(),
+                          style: widget.subStringStyle),
+                        ),
+                        title: Text(items[index],
+                        style: widget.style),
+                        onTap: () {
+                          _selectedICountry( items[index], index);
+
+                        }
+
+                      )
+                    ) : '${items[index]}'.toLowerCase()
+                        .contains(filter.toLowerCase())
+                        ? Container(
+                      width: double.maxFinite,
+                      color: selectedIndex.contains(index)?widget.selectedCountryBackgroundColor:widget.notSelectedCountryBackgroundColor,
+
+                      child: ListTile(
+                      leading: CircleAvatar(
+                        backgroundColor:  widget.substringBackground,
+                          child: Text(users.substring(0,1).toUpperCase(),
+                            style: widget.subStringStyle),
+                      ),
+                      title: Text(items[index],
+                          style:widget.style),
+                      onTap: () async {
+                        _selectedICountry( items[index], index);
+
+                      }
+
+                    ),
+                        ):  Container(
+                      width: double.maxFinite,
+                    );
+                  }
+              ),
+            ],
           ),
-        ],
-      ),
+        ),
+      ],
     );
 
   }
 
-  _selectedICountry(BuildContext context, String data) {
-
+  _selectedICountry(String data, int index) async {
+    Variables.country = data;
     setState(() {
-      Variables.country = data;
-      itemscolor.clear();
-      itemscolor.add(data);
+      selectedIndex.clear();
+      selectedIndex.add(index);
     });
 
   }
@@ -165,26 +151,23 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
 class StateDialog extends StatefulWidget {
   StateDialog({
     required this.substringBackground,
-    required this.textColors,
-    required this.substringTextColor,
-    required this.fontStyle,
-    required this.fontFamily,
-    required this.fontSize,
-    required this.substringFontSize
+    required this.subStringStyle,
+    required this.style,
+    required this.selectedStateBackgroundColor,
+    required this.notSelectedStateBackgroundColor,
   });
 
-  final Color textColors;
-  final Color substringTextColor;
   final Color substringBackground;
-  final FontStyle fontStyle;
-  final String fontFamily;
-  final double fontSize;
-  final double substringFontSize;
+  final TextStyle style;
+  final TextStyle subStringStyle;
+  final Color selectedStateBackgroundColor;
+  final Color notSelectedStateBackgroundColor;
+
   @override
   _StateDialogState createState() => _StateDialogState();
 }
 class _StateDialogState extends State<StateDialog> {
-  var itemcolor = <String>[];
+  List<int> selectedState = [];
   @override
   Widget build(BuildContext context){
 
@@ -223,7 +206,7 @@ class _StateDialogState extends State<StateDialog> {
           StateDialogs.stateItems.clear();
           StateDialogs.stateItems.addAll(Antarctica.States);
         });
-      }else if(Variables.country == 'Antigua'){
+      }else if(Variables.country == 'Antigua and Barbuda'){
         setState(() {
           StateDialogs.stateItems.clear();
           StateDialogs.stateItems.addAll(Antigua.States);
@@ -1307,29 +1290,20 @@ class _StateDialogState extends State<StateDialog> {
         var users = StateDialogs.stateItems[index];
         return  Container(
        width: double.maxFinite,
-          child: ListTile(
+        color: selectedState.contains(index)?widget.selectedStateBackgroundColor:widget.notSelectedStateBackgroundColor,
+
+            child: ListTile(
               leading: CircleAvatar(
                 foregroundColor: Colors.white,
-                backgroundColor: itemcolor.contains(StateDialogs.stateItems[index])? Colors.blue:widget.substringBackground,
+                backgroundColor:  widget.substringBackground,
                 child: Text(users.substring(0,1).toUpperCase(),
-    style: TextStyle(
-    color:widget.substringTextColor,
-    fontStyle: widget.fontStyle,
-    fontFamily: widget.fontFamily,
-    ),),
+                style: widget.subStringStyle),
               ),
               title: Text(StateDialogs.stateItems[index],
-                style: TextStyle(
-
-    color: itemcolor.contains(StateDialogs.stateItems[index])? Colors.blue:widget.textColors,
-
-    fontStyle: widget.fontStyle,
-    fontFamily: widget.fontFamily,
-    fontSize: widget.fontSize
-    ),),
+                style: widget.style),
               onTap: (){
                 setState(() {
-                  _userselectedCountryState(context, StateDialogs.stateItems[index]);
+                  _userSelectedCountryState(context, StateDialogs.stateItems[index], index);
                 });
               }
           ),
@@ -1340,12 +1314,13 @@ class _StateDialogState extends State<StateDialog> {
       ),
     );
   }
-  _userselectedCountryState(BuildContext context, String data) {
+  _userSelectedCountryState(BuildContext context, String data,int index) {
     setState((){
       Variables.state = data;
-      itemcolor.clear();
-      itemcolor.add(data);
+      selectedState.clear();
+      selectedState.add(index);
     });
+
 
   }
 
