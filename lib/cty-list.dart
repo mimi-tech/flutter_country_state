@@ -2,11 +2,11 @@
 
 class Country1 {
   static List<String> Countrys1 = <String>[
-    "Afghanistan", "Albania", "Algeria", "American Samoa", "Andorra",
-    "Angola", "Anguilla", "Antarctica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba",
-    "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh","Arab",
+    "Afghanistan", "Albania", "Algeria", "Andorra",
+    "Angola", "Anguilla", "Antarctica", "Antigua and Barbuda", "Argentina", "Armenia",
+    "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh",
     "Barbados", "Barbuda", "Belarus", "Belgium", "Belize", "Benin", "Bermuda",
-    "Bhutan", "Bolivia", "Bosnia", "Botswana", "Bouvet Island", "Brazil", "British",
+    "Bhutan", "Bolivia", "Bosnia", "Botswana", "Bouvet Island", "Brazil",
 
   ];
 }
@@ -14,11 +14,11 @@ class Country1 {
 
 class Country2{
   static List<String> country2 = <String>[
-    "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Caicos Islands", "Cambodia", "Cameroon", "Canada", "Cape Verde",
+    "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde",
     "Cayman Islands", "Central African Republic", "Chad", "Chile", "China",
     "Colombia", "Comoros", "Congo", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cuba", "Cyprus", "Czech Republic", "Denmark",
     "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador",
-    "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Faroe Islands", "Fiji", "Finland", "France",
+    "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Fiji", "Finland", "France",
 
   ];
 }
@@ -26,11 +26,11 @@ class Country2{
 class Country3{
   static List<String> country3 = <String>[
 
-    "French Guiana", "French Polynesia", "French Southern", "Gabon", "Gambia", "Germany", "Ghana", "Gibraltar",
-    "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey",
+    "Gabon", "Gambia", "Germany", "Ghana",
+    "Greece", "Greenland", "Grenada", "Guam", "Guatemala", "Guernsey",
     "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Heard", "Herzegovina",
     "Holy See", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia",
-    "Iran", "Iraq", "Ireland", "Isle", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan",
+    "Iran", "Iraq", "Ireland", "Isle", "Israel", "Italy", "Jamaica", "Japan", "Jordan",
 
   ];
 }
@@ -39,7 +39,7 @@ class Country4{
   static List<String> country4 = <String>[
     "Kazakhstan", "Kenya", "Kiribati", "South Korea", "North Korea","Kuwait",
     "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Liechtenstein", "Lithuania", "Luxembourg",
-    "Macao", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives",
+     "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives",
     "Mali", "Malta", "Marshall Islands", "Martinique", "Mauritania", "Mauritius",
     "Mayotte", "McDonald Islands", "Mexico", "Micronesia", "Miquelon", "Moldova",
 

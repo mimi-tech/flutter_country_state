@@ -20,7 +20,7 @@ dependencies:
 <table>
 <tr>
 <td>
-<img src="https://user-images.githubusercontent.com/62711340/223125689-b51e5b79-6b98-499c-98eb-734e3d3d6a07.png">
+<img src="https://user-images.githubusercontent.com/62711340/223138303-89a8eafa-0304-474b-9091-af7512dc6c5c.png">
 
 </td>
 
