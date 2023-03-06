@@ -18,6 +18,7 @@ class ShowMyDialog extends StatefulWidget {
     required this.searchStyle,
     required this.selectedCountryBackgroundColor,
     required this.notSelectedCountryBackgroundColor,
+    required this.onSelectCountry,
 
   });
 
@@ -29,7 +30,7 @@ class ShowMyDialog extends StatefulWidget {
   final TextStyle searchStyle;
   final Color selectedCountryBackgroundColor;
   final Color notSelectedCountryBackgroundColor;
-
+  final VoidCallback onSelectCountry;
   @override
   _ShowMyDialogState createState() => _ShowMyDialogState();
 }
@@ -66,12 +67,16 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Padding(
+          padding: const EdgeInsets.all(18.0),
+          child: Text("All countries".toUpperCase(),style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+        ),
+        Padding(
           padding: EdgeInsets.only(left:8.0, right:8.0,top: 20),
           child: TextField(
             style: widget.searchStyle,
             controller: searchController,
             decoration: InputDecoration(
-              hintText: widget.searchHint,
+              hintText: "Search for a country...",
               contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
               border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(32.0)),
@@ -139,11 +144,16 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
   }
 
   _selectedICountry(String data, int index) async {
-    Variables.country = data;
+
     setState(() {
+      Variables.country = data;
       selectedIndex.clear();
       selectedIndex.add(index);
     });
+    widget.onSelectCountry();
+    setState(() {});
+    Navigator.pop(context);
+
 
   }
 }
@@ -155,6 +165,7 @@ class StateDialog extends StatefulWidget {
     required this.style,
     required this.selectedStateBackgroundColor,
     required this.notSelectedStateBackgroundColor,
+    required this.onSelectedState,
   });
 
   final Color substringBackground;
@@ -162,6 +173,7 @@ class StateDialog extends StatefulWidget {
   final TextStyle subStringStyle;
   final Color selectedStateBackgroundColor;
   final Color notSelectedStateBackgroundColor;
+  final VoidCallback onSelectedState;
 
   @override
   _StateDialogState createState() => _StateDialogState();
@@ -1286,34 +1298,40 @@ class _StateDialogState extends State<StateDialog> {
     return Container(
       child: Column(
         children: <Widget>[
+    Padding(
+    padding: const EdgeInsets.all(18.0),
+    child: Text("states in ${Variables.country}".toUpperCase(),style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+    ),
+    Divider(),
+      Expanded(
+        child: ListView.builder(
+        shrinkWrap: true,
+        physics: BouncingScrollPhysics(),
+        itemCount:StateDialogs.stateItems.length,
+        itemBuilder: (context, index) {
+          var users = StateDialogs.stateItems[index];
+          return  Container(
+               width: double.maxFinite,
+                    color: selectedState.contains(index)?widget.selectedStateBackgroundColor:widget.notSelectedStateBackgroundColor,
 
-      ListView.builder(
-      shrinkWrap: true,
-      physics: BouncingScrollPhysics(),
-      itemCount:StateDialogs.stateItems.length,
-      itemBuilder: (context, index) {
-        var users = StateDialogs.stateItems[index];
-        return  Container(
-       width: double.maxFinite,
-        color: selectedState.contains(index)?widget.selectedStateBackgroundColor:widget.notSelectedStateBackgroundColor,
-
-            child: ListTile(
-              leading: CircleAvatar(
-                foregroundColor: Colors.white,
-                backgroundColor:  widget.substringBackground,
-                child: Text(users.substring(0,1).toUpperCase(),
-                style: widget.subStringStyle),
-              ),
-              title: Text(StateDialogs.stateItems[index],
-                style: widget.style),
-              onTap: (){
-                setState(() {
-                  _userSelectedCountryState(context, StateDialogs.stateItems[index], index);
-                });
-              }
-          ),
-        ) ;
-      }
+                        child: ListTile(
+                          leading: CircleAvatar(
+                            foregroundColor: Colors.white,
+                            backgroundColor:  widget.substringBackground,
+                            child: Text(users.substring(0,1).toUpperCase(),
+                            style: widget.subStringStyle),
+                          ),
+                          title: Text(StateDialogs.stateItems[index],
+                            style: widget.style),
+                          onTap: (){
+                            setState(() {
+                              _userSelectedCountryState(context, StateDialogs.stateItems[index], index);
+                            });
+                          }
+                      ),
+                    ) ;
+        }
+        ),
       ),
         ],
       ),
@@ -1325,6 +1343,8 @@ class _StateDialogState extends State<StateDialog> {
       selectedState.clear();
       selectedState.add(index);
     });
+    Navigator.pop(context);
+    widget.onSelectedState();
 
 
   }

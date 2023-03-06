@@ -1,3 +1,11 @@
+<h1>0.2.7</h1>
+<hr>
+<ul>
+<li>Updated the user Interface.</li>
+<li>Updated the user interaction</li>
+
+</ul>
+
 <h1>0.2.5</h1>
 <hr>
 <ul>

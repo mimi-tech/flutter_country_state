@@ -20,29 +20,17 @@ dependencies:
 <table>
 <tr>
 <td>
-<img src="https://user-images.githubusercontent.com/62711340/151657235-c2788bb1-3e8b-4395-95be-12835d989aac.jpeg">
+<img src="https://user-images.githubusercontent.com/62711340/223125689-b51e5b79-6b98-499c-98eb-734e3d3d6a07.png">
 
 </td>
 
 <td>
-<img src="https://user-images.githubusercontent.com/62711340/151657287-775c8cc9-6c90-48be-a6d2-97c9876ee577.jpeg">
+<img src="https://user-images.githubusercontent.com/62711340/223125871-737e089d-c77d-4232-bb38-84de24183a84.png">
 </td>
 </tr>
 </table>
 
 
-<table>
-<tr>
-<td>
-<img src="https://user-images.githubusercontent.com/62711340/151657556-b4e075c4-3fc6-4ae1-88b1-6bf8abf5be19.jpeg">
-
-</td>
-
-<td>
-<img src="https://user-images.githubusercontent.com/62711340/151657580-90a57249-78ea-4767-9c31-ecab5fcd6de8.jpeg">
-</td>
-</tr>
-</table>
 
 
 
@@ -56,33 +44,61 @@ dependencies:
 <p>notSelectedCountryBackgroundColor</p>
 <p>selectedStateBackgroundColor</p>
 <p>notSelectedStateBackgroundColor</p>
+<p>onSelectCountry</p>
+<p>onSelectedState</p>
 
 
 
 <hr>
  
  ## Use It
- ### This will display the countries; You can display the country and state either with bottom sheet or dialog
+ ### This will display the list of countries in the world
   ``` dart
- ShowMyDialog(
-searchHint: 'Search country',
-substringBackground: Colors.green,
-style: TextStyle(),
-searchStyle: TextStyle(),
-subStringStyle: TextStyle(),
-selectedCountryBackgroundColor: Colors.orange,
-notSelectedCountryBackgroundColor: Colors.white,
-)
+ showModalBottomSheet(
+    isScrollControlled: true,
+    context: context,
+    isDismissible: false,
+    builder: (context) =>  SizedBox(
+      height: MediaQuery.of(context).size.height * 0.7,
+      child: ShowMyDialog(
+        searchHint: 'Search for a country',
+        substringBackground: Colors.black,
+        style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
+        searchStyle: const TextStyle(color: Colors.black),
+        subStringStyle: const TextStyle(color: Colors.white),
+        selectedCountryBackgroundColor: Colors.pink,
+        notSelectedCountryBackgroundColor: Colors.white,
+        onSelectCountry: (){setState(() {
+          selectedCountry = Variables.country;
+        });},
+      ),
+    ),
+
+);
 ```
 ### This will display the states of the country selected
  ``` dart
-StateDialog(
-style: TextStyle(),
-subStringStyle: TextStyle(),
-substringBackground: Colors.blueAccent,
-selectedStateBackgroundColor: Colors.orange,
-notSelectedStateBackgroundColor: Colors.white,
-),
+showModalBottomSheet(
+  isScrollControlled: true,
+  context: context,
+  isDismissible: false,
+  builder: (context) => SizedBox(
+    height: MediaQuery.of(context).size.height * 0.7,
+    child: StateDialog(
+      style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
+      subStringStyle: const TextStyle(color: Colors.white),
+      substringBackground: Colors.black,
+      selectedStateBackgroundColor: Colors.orange,
+      notSelectedStateBackgroundColor: Colors.white,
+      onSelectedState: (){
+        setState(() {
+          selectedState = Variables.state;
+        });
+      },
+    ),
+  ),
+
+);
 ```
 
 ## Next goal
