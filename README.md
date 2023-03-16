@@ -1,6 +1,6 @@
 # flutter_country_state
 
-A customizable Flutter package that displays all countries with there respective states.
+A customizable Flutter package for all platforms that displays all countries with there respective states.
 
 
 
@@ -46,6 +46,8 @@ dependencies:
 <p>notSelectedStateBackgroundColor</p>
 <p>onSelectCountry</p>
 <p>onSelectedState</p>
+<p>countryHeaderStyle</p>
+<p>stateHeaderStyle</p>
 
 
 

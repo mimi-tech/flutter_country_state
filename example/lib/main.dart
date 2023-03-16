@@ -83,7 +83,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: ShowMyDialog(
                         searchHint: 'Search for a country',
                         substringBackground: Colors.black,
-                        style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
+                        style: const TextStyle(color: Colors.black,fontWeight: FontWeight.bold),
+                        countryHeaderStyle: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
                         searchStyle: const TextStyle(color: Colors.black),
                         subStringStyle: const TextStyle(color: Colors.white),
                         selectedCountryBackgroundColor: Colors.pink,
@@ -109,6 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: MediaQuery.of(context).size.height * 0.7,
                     child: StateDialog(
                       style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
+                      stateHeaderStyle: const TextStyle(color: Colors.black,fontWeight: FontWeight.bold),
                       subStringStyle: const TextStyle(color: Colors.white),
                       substringBackground: Colors.black,
                       selectedStateBackgroundColor: Colors.orange,

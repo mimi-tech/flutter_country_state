@@ -19,6 +19,7 @@ class ShowMyDialog extends StatefulWidget {
     required this.selectedCountryBackgroundColor,
     required this.notSelectedCountryBackgroundColor,
     required this.onSelectCountry,
+    required this.countryHeaderStyle,
 
   });
 
@@ -28,6 +29,7 @@ class ShowMyDialog extends StatefulWidget {
   final TextStyle style;
   final TextStyle subStringStyle;
   final TextStyle searchStyle;
+  final TextStyle countryHeaderStyle;
   final Color selectedCountryBackgroundColor;
   final Color notSelectedCountryBackgroundColor;
   final VoidCallback onSelectCountry;
@@ -68,7 +70,7 @@ class _ShowMyDialogState extends State<ShowMyDialog> {
       children: [
         Padding(
           padding: const EdgeInsets.all(18.0),
-          child: Text("All countries".toUpperCase(),style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+          child: Text("All countries".toUpperCase(),style: widget.countryHeaderStyle),
         ),
         Padding(
           padding: EdgeInsets.only(left:8.0, right:8.0,top: 20),
@@ -166,11 +168,13 @@ class StateDialog extends StatefulWidget {
     required this.selectedStateBackgroundColor,
     required this.notSelectedStateBackgroundColor,
     required this.onSelectedState,
+    required this.stateHeaderStyle,
   });
 
   final Color substringBackground;
   final TextStyle style;
   final TextStyle subStringStyle;
+  final TextStyle stateHeaderStyle;
   final Color selectedStateBackgroundColor;
   final Color notSelectedStateBackgroundColor;
   final VoidCallback onSelectedState;
@@ -1300,7 +1304,7 @@ class _StateDialogState extends State<StateDialog> {
         children: <Widget>[
     Padding(
     padding: const EdgeInsets.all(18.0),
-    child: Text("states in ${Variables.country}".toUpperCase(),style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+    child: Text("states in ${Variables.country}".toUpperCase(),style: widget.stateHeaderStyle),
     ),
     Divider(),
       Expanded(
