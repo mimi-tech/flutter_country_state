@@ -2616,7 +2616,7 @@ class Paraguay{
 class Peru{
   static List<String> States = <String>[
     'Amazonas ',
-    'Ancash ',
+    'Áncash ',
     'Apurímac ',
     'Arequipa ',
     'Ayacucho',
@@ -2635,7 +2635,7 @@ class Peru{
     'Pasco ',
     'Piura ',
     'Puno ',
-    'San Martin',
+    'San Martín',
     'Tacna ',
     'Tumbes ',
     'Ucayali ',
