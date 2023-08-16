@@ -1,10 +1,10 @@
 name: flutter_country_state
 description: A customizable Flutter package that displays all countries with it respective state.
-version: 0.2.8
+version: 0.2.9
 homepage: https://github.com/mimi-tech/flutter_country_state
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: ">=2.17.6 <4.0.0"
 
 dependencies:
   flutter:

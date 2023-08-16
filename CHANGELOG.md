@@ -1,9 +1,13 @@
+<h1>0.2.9</h1>
+<hr>
+<ul>
+<li>Modified the states in United State and Uzbekistan</li>
+</ul>
+
 <h1>0.2.8</h1>
 <hr>
 <ul>
 <li>Added headerStyles argument to  both the country and state class</li>
-
-
 </ul>
 
 <h1>0.2.7</h1>

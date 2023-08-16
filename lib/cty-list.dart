@@ -1,7 +1,7 @@
 ///list of countries .sepreted because it will be merge in the init state for fast loading
 
 class Country1 {
-  static List<String> Countrys1 = <String>[
+  static List<String> country1 = <String>[
     "Afghanistan", "Albania", "Algeria", "Andorra",
     "Angola", "Anguilla", "Antarctica", "Antigua and Barbuda", "Argentina", "Armenia",
     "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh",

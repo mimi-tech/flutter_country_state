@@ -106,4 +106,5 @@ showModalBottomSheet(
 ## Next goal
 - [ x ] Add countries flag 
 - [ x ] Add countries code
+- [ x ] Add cities of each state
 
