@@ -216,11 +216,6 @@ class _StateDialogState extends State<StateDialog> {
           StateDialogs.stateItems.clear();
           StateDialogs.stateItems.addAll(Anguilla.states);
         });
-      }else if(Variables.country == 'Antarctica'){
-        setState(() {
-          StateDialogs.stateItems.clear();
-          StateDialogs.stateItems.addAll(Antarctica.states);
-        });
       }else if(Variables.country == 'Antigua and Barbuda'){
         setState(() {
           StateDialogs.stateItems.clear();

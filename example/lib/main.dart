@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                 );
               },
-              child: Text("select country"),
+              child: const Text("select country"),
             ),
 
             ElevatedButton(
@@ -125,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                 );
               },
-              child: Text("select state"),
+              child: const Text("select state"),
             ),
 
 
