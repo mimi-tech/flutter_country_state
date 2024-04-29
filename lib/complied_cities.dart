@@ -76,7 +76,79 @@ import 'package:flutter_country_state/cities/Honduras_cities.dart';
 import 'package:flutter_country_state/cities/Hong_cities.dart';
 import 'package:flutter_country_state/cities/Hungary_cities.dart';
 import 'package:flutter_country_state/cities/Iceland_cities.dart';
+import 'package:flutter_country_state/cities/Indonesia_cities.dart';
+import 'package:flutter_country_state/cities/Iran_cities.dart';
+import 'package:flutter_country_state/cities/Iraq_cities.dart';
+import 'package:flutter_country_state/cities/Ireland_cities.dart';
+import 'package:flutter_country_state/cities/Isle_cities.dart';
+import 'package:flutter_country_state/cities/Israel_cities.dart';
+import 'package:flutter_country_state/cities/Italy_cities.dart';
+import 'package:flutter_country_state/cities/Jamaica_cities.dart';
+import 'package:flutter_country_state/cities/Japan_cities.dart';
+import 'package:flutter_country_state/cities/Jordan_cities.dart';
+import 'package:flutter_country_state/cities/Kazakhstan_cities.dart';
+import 'package:flutter_country_state/cities/Kenya_cities.dart';
+import 'package:flutter_country_state/cities/Kuwait_cities.dart';
+import 'package:flutter_country_state/cities/Kyrgyzstan_cities.dart';
+import 'package:flutter_country_state/cities/Laos_cities.dart';
+import 'package:flutter_country_state/cities/Latvia_cities.dart';
+import 'package:flutter_country_state/cities/Lebanon_cities.dart';
+import 'package:flutter_country_state/cities/Lesotho_cities.dart';
+import 'package:flutter_country_state/cities/Liberia_cities.dart';
+import 'package:flutter_country_state/cities/Liechtenstein_cities.dart';
+import 'package:flutter_country_state/cities/Lithuania_cities.dart';
+import 'package:flutter_country_state/cities/Luxembourg_cities.dart';
+import 'package:flutter_country_state/cities/Macedonia_cities.dart';
+import 'package:flutter_country_state/cities/Madagascar_cities.dart';
+import 'package:flutter_country_state/cities/Malawi_cities.dart';
+import 'package:flutter_country_state/cities/Malaysia_cities.dart';
+import 'package:flutter_country_state/cities/Maldives_cities.dart';
+import 'package:flutter_country_state/cities/Mali_cities.dart';
+import 'package:flutter_country_state/cities/Malta_cities.dart';
+import 'package:flutter_country_state/cities/Martinique_cities.dart';
+import 'package:flutter_country_state/cities/Mauritania_cities.dart';
+import 'package:flutter_country_state/cities/Mauritius_cities.dart';
+import 'package:flutter_country_state/cities/Mayotte_cities.dart';
+import 'package:flutter_country_state/cities/Mexico_cities.dart';
+import 'package:flutter_country_state/cities/Micronesia_cities.dart';
+import 'package:flutter_country_state/cities/Miquelon_cities.dart';
+import 'package:flutter_country_state/cities/Moldova_cities.dart';
+import 'package:flutter_country_state/cities/Monaco_cities.dart';
+import 'package:flutter_country_state/cities/Mongolia_cities.dart';
+import 'package:flutter_country_state/cities/Montenegro_cities.dart';
+import 'package:flutter_country_state/cities/Montserrat_cities.dart';
+import 'package:flutter_country_state/cities/Morocco_cities.dart';
+import 'package:flutter_country_state/cities/Mozambique_cities.dart';
+import 'package:flutter_country_state/cities/Myanmar_cities.dart';
+import 'package:flutter_country_state/cities/Namibia_cities.dart';
+import 'package:flutter_country_state/cities/Nauru_cities.dart';
+import 'package:flutter_country_state/cities/Nepal_cities.dart';
+import 'package:flutter_country_state/cities/Netherlands_cities.dart';
+import 'package:flutter_country_state/cities/New_zealand_cities.dart';
+import 'package:flutter_country_state/cities/Nicaragua_cities.dart';
+import 'package:flutter_country_state/cities/Niger_cities.dart';
 import 'package:flutter_country_state/cities/Nigeria_cities.dart';
+import 'package:flutter_country_state/cities/North_Korea_cities.dart';
+import 'package:flutter_country_state/cities/Northern_Mariana_Islands_cities.dart';
+import 'package:flutter_country_state/cities/Norway_cities.dart';
+import 'package:flutter_country_state/cities/Oman_cities.dart';
+import 'package:flutter_country_state/cities/Pakistan_cities.dart';
+import 'package:flutter_country_state/cities/Palau_cities.dart';
+import 'package:flutter_country_state/cities/Palestinian_cities.dart';
+import 'package:flutter_country_state/cities/Panama_cities.dart';
+import 'package:flutter_country_state/cities/Papua_New_Guinea_cities.dart';
+import 'package:flutter_country_state/cities/Paraguay_cities.dart';
+import 'package:flutter_country_state/cities/Peru_cities.dart';
+import 'package:flutter_country_state/cities/Philippines_cities.dart';
+import 'package:flutter_country_state/cities/Poland_cities.dart';
+import 'package:flutter_country_state/cities/Portugal_cities.dart';
+import 'package:flutter_country_state/cities/Principe_cities.dart';
+import 'package:flutter_country_state/cities/Puerto_Rico_cities.dart';
+import 'package:flutter_country_state/cities/Qatar_cities.dart';
+import 'package:flutter_country_state/cities/Romania_cities.dart';
+import 'package:flutter_country_state/cities/Russia_cities.dart';
+import 'package:flutter_country_state/cities/Rwanda_cities.dart';
+import 'package:flutter_country_state/cities/South_Korea_cities.dart';
 import 'package:flutter_country_state/cities/chad_cities.dart';
 import 'package:flutter_country_state/cities/china_cities.dart';
 
@@ -1619,31 +1691,1678 @@ var allStatescity = [
       {"Uttarakhand": Uttarakhand.cities},
       {"West Bengal": WestBengal.cities}
     ]
+  },
+
+  {
+    "Indonesia": [
+      {"Aceh": Aceh.cities},
+      {"North Sumatra": NorthSumatra.cities},
+      {"West Sumatra": WestSumatra.cities},
+      {"Riau": Riau.cities},
+      {"Jambi": Jambi.cities},
+      {"South Sumatra": SouthSumatra.cities},
+      {"Bengkulu": Bengkulu.cities},
+      {"Lampung": Lampung.cities},
+      {"Bangka Belitung": BangkaBelitung.cities},
+      {"Riau Islands": RiauIslands.cities},
+      {"Jakarta": Jakarta.cities},
+      {"West Java": WestJava.cities},
+      {"Central Java": CentralJava.cities},
+      {"East Java": EastJava.cities},
+      {"Banten": Banten.cities},
+      {"Bali": Bali.cities},
+      {"West Nusa Tenggara": WestNusaTenggara.cities},
+      {"East Nusa Tenggara": EastNusaTenggara.cities},
+      {"West Kalimantan": WestKalimantan.cities},
+      {"Central Kalimantan": CentralKalimantan.cities},
+      {"South Kalimantan": SouthKalimantan.cities},
+      {"East Kalimantan": EastKalimantan.cities},
+      {"North Kalimantan": NorthKalimantan.cities},
+      {"West Sulawesi": WestSulawesi.cities},
+      {"Central Sulawesi": CentralSulawesi.cities},
+      {"South Sulawesi": SouthSulawesi.cities},
+      {"Southeast Sulawesi": SoutheastSulawesi.cities},
+      {"Gorontalo": Gorontalo.cities},
+      {"North Sulawesi": NorthSulawesi.cities},
+      {"Maluku": Maluku.cities},
+      {"North Maluku": northMalukuCities.cities},
+      {"West Papua": WestPapua.cities},
+      {"Papua": Papua.cities},
+    ],
+  },
+
+  {
+    "Iran": [
+      {"Alborz": Alborz.cities},
+      {"Ardabil": Ardabil.cities},
+      {"Bushehr": Bushehr.cities},
+      {"Chaharmahal and Bakhtiari": ChaharmahalAndBakhtiari.cities},
+      {"East Azerbaijan": EastAzerbaijan.cities},
+      {"Isfahan": Isfahan.cities},
+      {"Fars": Fars.cities},
+      {"Gilan": Gilan.cities},
+      {"Golestan": Golestan.cities},
+      {"Hamadan": Hamadan.cities},
+      {"Hormozgan": Hormozgan.cities},
+      {"Ilam": Ilam.cities},
+      {"Kerman": Kerman.cities},
+      {"Kermanshah": Kermanshah.cities},
+      {"Kohgiluyeh and Boyer-Ahmad": KohgiluyehAndBoyerAhmad.cities},
+      {"Kurdistan": Kurdistan.cities},
+      {"Lorestan": Lorestan.cities},
+      {"Markazi": Markazi.cities},
+      {"Mazandaran": Mazandaran.cities},
+      {"North Khorasan": NorthKhorasan.cities},
+      {"Qazvin": Qazvin.cities},
+      {"Qom": Qom.cities},
+      {"Razavi Khorasan": RazaviKhorasan.cities},
+      {"Semnan": Semnan.cities},
+      {"Sistan and Baluchestan": SistanAndBaluchestan.cities},
+      {"South Khorasan": SouthKhorasan.cities},
+      {"Tehran": Tehran.cities},
+      {"West Azerbaijan": WestAzerbaijan.cities},
+      {"Yazd": Yazd.cities},
+      {"Zanjan": Zanjan.cities},
+    ],
+  },
+  {
+    "Iraq": [
+      {"Al Anbar": AlAnbar.cities},
+      {"Al Muthanna": AlMuthanna.cities},
+      {"Al-Qādisiyyah": AlQadisiyah.cities},
+      {"Babil": Babil.cities},
+      {"Baghdad": Baghdad.cities},
+      {"Basra": Basra.cities},
+      {"Dahuk": Dahuk.cities},
+      {"Dhi Qar": DhiQar.cities},
+      {"Diyala": Diyala.cities},
+      {"Erbil": Erbil.cities},
+      {"Halabja": Halabja.cities},
+      {"Karbala": Karbala.cities},
+      {"Kirkuk": Kirkuk.cities},
+      {"Maysan": Maysan.cities},
+      {"Najaf": Najaf.cities},
+      {"Nineveh": Nineveh.cities},
+      {"Saladin": Saladin.cities},
+      {"Sulaymaniyah": Sulaymaniyah.cities},
+      {"Wasit": Wasit.cities},
+    ],
+  },
+
+  {
+    "Ireland": [
+      {"Carlow": Carlow.cities},
+      {"Cavan": Cavan.cities},
+      {"Clare": Clare.cities},
+      {"Cork": Cork.cities},
+      {"Donegal": Donegal.cities},
+      {"Dublin": Dublin.cities},
+      {"Galway": Galway.cities},
+      {"Kerry": Kerry.cities},
+      {"Kildare": Kildare.cities},
+      {"Kilkenny": Kilkenny.cities},
+      {"Laois": Laois.cities},
+      {"Leitrim": Leitrim.cities},
+      {"Limerick": Limerick.cities},
+      {"Longford": Longford.cities},
+      {"Louth": Louth.cities},
+      {"Mayo": Mayo.cities},
+      {"Meath": Meath.cities},
+      {"Monaghan": Monaghan.cities},
+      {"Offaly": Offaly.cities},
+      {"Roscommon": Roscommon.cities},
+      {"Sligo": Sligo.cities},
+      {"Tipperary": Tipperary.cities},
+      {"Waterford": Waterford.cities},
+      {"Westmeath": Westmeath.cities},
+      {"Wexford": Wexford.cities},
+      {"Wicklow": Wicklow.cities},
+
+      {"Antrim": Antrim.cities},
+      {"Armagh": Armagh.cities},
+      {"Derry/Londonderry": DerryLondonderry.cities},
+      {"Down": Down.cities},
+      {"Fermanagh": Fermanagh.cities},
+      {"Tyrone": Tyrone.cities},
+    ],
+  },
+  {
+    "Isle of Man": [
+      {"Ayre": Ayre.parishes},
+      {"Garff": Garff.parishes},
+      {"Glenfaba": Glenfaba.parishes},
+      {"Michael": Michael.parishes},
+      {"Middle": Middle.parishes},
+      {"Rushen": Rushen.parishes},
+    ],
+  },
+
+  {
+    "Israel": [
+      {"Central District": CentralIsrealDistrict.subDistricts},
+      {"Haifa District": HaifaDistrict.subDistricts},
+      {"Jerusalem District": JerusalemDistrict.subDistricts},
+      {"Northern District": NorthernIsrealDistrict.subDistricts},
+      {"Southern District": SouthernIsrealDistrict.subDistricts},
+      {"Tel Aviv District": TelAvivDistrict.subDistricts},
+    ],
+  },
+
+  {
+    "Italy": [
+      {"Abruzzo": Abruzzo.cities},
+      {"Basilicata": Basilicata.cities},
+      {"Calabria": Calabria.cities},
+      {"Campania": Campania.cities},
+      {"Emilia-Romagna": EmiliaRomagna.cities},
+      {"Friuli-Venezia Giulia": FriuliVeneziaGiulia.cities},
+      {"Lazio": Lazio.cities},
+      {"Liguria": Liguria.cities},
+      {"Lombardy": Lombardy.cities},
+      {"Marche": Marche.cities},
+      {"Molise": Molise.cities},
+      {"Piedmont": Piedmont.cities},
+      {"Apulia (Puglia)": Apulia.cities},
+      {"Sardinia (Sardegna)": Sardinia.cities},
+      {"Sicily (Sicilia)": Sicily.cities},
+      {"Tuscany (Toscana)": Tuscany.cities},
+      {
+        "Trentino-Alto Adige/South Tyrol (Trentino-Alto Adige/Südtirol)": TrentinoAltoAdige
+            .cities
+      },
+      {"Umbria": Umbria.cities},
+      {"Aosta Valley (Valle d'Aosta/Vallée d'Aoste)": AostaValley.cities},
+      {"Veneto": Veneto.cities},
+    ],
+  },
+
+  {
+    "Jamaica": [
+      {"Kingston": Kingston.cities},
+      {"St. Andrew": StItalyAndrew.cities},
+      {"St. Thomas": StItalyThomas.cities},
+      {"Portland": Portland.cities},
+      {"St. Mary": StItalyMary.cities},
+      {"St. Ann": StItalyAnn.cities},
+      {"Trelawny": Trelawny.cities},
+      {"St. James": StItalyJames.cities},
+      {"Hanover": Hanover.cities},
+      {"Westmoreland": Westmoreland.cities},
+      {"St. Elizabeth": StItalyElizabeth.cities},
+      {"Manchester": Manchester.cities},
+      {"Clarendon": Clarendon.cities},
+      {"St. Catherine": StItalyCatherine.cities},
+    ],
+  },
+
+  {
+    {"Hokkaido": Hokkaido.cities},
+    {"Aomori": Aomori.cities},
+    {"Iwate": Iwate.cities},
+    {"Miyagi": Miyagi.cities},
+    {"Akita": Akita.cities},
+    {"Yamagata": Yamagata.cities},
+    {"Fukushima": Fukushima.cities},
+    {"Ibaraki": Ibaraki.cities},
+    {"Tochigi": Tochigi.cities},
+    {"Gunma": Gunma.cities},
+    {"Saitama": Saitama.cities},
+    {"Chiba": Chiba.cities},
+    {"Tokyo": Tokyo.cities},
+    {"Kanagawa": Kanagawa.cities},
+    {"Niigata": Niigata.cities},
+    {"Toyama": Toyama.cities},
+    {"Ishikawa": Ishikawa.cities},
+    {"Fukui": Fukui.cities},
+    {"Yamanashi": Yamanashi.cities},
+    {"Nagano": Nagano.cities},
+    {"Gifu": Gifu.cities},
+    {"Shizuoka": Shizuoka.cities},
+    {"Aichi": Aichi.cities},
+    {"Mie": Mie.cities},
+    {"Shiga": Shiga.cities},
+    {"Kyoto": Kyoto.cities},
+    {"Osaka": Osaka.cities},
+    {"Hyogo": Hyogo.cities},
+    {"Nara": Nara.cities},
+    {"Wakayama": Wakayama.cities},
+    {"Tottori": Tottori.cities},
+    {"Shimane": Shimane.cities},
+    {"Okayama": Okayama.cities},
+    {"Hiroshima": Hiroshima.cities},
+    {"Yamaguchi": Yamaguchi.cities},
+    {"Tokushima": Tokushima.cities},
+    {"Kagawa": Kagawa.cities},
+    {"Ehime": Ehime.cities},
+    {"Kochi": Kochi.cities},
+    {"Fukuoka": Fukuoka.cities},
+    {"Saga": Saga.cities},
+    {"Nagasaki": Nagasaki.cities},
+    {"Kumamoto": Kumamoto.cities},
+    {"Oita": Oita.cities},
+    {"Miyazaki": Miyazaki.cities},
+    {"Kagoshima": Kagoshima.cities},
+    {"Okinawa": Okinawa.cities},
+  },
+  {
+    "Jordan": [
+      {"Amman": Amman.cities},
+      {"Irbid": Irbid.cities},
+      {"Zarqa": Zarqa.cities},
+      {"Madaba": Madaba.cities},
+      {"Balqa": Balqa.cities},
+      {"Jerash": Jerash.cities},
+      {"Ajloun": Ajloun.cities},
+      {"Mafraq": Mafraq.cities},
+      {"Karak": Karak.cities},
+      {"Tafilah": Tafilah.cities},
+      {"Ma'an": Maan.cities},
+      {"Aqaba": Aqaba.cities},
+    ]
+  },
+
+  {
+    "Kazakhstan": [
+      {"Aktobe Region": AktobeRegion.cities},
+      {"Almaty Region": AlmatyRegion.cities},
+      {"Atyrau Region": AtyrauRegion.cities},
+      {"East Kazakhstan Region": EastKazakhstanRegion.cities},
+      {"Jambyl Region": JambylRegion.cities},
+      {"Karagandy Region": KaragandyRegion.cities},
+      {"Kostanay Region": KostanayRegion.cities},
+      {"Kyzylorda Region": KyzylordaRegion.cities},
+      {"Mangystau Region": MangystauRegion.cities},
+      {"North Kazakhstan Region": NorthKazakhstanRegion.cities},
+      {"Pavlodar Region": PavlodarRegion.cities},
+      {"Turkestan Region": TurkestanRegion.cities},
+      {"West Kazakhstan Region": WestKazakhstanRegion.cities},
+      {"Nur-Sultan (Astana) City": NurSultanCity.neighborhoods},
+      {"Almaty City": AlmatyRegion.cities},
+    ],
+  },
+
+  {
+  "Kenya": [
+  {"Baringo": BaringoCounty.cities},
+  {"Bomet": BometCounty.cities},
+  {"Bungoma": BungomaCounty.cities},
+  {"Busia": BusiaCounty.cities},
+  {"Elgeyo Marakwet": ElgeyoMarakwetCounty.cities},
+  {"Embu": EmbuCounty.cities},
+  {"Garissa": GarissaCounty.cities},
+  {"Homa Bay": HomaBayCounty.cities},
+  {"Isiolo": IsioloCounty.cities},
+  {"Kajiado": KajiadoCounty.cities},
+  {"Kakamega": KakamegaCounty.cities},
+  {"Kericho": KerichoCounty.cities},
+  {"Kiambu": KiambuCounty.cities},
+  {"Kilifi": KilifiCounty.cities},
+  {"Kirinyaga": KirinyagaCounty.cities},
+  {"Kisii": KisiiCounty.cities},
+  {"Kisumu": KisumuCounty.cities},
+  {"Kitui": KituiCounty.cities},
+  {"Kwale": KwaleCounty.cities},
+  {"Laikipia": LaikipiaCounty.cities},
+  {"Lamu": LamuCounty.cities},
+  {"Machakos": MachakosCounty.cities},
+  {"Makueni": MakueniCounty.cities},
+  {"Mandera": ManderaCounty.cities},
+  {"Marsabit": MarsabitCounty.cities},
+  {"Meru": MeruCounty.cities},
+  {"Migori": MigoriCounty.cities},
+  {"Mombasa": MombasaCounty.cities},
+  {"Murang'a": MurangCounty.cities},
+  {"Nairobi": NairobiCounty.cities}
+  ]
+
+  },
+
+  {
+    "South Korea": [
+      {"Seoul": Seoul.cities},
+      {"Busan": Busan.cities},
+      {"Incheon": Incheon.cities},
+      {"Daegu": Daegu.cities},
+      {"Daejeon": Daejeon.cities},
+      {"Gwangju": Gwangju.cities},
+      {"Ulsan": Ulsan.cities},
+      {"Sejong": Sejong.cities},
+      {"Gyeonggi": Gyeonggi.cities},
+      {"Gangwon": Gangwon.cities},
+      {"Chungcheongbuk": Chungcheongbuk.cities},
+      {"Chungcheongnam": Chungcheongnam.cities},
+      {"Gyeongsangbuk": Gyeongsangbuk.cities},
+      {"Gyeongsangnam": Gyeongsangnam.cities},
+      {"Jeollabuk": Jeollabuk.cities},
+      {"Jeollanam": Jeollanam.cities},
+      {"Jeju": Jeju.cities}
+    ]
+  },
+
+  {
+    "North Korea": [
+      {"Pyongyang Special City": PyongyangSpecialCity.cities},
+      {"North Pyongan Province": NorthPyonganProvince.cities},
+      {"South Pyongan Province": SouthPyonganProvince.cities},
+      {"Chagang Province": ChagangProvince.cities},
+      {"North Hwanghae Province": NorthHwanghaeProvince.cities},
+      {"South Hwanghae Province": SouthHwanghaeProvince.cities},
+      {"Kangwon Province": KangwonProvince.cities},
+      {"North Hamgyong Province": NorthHamgyongProvince.cities},
+      {"South Hamgyong Province": SouthHamgyongProvince.cities},
+      {"Ryanggang Province": RyanggangProvince.cities},
+      {"Nampo Special City": NampoSpecialCity.neighborhoods},
+      {"Rason Special City": RasonSpecialCity.neighborhoods}
+    ]
+  },
+
+  {
+    "Kuwait": [
+      {"Kuwait City": KuwaitCity.cities},
+      {"Ahmadi Governorate": AhmadiGovernorate.cities},
+      {"Hawalli Governorate": HawalliGovernorate.cities},
+      {"Farwaniya Governorate": FarwaniyaGovernorate.cities},
+      {"Jahra Governorate": JahraGovernorate.cities},
+      {"Mubarak Al-Kabeer Governorate": MubarakAlKabeerGovernorate.cities},
+      {"Capital Governorate": CapitalKuwaitGovernorate.cities}
+    ]
+  },
+
+  {
+    "Kyrgyzstan": [
+      {"Bishkek City": BishkekCity.cities},
+      {"Chuy Region": ChuyRegion.cities},
+      {"Osh City": OshCity.cities},
+      {"Osh Region": OshRegion.cities},
+      {"Jalal-Abad Region": JalalAbadRegion.cities},
+      {"Talas Region": TalasRegion.cities},
+      {"Batken Region": BatkenRegion.cities},
+      {"Naryn Region": NarynRegion.cities},
+      {"Issyk-Kul Region": IssykKulRegion.cities},
+      {"Talas City": TalasCity.cities}
+    ]
+  },
+
+  {
+    "Mexico": [
+      {"Aguascalientes": AguascalientesState.cities},
+      {"Baja California": BajaCaliforniaState.cities},
+      {"Baja California Sur": BajaCaliforniaSurState.cities},
+      {"Campeche": CampecheState.cities},
+      {"Chiapas": ChiapasState.cities},
+      {"Chihuahua": ChihuahuaState.cities},
+      {"Ciudad de Mexico": CiudadDeMexico.neighborhoods},
+      {"Coahuila": CoahuilaState.cities},
+      {"Colima": ColimaState.cities},
+      {"Durango": DurangoState.cities},
+      {"Estado de Mexico": EstadoDeMexicoState.cities},
+      {"Guanajuato": GuanajuatoState.cities},
+      {"Guerrero": GuerreroState.cities},
+      {"Hidalgo": HidalgoState.cities},
+      {"Jalisco": JaliscoState.cities},
+      {"Michoacan": MichoacanState.cities},
+      {"Morelos": MorelosState.cities},
+      {"Nayarit": NayaritState.cities},
+      {"Nuevo Leon": NuevoLeonState.cities},
+      {"Oaxaca": OaxacaState.cities},
+      {"Puebla": PueblaState.cities},
+      {"Queretaro": QueretaroState.cities},
+      {"Quintana Roo": QuintanaRooState.cities},
+      {"San Luis Potosi": SanLuisPotosiState.cities},
+      {"Sinaloa": SinaloaState.cities},
+      {"Sonora": SonoraState.cities},
+      {"Tabasco": TabascoState.cities},
+      {"Tamaulipas": TamaulipasState.cities},
+      {"Tlaxcala": TlaxcalaState.cities},
+      {"Veracruz": VeracruzState.cities},
+      {"Yucatan": YucatanState.cities},
+      {"Zacatecas": ZacatecasState.cities}
+    ]
+  },
+  {
+    "Laos": [
+      {"Attapeu": Attapeu.cities},
+      {"Bokeo": Bokeo.cities},
+      {"Bolikhamxay": Bolikhamxay.cities},
+      {"Champasak": Champasak.cities},
+      {"Houaphanh": Houaphanh.cities},
+      {"Khammouane": Khammouane.cities},
+      {"Luang Namtha": LuangNamtha.cities},
+      {"Luang Prabang": LuangPrabang.cities},
+      {"Oudomxay": Oudomxay.cities},
+      {"Phongsaly": Phongsaly.cities},
+      {"Salavan": Salavan.cities},
+      {"Savannakhet": Savannakhet.cities},
+      {"Sekong": Sekong.cities},
+      {"Vientiane Province": VientianeProvince.cities},
+      {"Vientiane Capital": VientianeCapital.cities},
+      {"Xaisomboun": Xaisomboun.cities},
+      {"Xieng Khouang": XiengKhouang.cities}
+    ]
+  },
+
+  {
+    "Latvia": [
+      {"Aizkraukle": Aizkraukle.cities},
+      {"Alūksne": Aluksne.cities},
+      {"Balvi": Balvi.cities},
+      {"Bauska": Bauska.cities},
+      {"Cēsis": Cesis.cities},
+      {"Daugavpils": Daugavpils.cities},
+      {"Dobele": Dobele.cities},
+      {"Gulbene": Gulbene.cities},
+      {"Jēkabpils": Jekabpils.cities},
+      {"Jelgava": Jelgava.cities},
+      {"Jūrmala": Jurmala.cities},
+      {"Krāslava": Kraslava.cities},
+      {"Kuldīga": Kuldiga.cities},
+      {"Liepāja": Liepaja.cities},
+      {"Limbaži": Limbazi.cities},
+      {"Ludza": Ludza.cities},
+      {"Madona": Madona.cities},
+      {"Ogre": Ogre.cities},
+      {"Preiļi": Preili.cities},
+      {"Rēzekne": Rezekne.cities},
+      {"Rīga": Riga.cities},
+      {"Saldus": Saldus.cities},
+      {"Talsi": Talsi.cities},
+      {"Tukums": Tukums.cities},
+      {"Valka": Valka.cities},
+      {"Valmiera": Valmiera.cities},
+      {"Ventspils": Ventspils.cities},
+      // Add other regions here...
+    ]
+  },
+
+  {
+    "Lebanon": [
+      {"Beirut Governorate": BeirutGovernorate.districts},
+      {"Mount Lebanon Governorate": MountLebanonGovernorate.districts},
+      {"North Governorate": NorthGovernorate.districts},
+      {"Akkar Governorate": AkkarGovernorate.districts},
+      {"South Governorate": SouthGovernorate.districts},
+      {"Nabatieh Governorate": NabatiehGovernorate.districts},
+      {"Beqaa Governorate": BeqaaGovernorate.districts},
+      {"Baalbek-Hermel Governorate": BaalbekHermelGovernorate.districts},
+    ]
+  },
+
+  {
+    "Lesotho": [
+      {"Butha-Buthe": ButhaButhe.cities},
+      {"Leribe": Leribe.cities},
+      {"Berea": Berea.cities},
+      {"Maseru": Maseru.cities},
+      {"Mafeteng": Mafeteng.cities},
+      {"Mohale's Hoek": MohalesHoek.cities},
+      {"Quthing": Quthing.cities},
+      {"Qacha's Nek": QachasNek.cities},
+      {"Mokhotlong": Mokhotlong.cities},
+      {"Thaba-Tseka": ThabaTseka.cities}
+    ]
+  },
+
+  {
+    "Liberia": [
+      {"Bomi County": BomiCounty.cities},
+      {"Bong County": BongCounty.cities},
+      {"Gbarpolu County": GbarpoluCounty.cities},
+      {"Grand Bassa County": GrandBassaCounty.cities},
+      {"Grand Cape Mount County": GrandCapeMountCounty.cities},
+      {"Grand Gedeh County": GrandGedehCounty.cities},
+      {"Grand Kru County": GrandKruCounty.cities},
+      {"Lofa County": LofaCounty.cities},
+      {"Margibi County": MargibiCounty.cities},
+      {"Maryland County": MarylandCounty.cities},
+      {"Montserrado County": MontserradoCounty.cities},
+      {"Nimba County": NimbaCounty.cities},
+      {"River Cess County": RiverCessCounty.cities},
+      {"River Gee County": RiverGeeCounty.cities},
+      {"Sinoe County": SinoeCounty.cities}
+    ]
+  },
+
+  {
+  "Liechtenstein": [
+  {"Balzers": LiechtensteinCities.balzers},
+  {"Eschen": LiechtensteinCities.eschen},
+  {"Gamprin": LiechtensteinCities.gamprin},
+  {"Mauren": LiechtensteinCities.mauren},
+  {"Planken": LiechtensteinCities.planken},
+  {"Ruggell": LiechtensteinCities.ruggell},
+  {"Schaan": LiechtensteinCities.schaan},
+  {"Schellenberg": LiechtensteinCities.schellenberg},
+  {"Triesen": LiechtensteinCities.triesen},
+  {"Triesenberg": LiechtensteinCities.triesenberg},
+  {"Vaduz": LiechtensteinCities.vaduz},
+  ]
+
+  },
+
+  {
+    "Lithuania": [
+      {"Alytus County": AlytusCounty.municipalitiesAndRegions},
+      {"Kaunas County": KaunasCounty.municipalitiesAndRegions},
+      {"Klaipėda County": KlaipedaCounty.municipalitiesAndRegions},
+      {"Marijampolė County": MarijampoleCounty.municipalitiesAndRegions},
+      {"Panevėžys County": PanevezysCounty.municipalitiesAndRegions},
+      {"Šiauliai County": SiauliaiCounty.municipalitiesAndRegions},
+      {"Tauragė County": TaurageCounty.municipalitiesAndRegions},
+      {"Telšiai County": TelsiaiCounty.municipalitiesAndRegions},
+      {"Utena County": UtenaCounty.municipalitiesAndRegions},
+      {"Vilnius County": VilniusCounty.municipalitiesAndRegions}
+    ]
+  },
+
+
+{
+"Luxembourg": [
+{"Diekirch": DiekirchDistrict.communes},
+{"Grevenmacher": GrevenmacherDistrict.communes},
+{"Luxembourg": LuxembourgDistrict.communes},
+]
+  },
+
+  {
+
+  "Macedonia": [
+  {"Skopje Region": SkopjeRegion.municipalities},
+  {"Eastern Region": EasternRegionMacedonia.municipalities},
+  {"Northeastern Region": NortheasternRegion.municipalities},
+  {"Pelagonia Region": PelagoniaRegion.municipalities},
+  {"Polog Region": PologRegion.municipalities},
+  {"Southeastern Region": SoutheasternRegion.municipalities},
+  {"Southwestern Region": SouthwesternRegion.municipalities},
+  {"Vardar Region": VardarRegion.municipalities}
+  ]
+
+  },
+
+  {
+    "Madagascar": [
+      {"Alaotra Mangoro": AlaotraMangoro.districts},
+      {"Amoron'i Mania": AmoronMania.districts},
+      {"Analamanga": Analamanga.districts},
+      {"Androy": Androy.districts},
+      {"Anosy": Anosy.districts},
+      {"Atsinanana": Atsinanana.districts},
+      {"Atsimo-Andrefana": AtsimoAndrefana.districts},
+      {"Atsimo-Atsinanana": AtsimoAtsinanana.districts},
+      {"Betsiboka": Betsiboka.districts},
+      {"Boeny": Boeny.districts},
+      {"Bongolava": Bongolava.districts},
+      {"Diana": Diana.districts},
+      {"Haute Matsiatra": HauteMatsiatra.districts},
+      {"Ihorombe": Ihorombe.districts},
+      {"Itasy": Itasy.districts},
+      {"Melaky": Melaky.districts},
+      {"Menabe": Menabe.districts},
+      {"Sava": Sava.districts},
+      {"Sofia": Sofia.districts},
+      {"Vakinankaratra": Vakinankaratra.districts},
+      {"Vatovavy-Fitovinany": VatovavyFitovinany.districts}
+    ]
+  },
+
+  {
+    "Malawi": [
+      {"Northern Region": NorthernRegionMalawi.districts},
+      {"Central Region": CentralRegionMalawi.districts},
+      {"Southern Region": SouthernRegionMalawi.districts},
+    ]
+  },
+
+  {
+    "Malaysia": [
+      {"Johor": Johor.citiesAndTowns},
+      {"Kedah": Kedah.citiesAndTowns},
+      {"Kelantan": Kelantan.citiesAndTowns},
+      {"Melaka": Melaka.citiesAndTowns},
+      {"Negeri Sembilan": NegeriSembilan.citiesAndTowns},
+      {"Pahang": Pahang.citiesAndTowns},
+      {"Perak": Perak.citiesAndTowns},
+      {"Perlis": Perlis.citiesAndTowns},
+      {"Pulau Pinang": PulauPinang.citiesAndTowns},
+      {"Sabah": Sabah.citiesAndTowns},
+      {"Sarawak": Sarawak.citiesAndTowns},
+      {"Selangor": Selangor.citiesAndTowns},
+      {"Terengganu": Terengganu.citiesAndTowns},
+      {"Kuala Lumpur (Federal Territory)": KualaLumpur.citiesAndTowns},
+      {"Labuan (Federal Territory)": Labuan.citiesAndTowns},
+      {"Putrajaya (Federal Territory)": Putrajaya.citiesAndTowns}
+    ]
+  },
+
+
+  {
+    "Maldives": [
+      {"Addu Atoll": AdduAtoll.inhabitedIslands},
+      {"Ari Atoll": AriAtoll.inhabitedIslands},
+      {"Faafu Atoll": FaafuAtoll.inhabitedIslands},
+      {"Gaafu Alif Atoll": GaafuAlifAtoll.inhabitedIslands},
+      {"Gaafu Dhaalu Atoll": GaafuDhaaluAtoll.inhabitedIslands},
+      {"Gnaviyani Atoll": GnaviyaniAtoll.inhabitedIslands},
+      {"Haa Alif Atoll": HaaAlifAtoll.inhabitedIslands},
+      {"Haa Dhaalu Atoll": HaaDhaaluAtoll.inhabitedIslands},
+      {"Kaafu Atoll": KaafuAtoll.inhabitedIslands},
+      {"Lhaviyani Atoll": LhaviyaniAtoll.inhabitedIslands},
+      {"Meemu Atoll": MeemuAtoll.inhabitedIslands},
+      {"Noonu Atoll": NoonuAtoll.inhabitedIslands},
+      {"Raa Atoll": RaaAtoll.inhabitedIslands},
+      {"Seenu Atoll": SeenuAtoll.inhabitedIslands},
+      {"Shaviyani Atoll": ShaviyaniAtoll.inhabitedIslands},
+      {"Thaa Atoll": ThaaAtoll.inhabitedIslands},
+      {"Vaavu Atoll": VaavuAtoll.inhabitedIslands}
+    ]
+  },
+
+  {
+    "Mali": [
+      {"Bamako": Bamako.cities},
+      {"Gao": Gao.cities},
+      {"Kayes": Kayes.cities},
+      {"Kidal": Kidal.cities},
+      {"Koulikoro": Koulikoro.cities},
+      {"Menaka": Menaka.cities},
+      {"Mopti": Mopti.cities},
+      {"Segou": Segou.cities},
+      {"Sikasso": Sikasso.cities},
+      {"Tombouctou": Tombouctou.cities},
+    ]
+  },
+{
+"Malta": [
+{"Malta": Malta.localCouncils},
+]
+},
+
+  {
+  "Martinique": [
+  {"Martinique": Martiniques.municipalities},
+  ]
+
+  },
+
+  {
+    "Mauritania": [
+      {"Adrar": Adrar.cities},
+      {"Assaba": Assaba.cities},
+      {"Brakna": Brakna.cities},
+      {"Dakhlet Nouadhibou": DakhletNouadhibou.cities},
+      {"Gorgol": Gorgol.cities},
+      {"Guidimaka": Guidimaka.cities},
+      {"Hodh Ech Chargui": HodhEchChargui.cities},
+      {"Hodh El Gharbi": HodhElGharbi.cities},
+      {"Inchiri": Inchiri.cities},
+      {"Nouakchott (Capital District)": Nouakchott.cities},
+      {"Tagant": Tagant.cities},
+      {"Tiris Zemmour": TirisZemmour.cities},
+      {"Trarza": Trarza.cities},
+    ]
+  },
+
+  {
+
+    "Mauritius": [
+      {"Port Louis": PortLouis.cities},
+      {"Pamplemousses": Pamplemousses.cities},
+      {"Rivière du Rempart": RiviereDuRempart.cities},
+      {"Flacq": Flacq.cities},
+      {"Grand Port": GrandPort.cities},
+      {"Savanne": Savanne.cities},
+      {"Plaines Wilhems": PlainesWilhems.cities},
+      {"Moka": Moka.cities},
+      {"Rodrigues": Rodrigues.cities},
+    ]
+  },
+
+  {
+    "Mayotte": [
+      {"Mamoudzou": Mamoudzou.neighborhoods},
+      {"Dzaoudzi": Dzaoudzi.neighborhoods},
+      {"Bandrélé": Bandrele.neighborhoods},
+      {"Koungou": Koungou.neighborhoods},
+      {"Dembeni": Dembeni.neighborhoods},
+      {"Sada": Sada.neighborhoods},
+      {"Ouangani": Ouangani.neighborhoods},
+      {"Chirongui": Chirongui.neighborhoods},
+      {"Mtsamboro": Mtsamboro.neighborhoods},
+      {"Tsingoni": Tsingoni.neighborhoods},
+      {"Acoua": Acoua.neighborhoods},
+      {"M'Tsangamouji": MTsangamouji.neighborhoods},
+      {"Bandraboua": Bandraboua.neighborhoods},
+      {"Kani-Kéli": KaniKeli.neighborhoods},
+      {"Bouéni": Boueni.neighborhoods},
+      {"Chiconi": Chiconi.neighborhoods},
+      {"Kani-Bé": KaniBe.neighborhoods},
+    ]
+  },
+
+  {
+    "Micronesia": [
+      {"Chuuk": Chuuk.islands},
+      {"Kosrae": Kosrae.islands},
+      {"Pohnpei": Pohnpei.islands},
+      {"Yap": Yap.islands},
+    ]
+  },
+
+  {
+    "Micronesia": [
+      {"Saint-Pierre": SaintPierreCommune.neighborhoods},
+      {"Miquelon-Langlade": MiquelonLangladeCommune.neighborhoods},
+
+    ]
+  },
+
+  {
+  "Moldova": [
+  {"Cahul": Cahul.citiesAndTowns},
+  {"Bălți": Balti.citiesAndTowns},
+  {"Chișinău": Chisinau.citiesAndTowns},
+  {"Călărași": Calarasi.citiesAndTowns},
+  {"Cimișlia": Cimislia.citiesAndTowns},
+  {"Criuleni": Criuleni.citiesAndTowns},
+  {"Dondușeni": Donduseni.citiesAndTowns},
+  {"Drochia": Drochia.citiesAndTowns},
+  {"Dubăsari": Dubasari.citiesAndTowns},
+  {"Edineț": Edinet.citiesAndTowns},
+  {"Fălești": Falesti.citiesAndTowns},
+  {"Florești": Floresti.citiesAndTowns},
+  {"Glodeni": Glodeni.citiesAndTowns},
+  {"Hîncești": Hincesti.citiesAndTowns},
+  {"Ialoveni": Ialoveni.citiesAndTowns},
+  {"Leova": Leova.citiesAndTowns},
+  {"Nisporeni": Nisporeni.citiesAndTowns},
+  {"Ocnita": Ocnita.citiesAndTowns},
+  {"Orhei": Orhei.citiesAndTowns},
+  {"Rezina": Rezina.citiesAndTowns},
+  {"Rîșcani": Riscani.citiesAndTowns},
+  {"Sîngerei": Singerei.citiesAndTowns},
+  {"Soroca": Soroca.citiesAndTowns},
+  {"Strășeni": Straseni.citiesAndTowns},
+  {"Taraclia": Taraclia.citiesAndTowns},
+  {"Telenești": Telenesti.citiesAndTowns},
+  {"Ungheni": Ungheni.citiesAndTowns},
+  // Add more regions and their cities here following the same format
+  ]
+  },
+  {
+    "Monaco": [
+      {"Monaco-Ville": MonacoVille.neighborhoods},
+      {"La Condamine": LaCondamine.neighborhoods},
+      {"Monte Carlo": MonteCarlo.neighborhoods},
+      {"Fontvieille": Fontvieille.neighborhoods},
+    ]
+  },
+
+  {
+    "Mongolia": [
+      {"Arkhangai": Arkhangai.cities},
+      {"Bayan-Olgii": BayanOlgii.cities},
+      {"Bayankhongor": Bayankhongor.cities},
+      {"Bulgan": Bulgan.cities},
+      {"Darkhan-Uul": DarkhanUul.cities},
+      {"Dornod": Dornod.cities},
+      {"Dornogovi": Dornogovi.cities},
+      {"Dundgovi": Dundgovi.cities},
+      {"Govi-Altai": GoviAltai.cities},
+      {"Govisumber": Govisumber.cities},
+      {"Khentii": Khentii.cities},
+      {"Khovd": Khovd.cities},
+      {"Khövsgöl": Khovsgol.cities},
+      {"Omnogovi": Omnogovi.cities},
+      {"Orkhon": Orkhon.cities},
+      {"Selenge": Selenge.cities},
+      {"Sukhbaatar": Sukhbaatar.cities},
+      {"Töv": Tov.cities},
+      {"Uvs": Uvs.cities},
+      {"Zavkhan": Zavkhan.cities},
+    ]
+  },
+
+  {
+  "Montenegro": [
+  {"Andrijevica": Andrijevica.cities},
+  {"Bar": Bar.cities},
+  {"Berane": Berane.cities},
+  {"Bijelo Polje": BijeloPolje.cities},
+  {"Budva": Budva.cities},
+  {"Cetinje": Cetinje.cities},
+  {"Danilovgrad": Danilovgrad.cities},
+  {"Gusinje": Gusinje.cities},
+  {"Herceg Novi": HercegNovi.cities},
+  {"Kolašin": Kolasin.cities},
+  {"Kotor": Kotor.cities},
+  {"Mojkovac": Mojkovac.cities},
+  {"Nikšić": Niksic.cities},
+  {"Plav": Plav.cities},
+  {"Pljevlja": Pljevlja.cities},
+  {"Plužine": Pluzine.cities},
+  {"Podgorica": Podgorica.cities},
+  {"Rožaje": Rozaje.cities},
+  {"Šavnik": Savnik.cities},
+  {"Tivat": Tivat.cities},
+  {"Ulcinj": Ulcinj.cities},
+  {"Žabljak": Zabljak.cities},
+  ]
+  },
+
+  {
+    "Montserrat": [
+      {"Saint Peter Parish": MontserratPeterParishes.parishes},
+      {"Saint Georges Parish": MontserratGeorgesParishes.parishes},
+      {"Saint Anthony Parish": MontserratAnthonyParishes.parishes},
+
+    ]
+  },
+  {
+    "Morocco": [
+      {"Tanger-Tetouan-Al Hoceima": TangerTetouanAlHoceima.citiesAndTowns},
+      {"Oriental": Oriental.citiesAndTowns},
+      {"Fès-Meknès": FesMeknes.citiesAndTowns},
+      {"Rabat-Salé-Kénitra": RabatSaleKenitra.citiesAndTowns},
+      {"Béni Mellal-Khénifra": BeniMellalKhenifra.citiesAndTowns},
+      {"Casablanca-Settat": CasablancaSettat.citiesAndTowns},
+      {"Marrakech-Safi": MarrakechSafi.citiesAndTowns},
+      {"Drâa-Tafilalet": DraaTafilalet.citiesAndTowns},
+      {"Souss-Massa": SoussMassa.citiesAndTowns},
+      {"Guelmim-Oued Noun": GuelmimOuedNoun.citiesAndTowns},
+      {"Laâyoune-Sakia El Hamra": LaayouneSakiaElHamra.citiesAndTowns},
+      {"Dakhla-Oued Ed-Dahab": DakhlaOuedEdDahab.citiesAndTowns},
+    ]
+  },
+
+  {
+    "Mozambique": [
+      {"Niassa": Niassa.cities},
+      {"Cabo Delgado": CaboDelgado.cities},
+      {"Nampula": Nampula.cities},
+      {"Zambezia": Zambezia.cities},
+      {"Tete": Tete.cities},
+      {"Manica": Manica.cities},
+      {"Sofala": Sofala.cities},
+      {"Inhambane": Inhambane.cities},
+      {"Gaza": Gaza.cities},
+      {"Maputo Province": Maputo.cities},
+    ]
+  },
+
+  {
+    "Myanmar": [
+      {"Ayeyarwady Region": AyeyarwadyRegion.cities},
+      {"Bago Region": BagoRegion.cities},
+      {"Chin State": ChinState.cities},
+      {"Kachin State": KachinState.cities},
+      {"Kayah State": KayahState.cities},
+      {"Kayin State": KayinState.cities},
+      {"Magway Region": MagwayRegion.cities},
+      {"Mandalay Region": MandalayRegion.cities},
+      {"Mon State": MonState.cities},
+      {"Naypyidaw Union Territory": NaypyidawUnionTerritory.cities},
+      {"Rakhine State": RakhineState.cities},
+      {"Sagaing Region": SagaingRegion.cities},
+      {"Shan State": ShanState.cities},
+      {"Tanintharyi Region": TanintharyiRegion.cities},
+      {"Yangon Region": YangonRegion.cities}
+    ]
+  },
+
+  {
+    "Namibia": [
+      {"Caprivi": CapriviRegion.cities},
+      {"Erongo": NamibiaRegions.erongoRegion},
+      {"Hardap": NamibiaRegions.hardapRegion},
+      {"Karas": KarasRegion.cities},
+      {"Kavango": NamibiaRegions.kavangoEastRegion},
+      {"Khomas": NamibiaRegions.khomasRegion},
+      {"Kunene": NamibiaRegions.kuneneRegion},
+      {"Ohangwena": NamibiaRegions.ohangwenaRegion},
+      {"Omaheke": OmahekeRegion.cities},
+      {"Oshana": NamibiaRegions.oshanaRegion},
+      {"Oshikoto": NamibiaRegions.oshikotoRegion},
+      {"Otjozondjupa": OtjozondjupaRegion.cities},
+      {"Zambezi Region": NamibiaRegions.zambeziRegion}
+    ]
+  },
+
+  {
+    "Nauru": [
+      {"Nauru": NauruSettlements.settlements},
+
+    ]
+  },
+
+  {
+    "Nepal": [
+      {"Province 1": NepalCities.province1Cities},
+      {"Province 2": NepalCities.province2Cities},
+      {"Bagmati Province": NepalCities.bagmatiProvinceCities},
+      {"Gandaki Province": NepalCities.gandakiProvinceCities},
+      {"Lumbini Province": NepalCities.lumbiniProvinceCities},
+      {"Karnali Province": NepalCities.karnaliProvinceCities},
+      {"Sudurpashchim Province": NepalCities.sudurpashchimProvinceCities},
+    ]
+  },
+
+  {
+    "Netherlands": [
+      {"Groningen": Groningen.citiesAndTowns},
+      {"Friesland": Friesland.citiesAndTowns},
+      {"Drenthe": Drenthe.citiesAndTowns},
+      {"Overijssel": Overijssel.citiesAndTowns},
+      {"Flevoland": Flevoland.citiesAndTowns},
+      {"Gelderland": Gelderland.citiesAndTowns},
+      {"Utrecht": Utrecht.citiesAndTowns},
+      {"North Holland": NorthHolland.citiesAndTowns},
+      {"South Holland": SouthHolland.citiesAndTowns},
+      {"Zeeland": Zeeland.citiesAndTowns},
+      {"North Brabant": NorthBrabant.citiesAndTowns},
+      {"Limburg": Limburg.citiesAndTowns},
+    ]
+  },
+
+  {
+    "New Zealand": [
+      {"Auckland": Auckland.cities},
+      {"Waikato": Waikato.cities},
+      {"Bay of Plenty": BayOfPlenty.cities},
+      {"Gisborne": Gisborne.cities},
+      {"Hawke's Bay": HawkesBay.cities},
+      {"Taranaki": Taranaki.cities},
+      {"Manawatu-Wanganui": ManawatuWanganui.cities},
+      {"Wellington": Wellington.cities},
+      {"Tasman": Tasman.cities},
+      {"Nelson": Nelson.cities},
+      {"Marlborough": Marlborough.cities},
+      {"West Coast": WestCoast.cities},
+      {"Canterbury": Canterbury.cities},
+      {"Otago": Otago.cities},
+      {"Southland": Southland.cities}
+    ]
+  },
+
+  {
+    "Nicaragua": [
+      {"Boaco": Boaco.cities},
+      {"Carazo": Carazo.cities},
+      {"Chinandega": Chinandega.cities},
+      {"Chontales": Chontales.cities},
+      {"Esteli": Esteli.cities},
+      {"Granada": Granada.cities},
+      {"Jinotega": Jinotega.cities},
+      {"Leon": Leon.cities},
+      {"Madriz": Madriz.cities},
+      {"Managua": Managua.cities},
+      {"Masaya": Masaya.cities},
+      {"Matagalpa": Matagalpa.cities},
+      {"Nueva Segovia": NuevaSegovia.cities},
+      {"Rio San Juan": RioSanJuan.cities},
+      {"Rivas": Rivas.cities},
+      {"Atlantico Norte": AtlanticoNorte.cities},
+      {"Atlantico Sur": AtlanticoSur.cities}
+    ]
+  },
+
+  {
+    "Niger": [
+      {"Agadez": NigerRegions.agadez},
+      {"Diffa": NigerRegions.diffa},
+      {"Dosso": NigerRegions.dosso},
+      {"Maradi": NigerRegions.maradi},
+      {"Tahoua": NigerRegions.tahoua},
+      {"Tillabéri": NigerRegions.tillaberi},
+      {"Zinder": NigerRegions.zinder},
+      {"Niamey (Capital District)": NigerRegions.niamey}
+    ]
+  },
+
+  {
+    "Northern Mariana Islands": [
+      {"Saipan Municipality": SaipanMunicipality.towns},
+      {"Tinian Municipality": TinianMunicipality.towns},
+      {"Rota Municipality": RotaMunicipality.towns},
+      {"Northern Islands Municipality": NorthernIslandsMunicipality.islands.map((island) => {island: [island]}).toList()},
+    ]
+  },
+
+  {
+    "Norway": [
+      {"Viken": NorwayCities.viken},
+      {"Oslo (Capital District)": NorwayCities.oslo},
+      {"Innlandet": NorwayCities.innlandet},
+      {"Vestfold og Telemark": NorwayCities.vestfoldOgTelemark},
+      {"Agder": NorwayCities.agder},
+      {"Rogaland": NorwayCities.rogaland},
+      {"Vestland": NorwayCities.vestland},
+      {"Møre og Romsdal": NorwayCities.mOgR},
+      {"Trøndelag": NorwayCities.trondelag},
+      {"Nordland": NorwayCities.nordland},
+      {"Troms og Finnmark": NorwayCities.tromsOgFinnmark}
+    ]
+  },
+
+  {
+    "Oman": [
+      {"Muscat Governorate": MuscatGovernorate.cities},
+      {"Musandam Governorate": MusandamGovernorate.cities},
+      {"Al Batinah North Governorate": AlBatinahNorthGovernorate.cities},
+      {"Al Batinah South Governorate": AlBatinahSouthGovernorate.cities},
+      {"Al Buraimi Governorate": AlBuraimiGovernorate.cities},
+      {"Al Dhahirah Governorate": AlDhahirahGovernorate.cities},
+      {"Al Dakhiliyah Governorate": AlDakhiliyahGovernorate.cities},
+      {"Al Sharqiyah North Governorate": AlSharqiyahNorthGovernorate.cities},
+      {"Al Sharqiyah South Governorate": AlSharqiyahSouthGovernorate.cities},
+      {"Dhofar Governorate": DhofarGovernorate.cities},
+      {"Al Wusta Governorate": AlWustaGovernorate.cities},
+    ]
+  },
+
+  {
+  "Pakistan": [
+  {"Punjab": PunjabPakistan.cities},
+  {"Sindh": Sindh.cities},
+  {"Khyber Pakhtunkhwa": KhyberPakhtunkhwa.cities},
+  {"Balochistan": Balochistan.cities},
+  {"Islamabad Capital Territory": IslamabadCapitalTerritory.cities},
+  {"Gilgit-Baltistan": GilgitBaltistan.cities},
+  ]
+  },
+
+  {
+    "Palau": [
+      {"Aimeliik": Aimeliik.towns},
+      {"Airai": Airai.towns},
+      {"Angaur": Angaur.towns},
+      {"Hatohobei": Hatohobei.towns},
+      {"Kayangel": Kayangel.towns},
+      {"Koror": Koror.towns},
+      {"Melekeok": Melekeok.towns},
+      {"Ngaraard": Ngaraard.towns},
+      {"Ngarchelong": Ngarchelong.towns},
+      {"Ngardmau": Ngardmau.towns},
+      {"Ngaremlengui": Ngaremlengui.towns},
+      {"Ngatpang": Ngatpang.towns},
+      {"Ngchesar": Ngchesar.towns},
+      {"Ngeremlengui": Ngeremlengui.towns},
+      {"Ngiwal": Ngiwal.towns},
+      {"Peleliu": Peleliu.towns},
+    ]
+  },
+
+
+  {
+    "Papua New Guinea": [
+      {"Central Province": CentralProvince.townsAndSettlements},
+      {"Chimbu Province": ChimbuProvince.townsAndSettlements},
+      {"East New Britain Province": EastNewBritainProvince.townsAndSettlements},
+      {"Eastern Highlands Province": EasternHighlandsProvince.townsAndSettlements},
+      {"Enga Province": EngaProvince.townsAndSettlements},
+      {"Gulf Province": GulfProvince.townsAndSettlements},
+      {"Hela Province": HelaProvince.townsAndSettlements},
+      {"Jiwaka Province": JiwakaProvince.townsAndSettlements},
+      {"Madang Province": MadangProvince.townsAndSettlements},
+      {"Manus Province": ManusProvince.townsAndSettlements},
+      {"Milne Bay Province": MilneBayProvince.townsAndSettlements},
+      {"Morobe Province": MorobeProvince.townsAndSettlements},
+      {"National Capital District": NationalCapitalDistrict.townsAndSettlements},
+      {"New Ireland Province": NewIrelandProvince.townsAndSettlements},
+      {"Oro Province": OroProvince.townsAndSettlements},
+      {"Sandaun Province": SandaunProvince.townsAndSettlements},
+      {"Simbu Province": SimbuProvince.townsAndSettlements},
+      {"Southern Highlands Province": SouthernHighlandsProvince.townsAndSettlements},
+      {"West New Britain Province": WestNewBritainProvince.townsAndSettlements},
+      {"Western Province": WesternProvince.townsAndSettlements},
+      {"Western Highlands Province": WesternHighlandsProvince.townsAndSettlements},
+      {"Bougainville Autonomous Region": BougainvilleAutonomousRegion.townsAndSettlements}
+    ]
+  },
+
+  {
+    "Palestinian": [
+      {"Jenin": Jenin.towns},
+      {"Tubas": Tubas.towns},
+      {"Tulkarm": Tulkarm.towns},
+      {"Nablus": Nablus.towns},
+      {"Qalqilya": Qalqilya.towns},
+      {"Salfit": Salfit.towns},
+      {"Ramallah and al-Bireh": RamallahAndAlBireh.towns},
+      {"Jericho": Jericho.towns},
+      {"Jerusalem": Jerusalem.towns},
+      {"Bethlehem": Bethlehem.towns},
+      {"Hebron": Hebron.towns},
+    ]
+  },
+
+  {
+    "Panama": [
+      {"Bocas del Toro": BocasDelToro.cities},
+      {"Coclé": Cocle.cities},
+      {"Colón": ColonPanama.cities},
+      {"Chiriquí": Chiriqui.cities},
+      {"Darién": Darien.cities},
+      {"Herrera": Herrera.cities},
+      {"Los Santos": LosSantos.cities},
+      {"Panamá": Panama.cities},
+      {"Veraguas": Veraguas.cities},
+      {"Ngäbe-Buglé": NgabeBugle.cities},
+    ]
+  },
+
+  {
+    "Paraguay": [
+      {"Alto Paraguay": AltoParaguay.cities},
+      {"Alto Paraná": AltoParana.cities},
+      {"Amambay": Amambay.cities},
+      {"Boquerón": Boqueron.cities},
+      {"Caaguazú": Caaguazu.cities},
+      {"Caazapá": Caazapa.cities},
+      {"Canindeyú": Canindeyu.cities},
+      {"Central": CentralParaguay.cities},
+      {"Concepción": Concepcion.cities},
+      {"Cordillera": Cordillera.cities},
+      {"Guairá": Guaira.cities},
+      {"Itapúa": Itapua.cities},
+      {"Misiones": Misiones.cities},
+      {"Ñeembucú": Neembucu.cities},
+      {"Paraguarí": Paraguari.cities},
+      {"Presidente Hayes": PresidenteHayes.cities},
+      {"San Pedro": SanPedro.cities},
+    ]
+  },
+
+{
+"Peru": [
+{"Amazonas": AmazonasPeru.towns},
+{"Ancash": Ancash.towns},
+{"Apurimac": Apurimac.towns},
+{"Arequipa": Arequipa.towns},
+{"Ayacucho": Ayacucho.towns},
+{"Cajamarca": Cajamarca.towns},
+{"Callao": Callao.towns},
+{"Cusco": Cusco.towns},
+{"Huancavelica": Huancavelica.towns},
+{"Huanuco": Huanuco.towns},
+{"Ica": Ica.towns},
+{"Junin": Junin.towns},
+{"La Libertad": LaLibertadPeru.towns},
+{"Lambayeque": Lambayeque.towns},
+{"Lima": Lima.towns},
+{"Loreto": Loreto.towns},
+{"Madre de Dios": MadredeDios.towns},
+{"Moquegua": Moquegua.towns},
+{"Pasco": Pasco.towns},
+{"Piura": Piura.towns},
+{"Puno": Puno.towns},
+{"San Martín": SanMartin.towns},
+{"Tacna": Tacna.towns},
+{"Tumbes": Tumbes.towns},
+{"Ucayali": Ucayali.towns},
+],
+},
+
+  {
+    "Pitcairn": [
+    {"Pitcairn Island ": ["Pitcairn Island","Henderson Island", "Ducie Island", "Oeno Island"]},
+    ]
+  },
+
+  {
+    "Portugal": [
+      {"Aveiro": Aveiro.cities},
+      {"Beja": Beja.cities},
+      {"Braga": Braga.cities},
+      {"Bragança": Braganca.cities},
+      {"Castelo Branco": CasteloBranco.cities},
+      {"Coimbra": Coimbra.cities},
+      {"Évora": Evora.cities},
+      {"Faro": Faro.cities},
+      {"Guarda": Guarda.cities},
+      {"Leiria": Leiria.cities},
+      {"Lisbon": Lisbon.cities},
+      {"Portalegre": Portalegre.cities},
+      {"Porto": Porto.cities},
+      {"Santarém": Santarem.cities},
+      {"Setúbal": Setubal.cities},
+      {"Viana do Castelo": VianaDoCastelo.cities},
+      {"Vila Real": VilaReal.cities},
+      {"Viseu": Viseu.cities},
+      {"Azores": Azores.cities},
+      {"Madeira": Madeira.cities},
+    ]
+  },
+
+  {
+    "Poland": [
+    {"Greater Poland Voivodeship (Wielkopolskie)": GreaterPolandVoivodeship.cities},
+    {"Kuyavian-Pomeranian Voivodeship (Kujawsko-Pomorskie)": KuyavianPomeranianVoivodeship.cities},
+    {"Lesser Poland Voivodeship (Małopolskie)": LesserPolandVoivodeship.cities},
+    {"Łódź Voivodeship (Łódzkie)": LodzVoivodeship.cities},
+    {"Lower Silesian Voivodeship (Dolnośląskie)": LowerSilesianVoivodeship.cities},
+    {"Lublin Voivodeship (Lubelskie)": LublinVoivodeship.cities},
+    {"Lubusz Voivodeship (Lubuskie)": LubuszVoivodeship.cities},
+    {"Masovian Voivodeship (Mazowieckie)": MasovianVoivodeship.cities},
+    {"Opole Voivodeship (Opolskie)": OpoleVoivodeship.cities},
+    {"Podkarpackie Voivodeship (Podkarpackie)": PodkarpackieVoivodeship.cities},
+    {"Podlaskie Voivodeship (Podlaskie)": PodlaskieVoivodeship.cities},
+    {"Pomeranian Voivodeship (Pomorskie)": PomeranianVoivodeship.cities},
+    {"Silesian Voivodeship (Śląskie)": SilesianVoivodeship.cities},
+    {"Świętokrzyskie Voivodeship (Świętokrzyskie)": SwietokrzyskieVoivodeship.cities},
+    {"Warmian-Masurian Voivodeship (Warmińsko-Mazurskie)": WarmianMasurianVoivodeship.cities},
+    {"West Pomeranian Voivodeship (Zachodniopomorskie)": WestPomeranianVoivodeship.cities},
+]
+  },
+
+  {
+    "Philippines": [
+      {"Abra": ProvincesCities.abraCities},
+      {"Agusan del Norte": ProvincesCities.agusanDelNorteCities},
+      {"Agusan del Sur": ProvincesCities.agusanDelSurCities},
+      {"Aklan": ProvincesCities.aklanCities},
+      {"Albay": ProvincesCities.albayCities},
+      {"Antique": ProvincesCities.antiqueCities},
+      {"Apayao": ProvincesCities.apayaoCities},
+      {"Aurora": ProvincesCities.auroraCities},
+      {"Basilan": ProvincesCities.basilanCities},
+      {"Bataan": ProvincesCities.bataanCities},
+      {"Batangas": ProvincesCities.batangasCities},
+      {"Benguet": ProvincesCities.benguetCities},
+      {"Biliran": ProvincesCities.biliranCities},
+      {"Bohol": ProvincesCities.boholCities},
+      {"Bukidnon": ProvincesCities.bukidnonCities},
+      {"Bulacan": ProvincesCities.bulacanCities},
+      {"Cagayan": ProvincesCities.cagayanCities},
+      {"Camarines Norte": ProvincesCities.camarinesNorteCities},
+      {"Camarines Sur": ProvincesCities.camarinesSurCities},
+      {"Pampanga": Pampanga.citiesAndTowns},
+      {"Pangasinan": Pangasinan.citiesAndTowns},
+      // Add more provinces here following the same pattern
+      {"Quezon": Quezon.citiesAndTowns},
+      {"Quirino": Quirino.citiesAndTowns},
+      {"Rizal": Rizal.citiesAndTowns},
+      {"Romblon": Romblon.citiesAndTowns},
+      {"Samar (Western Samar)": Samar.citiesAndTowns},
+      {"Sarangani": Sarangani.citiesAndTowns},
+      {"Siquijor": Siquijor.citiesAndTowns},
+      {"Sorsogon": Sorsogon.citiesAndTowns},
+      {"South Cotabato": SouthCotabato.citiesAndTowns},
+      {"Southern Leyte": SouthernLeyte.citiesAndTowns},
+      {"Sultan Kudarat": SultanKudarat.citiesAndTowns},
+      {"Sulu": Sulu.citiesAndTowns},
+      {"Surigao del Norte": SurigaoDelNorte.citiesAndTowns},
+      {"Surigao del Sur": SurigaoDelSur.citiesAndTowns},
+      {"Tarlac": Tarlac.citiesAndTowns},
+      {"Tawi-Tawi": TawiTawi.citiesAndTowns},
+      {"Zambales": Zambales.citiesAndTowns},
+      {"Zamboanga del Norte": ZamboangaDelNorte.citiesAndTowns},
+      {"Zamboanga del Sur": ZamboangaDelSur.citiesAndTowns},
+
+      {"Aurora": ProvincesCities.auroraCities},
+      {"Basilan": ProvincesCities.basilanCities},
+      {"Bataan": ProvincesCities.bataanCities},
+      {"Batanes": ProvincesCities.batangasCities},
+      {"Batangas": ProvincesCities.batangasCities},
+      {"Benguet": ProvincesCities.benguetCities},
+      {"Biliran": ProvincesCities.biliranCities},
+      {"Bohol": ProvincesCities.boholCities},
+      {"Bukidnon": ProvincesCities.bukidnonCities},
+      {"Bulacan": ProvincesCities.bulacanCities},
+      {"Cagayan": ProvincesCities.cagayanCities},
+      {"Camarines Norte": ProvincesCities.camarinesNorteCities},
+      {"Camarines Sur": ProvincesCities.camarinesSurCities},
+      {"Camiguin": Camiguin.citiesAndTowns},
+      {"Capiz": Capiz.citiesAndTowns},
+      {"Catanduanes": Catanduanes.citiesAndTowns},
+      {"Cavite": Cavite.citiesAndTowns},
+      {"Cebu": Cebu.citiesAndTowns},
+      {"Compostela Valley": CompostelaValley.citiesAndTowns},
+      {"Cotabato": Cotabato.citiesAndTowns},
+      {"Davao de Oro (formerly Compostela Valley)": DavaoDeOro.citiesAndTowns},
+      {"Davao del Norte": DavaoDelNorte.citiesAndTowns},
+      {"Davao del Sur": DavaoDelSur.citiesAndTowns},
+      {"Davao Occidental": DavaoOccidental.citiesAndTowns},
+      {"Davao Oriental": DavaoOriental.citiesAndTowns},
+      {"Dinagat Islands": DinagatIslands.citiesAndTowns},
+      {"Eastern Samar": EasternSamar.citiesAndTowns},
+      {"Guimaras": Guimaras.citiesAndTowns},
+      {"Ifugao": Ifugao.citiesAndTowns},
+      {"Ilocos Norte": IlocosNorte.citiesAndTowns},
+      {"Ilocos Sur": IlocosSur.citiesAndTowns},
+      {"Iloilo": Iloilo.citiesAndTowns},
+      {"Isabela": Isabela.citiesAndTowns},
+      {"Kalinga": Kalinga.citiesAndTowns},
+      {"La Union": LaUnionP.citiesAndTowns},
+      {"Laguna": Laguna.citiesAndTowns},
+      {"Lanao del Norte": LanaoDelNorte.citiesAndTowns},
+      {"Lanao del Sur": LanaoDelSur.citiesAndTowns},
+      {"Leyte": Leyte.citiesAndTowns},
+      {"Maguindanao": Maguindanao.citiesAndTowns},
+      {"Marinduque": Marinduque.citiesAndTowns},
+      {"Masbate": Masbate.citiesAndTowns},
+      {"Misamis Occidental": MisamisOccidental.citiesAndTowns},
+      {"Misamis Oriental": MisamisOriental.citiesAndTowns},
+      {"Mountain Province": MountainProvince.citiesAndTowns},
+
+      {"Negros Occidental": NegrosOccidental.citiesAndTowns},
+      {"Negros Oriental": NegrosOriental.citiesAndTowns},
+      {"Northern Samar": NorthernSamar.citiesAndTowns},
+      {"Nueva Ecija": NuevaEcija.citiesAndTowns},
+      {"Nueva Vizcaya": NuevaVizcaya.citiesAndTowns},
+      {"Occidental Mindoro": OccidentalMindoro.citiesAndTowns},
+      {"Oriental Mindoro": OrientalMindoro.citiesAndTowns},
+      {"Palawan": Palawan.citiesAndTowns},
+      {"Pampanga": Pampanga.citiesAndTowns},
+      {"Pangasinan": Pangasinan.citiesAndTowns},
+      {"Quezon": Quezon.citiesAndTowns},
+      {"Quirino": Quirino.citiesAndTowns},
+      {"Rizal": Rizal.citiesAndTowns},
+      {"Romblon": Romblon.citiesAndTowns},
+      {"Samar (Western Samar)": Samar.citiesAndTowns},
+      {"Sarangani": Sarangani.citiesAndTowns},
+      {"Siquijor": Siquijor.citiesAndTowns},
+      {"Sorsogon": Sorsogon.citiesAndTowns},
+      {"South Cotabato": SouthCotabato.citiesAndTowns},
+      {"Southern Leyte": SouthernLeyte.citiesAndTowns},
+      {"Sultan Kudarat": SultanKudarat.citiesAndTowns},
+      {"Sulu": Sulu.citiesAndTowns},
+      {"Surigao del Norte": SurigaoDelNorte.citiesAndTowns},
+      {"Surigao del Sur": SurigaoDelSur.citiesAndTowns},
+      {"Tarlac": Tarlac.citiesAndTowns},
+      {"Tawi-Tawi": TawiTawi.citiesAndTowns},
+      {"Zambales": Zambales.citiesAndTowns},
+      {"Zamboanga del Norte": ZamboangaDelNorte.citiesAndTowns},
+      {"Zamboanga del Sur": ZamboangaDelSur.citiesAndTowns},
+    ]
+  },
+  {
+
+    "Principe": [
+    {"Pagué District": PagueDistrict.citiesAndTowns},
+    {"Santo António District": SantoAntonioDistrict.citiesAndTowns},
+    {"São Tomé District": SaoTomeDistrict.citiesAndTowns},
+
+    ]
+  },
+
+  {
+    "Qatar": [
+      {"Ad-Dawhah (Doha)": AdDawhah.citiesAndTowns},
+      {"Al Daayen": AlDaayen.citiesAndTowns},
+      {"Al Khor": AlKhor.citiesAndTowns},
+      {"Al Wakrah": AlWakrah.citiesAndTowns},
+      {"Al Rayyan": AlRayyan.citiesAndTowns},
+      {"Al-Shahaniya": AlShahaniya.citiesAndTowns},
+      {"Madinat ash Shamal": MadinatAshShamal.citiesAndTowns},
+      {"Umm Salal": UmmSalal.citiesAndTowns},
+    ]
+  },
+
+  {"Romania": [
+    {"Alba": AlbaCounty.citiesAndTowns},
+    {"Arad": AradCounty.citiesAndTowns},
+    {"Argeș": ArgesCounty.citiesAndTowns},
+    {"Bacău": BacauCounty.citiesAndTowns},
+    {"Bihor": BihorCounty.citiesAndTowns},
+    {"Bistrița-Năsăud": BistritaNasaudCounty.citiesAndTowns},
+    {"Botoșani": BotosaniCounty.citiesAndTowns},
+    {"Brăila": BrailaCounty.citiesAndTowns},
+    {"Brașov": BrasovCounty.citiesAndTowns},
+    {"București": BucharestCounty.citiesAndTowns},
+    {"Buzău": BuzauCounty.citiesAndTowns},
+    {"Călărași": CalarasiCounty.citiesAndTowns},
+    {"Caraș-Severin": CarasSeverinCounty.citiesAndTowns},
+    {"Cluj": ClujCounty.citiesAndTowns},
+    {"Constanța": ConstantaCounty.citiesAndTowns},
+    {"Covasna": CovasnaCounty.citiesAndTowns},
+    {"Dâmbovița": DambovitaCounty.citiesAndTowns},
+    {"Dolj": DoljCounty.citiesAndTowns},
+    {"Galați": GalatiCounty.citiesAndTowns},
+    {"Giurgiu": GiurgiuCounty.citiesAndTowns},
+    {"Gorj": GorjCounty.citiesAndTowns},
+    {"Harghita": HarghitaCounty.citiesAndTowns},
+    {"Hunedoara": HunedoaraCounty.citiesAndTowns},
+    {"Ialomița": IalomitaCounty.citiesAndTowns},
+    {"Iași": IasiCounty.citiesAndTowns},
+    {"Ilfov": IlfovCounty.citiesAndTowns},
+    {"Maramureș": MaramuresCounty.citiesAndTowns},
+    {"Mehedinți": MehedintiCounty.citiesAndTowns},
+    {"Mureș": MuresCounty.citiesAndTowns},
+    {"Neamț": NeamtCounty.citiesAndTowns},
+    {"Olt": OltCounty.citiesAndTowns},
+    {"Prahova": PrahovaCounty.citiesAndTowns},
+    {"Satu Mare": SatuMareCounty.citiesAndTowns},
+    {"Sălaj": SalajCounty.citiesAndTowns},
+    {"Sibiu": SibiuCounty.citiesAndTowns},
+    {"Suceava": SuceavaCounty.citiesAndTowns},
+    {"Teleorman": TeleormanCounty.citiesAndTowns},
+    {"Timiș": TimisCounty.citiesAndTowns},
+    {"Tulcea": TulceaCounty.citiesAndTowns},
+    {"Vâlcea": ValceaCounty.citiesAndTowns},
+    {"Vaslui": VasluiCounty.citiesAndTowns},
+    {"Vrancea": VranceaCounty.citiesAndTowns},
+  ]},
+
+  {
+    "Puerto Rico": [
+      {"Adjuntas": Adjuntas.citiesAndTowns},
+      {"Aguada": Aguada.citiesAndTowns},
+      {"Aguadilla": Aguadilla.citiesAndTowns},
+      {"Aguas Buenas": AguasBuenas.citiesAndTowns},
+      {"Aibonito": Aibonito.citiesAndTowns},
+      {"Añasco": Anasco.citiesAndTowns},
+      {"Arecibo": Arecibo.citiesAndTowns},
+      {"Arroyo": Arroyo.citiesAndTowns},
+      {"Barceloneta": Barceloneta.citiesAndTowns},
+      {"Barranquitas": Barranquitas.citiesAndTowns},
+      {"Bayamón": Bayamon.citiesAndTowns},
+      {"Cabo Rojo": CaboRojo.citiesAndTowns},
+      {"Caguas": Caguas.citiesAndTowns},
+      {"Camuy": Camuy.citiesAndTowns},
+      {"Canóvanas": Canovanas.citiesAndTowns},
+      {"Carolina": Carolina.citiesAndTowns},
+      {"Cataño": Catano.citiesAndTowns},
+      {"Cayey": Cayey.citiesAndTowns},
+      {"Ceiba": Ceiba.citiesAndTowns},
+      {"Ciales": Ciales.citiesAndTowns},
+      {"Cidra": Cidra.citiesAndTowns},
+      {"Coamo": Coamo.citiesAndTowns},
+      {"Comerío": Comerio.citiesAndTowns},
+      {"Corozal": Corozal.citiesAndTowns},
+      {"Culebra": Culebra.citiesAndTowns},
+      {"Dorado": Dorado.citiesAndTowns},
+      {"Fajardo": Fajardo.citiesAndTowns},
+      {"Florida": Florida.citiesAndTowns},
+      {"Guánica": Guanica.citiesAndTowns},
+      {"Guayama": Guayama.citiesAndTowns},
+      {"Guayanilla": Guayanilla.citiesAndTowns},
+      {"Guaynabo": Guaynabo.citiesAndTowns},
+      {"Gurabo": Gurabo.citiesAndTowns},
+      {"Hatillo": Hatillo.citiesAndTowns},
+      {"Hormigueros": Hormigueros.citiesAndTowns},
+      {"Humacao": Humacao.citiesAndTowns},
+      {"Isabela": IsabelaP.citiesAndTowns},
+      {"Jayuya": Jayuya.citiesAndTowns},
+      {"Juana Díaz": JuanaDiaz.citiesAndTowns},
+      {"Juncos": Juncos.citiesAndTowns},
+      {"Lajas": Lajas.citiesAndTowns},
+      {"Lares": Lares.citiesAndTowns},
+      {"Las Marías": LasMarias.citiesAndTowns},
+      {"Las Piedras": LasPiedras.citiesAndTowns},
+      {"Loíza": Loiza.citiesAndTowns},
+      {"Luquillo": Luquillo.citiesAndTowns},
+      {"Manatí": Manati.citiesAndTowns},
+      {"Maricao": Maricao.citiesAndTowns},
+      {"Maunabo": Maunabo.citiesAndTowns},
+      {"Mayagüez": Mayaguez.citiesAndTowns},
+      {"Moca": Moca.citiesAndTowns},
+      {"Morovis": Morovis.citiesAndTowns},
+      {"Naguabo": Naguabo.citiesAndTowns},
+      {"Naranjito": Naranjito.citiesAndTowns},
+      {"Orocovis": Orocovis.citiesAndTowns},
+      {"Patillas": Patillas.citiesAndTowns},
+      {"Peñuelas": Penuelas.citiesAndTowns},
+      {"Ponce": Ponce.citiesAndTowns},
+      {"Quebradillas": Quebradillas.citiesAndTowns},
+      {"Rincón": Rincon.citiesAndTowns},
+      {"Río Grande": RioGrande.citiesAndTowns},
+      {"Sabana Grande": SabanaGrande.citiesAndTowns},
+      {"Salinas": Salinas.citiesAndTowns},
+      {"San Germán": SanGerman.citiesAndTowns},
+      {"San Juan": SanJuanP.citiesAndTowns},
+      {"San Lorenzo": SanLorenzo.citiesAndTowns},
+      {"San Sebastián": SanSebastian.citiesAndTowns},
+      {"Santa Isabel": SantaIsabel.citiesAndTowns},
+      {"Toa Alta": ToaAlta.citiesAndTowns},
+      {"Toa Baja": ToaBaja.citiesAndTowns},
+      {"Trujillo Alto": TrujilloAlto.citiesAndTowns},
+      {"Utuado": Utuado.citiesAndTowns},
+      {"Vega Alta": VegaAlta.citiesAndTowns},
+      {"Vega Baja": VegaBaja.citiesAndTowns},
+      {"Vieques": Vieques.citiesAndTowns},
+      {"Villalba": Villalba.citiesAndTowns},
+      {"Yabucoa": Yabucoa.citiesAndTowns},
+      {"Yauco": Yauco.citiesAndTowns}
+    ]
+  },
+
+  {
+    "Rwanda": [
+      {"Kigali City": KigaliCity.neighborhoods},
+      {"Northern Province": NorthernProvince.citiesAndTowns},
+      {"Southern Province": SouthernProvince.citiesAndTowns},
+      {"Eastern Province": EasternProvince.citiesAndTowns},
+      {"Western Province": WesternProvinceR.citiesAndTowns}
+    ]
+  },
+
+  {
+    "Russia": [
+      {"Republic of Adygea": Adygea.cities},
+      {"Republic of Altai": Altai.cities},
+      {"Republic of Bashkortostan": Bashkortostan.cities},
+      {"Republic of Buryatia": Buryatia.cities},
+      {"Republic of Crimea": Crimea.cities},
+      {"Chechen Republic": Chechnya.cities},
+      {"Chuvash Republic": Chuvash.cities},
+      {"Republic of Dagestan": Dagestan.cities},
+      {"Republic of Ingushetia": Ingushetia.cities},
+      {"Republic of Kabardino-Balkaria": KabardinoBalkaria.cities},
+      {"Republic of Kalmykia": Kalmykia.cities},
+      {"Karachay-Cherkess Republic": KarachayCherkess.cities},
+      {"Republic of Karelia": Karelia.cities},
+      {"Komi Republic": Komi.cities},
+      {"Mari El Republic": MariEl.cities},
+      {"Republic of Mordovia": Mordovia.cities},
+      {"Sakha (Yakutia) Republic": SakhaYakutia.cities},
+      {"Republic of North Ossetia-Alania": NorthOssetiaAlania.cities},
+      {"Republic of Tatarstan": Tatarstan.cities},
+      {"Tuva Republic": Tuva.cities},
+      {"Udmurt Republic": Udmurt.cities},
+      {"Republic of Khakassia": Khakassia.cities},
+      {"Altai Krai": AltaiKrai.cities},
+      {"Krasnodar Krai": KrasnodarKrai.cities},
+      {"Krasnoyarsk Krai": KrasnoyarskKrai.cities},
+      {"Primorsky Krai": PrimorskyKrai.cities},
+      {"Stavropol Krai": StavropolKrai.cities},
+      {"Zabaykalsky Krai": ZabaykalskyKrai.cities},
+      {"Kamchatka Krai": KamchatkaKrai.cities},
+      {"Perm Krai": PermKrai.cities},
+      {"Khabarovsk Krai": KhabarovskKrai.cities},
+      {"Amur Oblast": AmurOblast.cities},
+      {"Arkhangelsk Oblast": ArkhangelskOblast.cities},
+      {"Astrakhan Oblast": AstrakhanOblast.cities},
+      {"Belgorod Oblast": BelgorodOblast.cities},
+      {"Bryansk Oblast": BryanskOblast.cities},
+      {"Chelyabinsk Oblast": ChelyabinskOblast.cities},
+      {"Irkutsk Oblast": IrkutskOblast.cities},
+      {"Ivanovo Oblast": IvanovoOblast.cities},
+      {"Kaliningrad Oblast": KaliningradOblast.cities},
+      {"Kaluga Oblast": KalugaOblast.cities},
+      {"Kemerovo Oblast": KemerovoOblast.cities},
+      {"Kirov Oblast": KirovOblast.cities},
+      {"Kostroma Oblast": KostromaOblast.cities},
+      {"Kurgan Oblast": KurganOblast.cities},
+      {"Kursk Oblast": KurskOblast.cities},
+      {"Leningrad Oblast": LeningradOblast.cities},
+      {"Lipetsk Oblast": LipetskOblast.cities},
+      {"Magadan Oblast": MagadanOblast.cities},
+      {"Moscow Oblast": MoscowOblast.cities},
+      {"Murmansk Oblast": MurmanskOblast.cities},
+      {"Nizhny Novgorod Oblast": NizhnyNovgorodOblast.cities},
+      {"Novgorod Oblast": NovgorodOblast.cities},
+      {"Novosibirsk Oblast": NovosibirskOblast.cities},
+      {"Omsk Oblast": OmskOblast.cities},
+      {"Orenburg Oblast": OrenburgOblast.cities},
+      {"Oryol Oblast": OryolOblast.cities},
+      {"Penza Oblast": PenzaOblast.cities},
+      {"Pskov Oblast": PskovOblast.cities},
+      {"Rostov Oblast": RostovOblast.cities},
+      {"Ryazan Oblast": RyazanOblast.cities},
+      {"Sakhalin Oblast": SakhalinOblast.cities},
+      {"Samara Oblast": SamaraOblast.cities},
+      {"Saratov Oblast": SaratovOblast.cities},
+      {"Smolensk Oblast": SmolenskOblast.cities},
+      {"Sverdlovsk Oblast": SverdlovskOblast.cities},
+      {"Tambov Oblast": TambovOblast.cities},
+      {"Tver Oblast": TverOblast.cities},
+      {"Tomsk Oblast": TomskOblast.cities},
+      {"Tula Oblast": TulaOblast.cities},
+      {"Tyumen Oblast": TyumenOblast.cities},
+      {"Ulyanovsk Oblast": UlyanovskOblast.cities},
+      {"Vladimir Oblast": VladimirOblast.cities},
+      {"Volgograd Oblast": VolgogradOblast.cities},
+      {"Vologda Oblast": VologdaOblast.cities},
+      {"Voronezh Oblast": VoronezhOblast.cities},
+      {"Yamalo-Nenets Autonomous Okrug": YamaloNenetsAutonomousOkrug.cities},
+      {"Yaroslavl Oblast": YaroslavlOblast.cities},
+      {"Jewish Autonomous Oblast": JewishAutonomousOblast.cities},
+      {"Chukotka Autonomous Okrug": ChukotkaAutonomousOkrug.cities},
+      {"Khanty-Mansi Autonomous Okrug": KhantyMansiAutonomousOkrug.cities},
+      {"Nenets Autonomous Okrug": NenetsAutonomousOkrug.cities},
+      {"Taimyr Autonomous Okrug": TaimyrAutonomousOkrug.cities},
+      {"Ust-Orda Buryat Autonomous Okrug": UstOrdaBuryatAutonomousOkrug.cities},
+      {"Evenk Autonomous Okrug": EvenkAutonomousOkrug.cities},
+      {"Agin-Buryat Autonomous Okrug": AginBuryatAutonomousOkrug.cities},
+    ]
   }
+
+
+
+
 ];
 
 
 
 /*
 
-Please do for Dominican Republic Remember to create a dart list for the states and do the compilation. (Note: List all the cities correctly must not be in equal numbers)
-
-what of the city and compilation. Remember to list as many cities as possible you could find for each region
-
-list all the states in Hong with all cities in each state
-
-see all neighborhoods and areas for each district
-
-please list the cities like this class CentralAndWestern {
+pleases put it in a dart list like this class CentralAndWestern {
   static List<String> neighborhoods = [
     "Central",
+    ]
+    }
 
-    Please compile the cities like this "Honduras": [
+    Please compile the cities like this
+     {
+     "Honduras": [
       {"Atlántida": Atlantida.cities},
       {"Choluteca": Choluteca.cities},
+      ]
+      }
 
 Create a dart list for only the district
 
+Please list all the cities for each administrative regions. don't hide anyone. e.g class CentralAndWestern {
+  static List<String> neighborhoods = [
+    "Central",
+    ]
+    }
+
+
+I noticed each region has nine cities in number. Is that correct?. Please add more cities and towns you know for each region
+
+Please list all the cities in each country both major and small towns. Make it comprehensive.
+
+If you have more cities and town for each division, Can you please add them
 
 
 */
