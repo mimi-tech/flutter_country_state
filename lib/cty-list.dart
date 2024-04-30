@@ -59,19 +59,19 @@ class Country5{
 
 class Country6{
   static List<String> country6 = <String>[
-    "Puerto Rico", "Qatar", "Romania", "Russia", "Rwanda", "Saint Helena", "Saint Kitts", "Saint Lucia",
+    "Puerto Rico", "Qatar", "Romania", "Russia", "Rwanda", "Saint Kitts", "Saint Lucia",
     "Saint Pierre", "Saint Vincent", "Samoa", "San Marino", "Sao Tome", "Saudi Arabia", "Senegal", "Serbia", "Seychelles",
     "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "Spain",
-    "Sri Lanka", "Sudan", "Suriname", "Svalbard", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania",
-    "Thailand", "Tobago", "Togo", "Tokelau", "Tonga", "Trinidad", "Tunisia", "Turkey", "Turkmenistan", "Turks Islands",
+    "Sri Lanka", "Sudan", "Swaziland (Eswatini)", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania",
+    "Thailand", "Togo", "Tokelau", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", " Turks and Caicos",
 
   ];
 }
 
 class Country7{
   static List<String> country7 = <String>[
-    "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "US Minor Outlying Islands", "Uzbekistan",
-    "Vanuatu", "Vatican City State", "Venezuela", "Vietnam", "Wallis",
+    "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "Uzbekistan",
+    "Vanuatu", "Vatican City", "Venezuela", "Vietnam", "Wallis",
     "Yemen", "Zambia", "Zimbabwe"
   ];
 }

@@ -148,12 +148,60 @@ import 'package:flutter_country_state/cities/Qatar_cities.dart';
 import 'package:flutter_country_state/cities/Romania_cities.dart';
 import 'package:flutter_country_state/cities/Russia_cities.dart';
 import 'package:flutter_country_state/cities/Rwanda_cities.dart';
+import 'package:flutter_country_state/cities/Saint_Kitts_cities.dart';
+import 'package:flutter_country_state/cities/Saint_Lucia_cities.dart';
+import 'package:flutter_country_state/cities/Saint_Vincent_cities.dart';
+import 'package:flutter_country_state/cities/Samoa_cities.dart';
+import 'package:flutter_country_state/cities/Sao_Tome_cities.dart';
+import 'package:flutter_country_state/cities/Saudi_Arabia_cities.dart';
+import 'package:flutter_country_state/cities/Senegal_cities.dart';
+import 'package:flutter_country_state/cities/Serbia_cities.dart';
+import 'package:flutter_country_state/cities/Seychelles_cities.dart';
+import 'package:flutter_country_state/cities/Sierra%20Leone_cities.dart';
+import 'package:flutter_country_state/cities/Singapore_cities.dart';
+import 'package:flutter_country_state/cities/Slovakia_cities.dart';
+import 'package:flutter_country_state/cities/Slovenia_cities.dart';
+import 'package:flutter_country_state/cities/Solomon_Islands_cities.dart';
+import 'package:flutter_country_state/cities/Somalia_cities.dart';
+import 'package:flutter_country_state/cities/South_Africa_cities.dart';
 import 'package:flutter_country_state/cities/South_Korea_cities.dart';
+import 'package:flutter_country_state/cities/Spain_cities.dart';
+import 'package:flutter_country_state/cities/Sri_Lanka_cities.dart';
+import 'package:flutter_country_state/cities/Sudan_cities.dart';
+import 'package:flutter_country_state/cities/Swaziland_cities.dart';
+import 'package:flutter_country_state/cities/Sweden_cities.dart';
+import 'package:flutter_country_state/cities/Switzerland_cities.dart';
+import 'package:flutter_country_state/cities/Syria_cities.dart';
+import 'package:flutter_country_state/cities/Taiwan_cities.dart';
+import 'package:flutter_country_state/cities/Tajikistan_cities.dart';
+import 'package:flutter_country_state/cities/Tanzania_cities.dart';
+import 'package:flutter_country_state/cities/Thailand_cities.dart';
+import 'package:flutter_country_state/cities/Trinidad_cities.dart';
+import 'package:flutter_country_state/cities/Tunisia_cities.dart';
+import 'package:flutter_country_state/cities/Turkey_cities.dart';
+import 'package:flutter_country_state/cities/Turkmenistan_cities.dart';
+import 'package:flutter_country_state/cities/Turks_Islands_cities.dart';
+import 'package:flutter_country_state/cities/Tuvalu_cities.dart';
+import 'package:flutter_country_state/cities/UAE_cities.dart';
+import 'package:flutter_country_state/cities/USA_cities.dart';
+import 'package:flutter_country_state/cities/Uganda_cities.dart';
+import 'package:flutter_country_state/cities/United_Kingdom_cities.dart';
+import 'package:flutter_country_state/cities/Uruguay_cities.dart';
+import 'package:flutter_country_state/cities/Uzbekistan_cities.dart';
+import 'package:flutter_country_state/cities/Vanuatu_cities.dart';
+import 'package:flutter_country_state/cities/Venezuela_cities.dart';
+import 'package:flutter_country_state/cities/Vietnam_cities.dart';
+import 'package:flutter_country_state/cities/Wallis_cities.dart';
+import 'package:flutter_country_state/cities/Yemen_cities.dart';
+import 'package:flutter_country_state/cities/Zimbabwe_cities.dart';
 import 'package:flutter_country_state/cities/chad_cities.dart';
 import 'package:flutter_country_state/cities/china_cities.dart';
 
 import 'cities/Cyprus_cities.dart';
 import 'cities/India_cities.dart';
+import 'cities/Togo_cities.dart';
+import 'cities/Tokelau_cities.dart';
+import 'cities/Tonga_cities.dart';
 import 'cities/finland_cities.dart';
 
 var allStatescity = [
@@ -3324,7 +3372,1179 @@ var allStatescity = [
       {"Evenk Autonomous Okrug": EvenkAutonomousOkrug.cities},
       {"Agin-Buryat Autonomous Okrug": AginBuryatAutonomousOkrug.cities},
     ]
+  },
+  
+  {
+    "Saint Kitts": [
+      {"Christ Church Nichola Town": ChristChurchNicholaTown.neighborhoods},
+      {"Saint Anne Sandy Point": SaintAnneSandyPoint.neighborhoods},
+      {"Saint George Basseterre": SaintGeorgeBasseterre.neighborhoods},
+      {"Saint George Gingerland": SaintGeorgeGingerland.neighborhoods},
+      {"Saint James Windward": SaintJamesWindward.neighborhoods},
+      {"Saint John Capisterre": SaintJohnCapisterre.neighborhoods},
+      {"Saint Mary Cayon": SaintMaryCayon.neighborhoods},
+      {"Saint Paul Capisterre": SaintPaulCapisterre.neighborhoods},
+      {"Saint Peter Basseterre": SaintPeterBasseterre.neighborhoods},
+      {"Saint Thomas Lowland": SaintThomasLowland.neighborhoods}
+    ]
+  },
+  
+  {
+    "Saint Lucia": [
+      {"Anse la Raye": AnseLaRaye.neighborhoods},
+      {"Castries": Castries.neighborhoods},
+      {"Choiseul": Choiseul.neighborhoods},
+      {"Dennery": Dennery.neighborhoods},
+      {"Gros Islet": GrosIslet.neighborhoods},
+      {"Laborie": Laborie.neighborhoods},
+      {"Micoud": Micoud.neighborhoods},
+      {"Soufriere": Soufriere.neighborhoods},
+      {"Vieux Fort": VieuxFort.neighborhoods},
+      {"Canaries": Canaries.neighborhoods},
+    ]
+  },
+
+  {
+    "Saint Vincent": [
+      {"Saint George Parish": SaintGeorgeParishVincent.neighborhoods},
+      {"Saint Andrew Parish": SaintAndrewParishVincent.neighborhoods},
+      {"Saint David Parish": SaintDavidParishVincent.neighborhoods},
+      {"Saint Patrick Parish": SaintPatrickParishVincent.neighborhoods},
+      {"Saint Andrew Parish (duplicate)": SaintAndrewParishVincent.neighborhoods}
+    ]
+  },
+
+
+  {
+    "Samoa": [
+      {"Aana": Aana.villages},
+      {"Aiga-i-le-Tai": AigaITai.villages},
+      {"Atua": Atua.villages},
+      {"Fa'asaleleaga": Faasaleleaga.villages},
+      {"Gaga'emauga": Gagaemauga.villages},
+      {"Gaga'ifomauga": Gagaifomauga.villages},
+      {"Palauli": Palauli.villages},
+      {"Satupa'itea": Satupaitea.villages},
+      {"Tuamasaga": Tuamasaga.villages},
+      {"Va'a-o-Fonoti": Vaaofonoti.villages},
+      {"Vaisigano": Vaisigano.villages},
+    ]
+  },
+  {
+    "Saudi Arabia": [
+      {"Riyadh Region": RiyadhRegion.citiesAndTowns},
+      {"Makkah Region": MakkahRegion.citiesAndTowns},
+      {"Madinah Region": MadinahRegion.citiesAndTowns},
+      {"Eastern Province": EasternProvinceSa.citiesAndTowns},
+      {"Asir Region": AsirRegion.citiesAndTowns},
+      {"Tabuk Region": TabukRegion.citiesAndTowns},
+      {"Hail Region": HailRegion.citiesAndTowns},
+      {"Northern Border Region": NorthernBorderRegion.citiesAndTowns},
+      {"Al-Qassim Region": AlQassimRegion.citiesAndTowns},
+      {"Jizan Region": JizanRegion.citiesAndTowns},
+      {"Najran Region": NajranRegion.citiesAndTowns},
+      {"Al-Bahah Region": AlBahahRegion.citiesAndTowns},
+      {"Al-Jawf Region": AlJawfRegion.citiesAndTowns},
+    ]
+  },
+
+  {
+    "São Tomé": [
+      {"Água Grande": AguaGrandeDistrict.neighborhoods},
+      {"Cantagalo": CantagaloDistrict.neighborhoods},
+      {"Caué": CaueDistrict.neighborhoods},
+      {"Lembá": LembaDistrict.neighborhoods},
+      {"Lobata": LobataDistrict.neighborhoods},
+      {"Mé-Zóchi": MeZochiDistrict.neighborhoods},
+      {"Pagué": PagueDistrictSa.neighborhoods}
+    ]
+  },
+
+  {
+    "Senegal": [
+      {"Dakar": Dakar.neighborhoods},
+      {"Diourbel": Diourbel.neighborhoods},
+      {"Fatick": Fatick.neighborhoods},
+      {"Kaffrine": Kaffrine.neighborhoods},
+      {"Kaolack": Kaolack.neighborhoods},
+      {"Kédougou": Kedougou.neighborhoods},
+      {"Kolda": Kolda.neighborhoods},
+      {"Louga": Louga.neighborhoods},
+      {"Matam": Matam.neighborhoods},
+      {"Saint-Louis": SaintLouis.neighborhoods},
+      {"Sédhiou": Sedhiou.neighborhoods},
+      {"Tambacounda": Tambacounda.neighborhoods},
+      {"Thies": Thies.neighborhoods},
+      {"Ziguinchor": Ziguinchor.neighborhoods},
+    ]
+  },
+
+  {
+    "Seychelles": [
+      {"Anse Aux Pins": SeychellesNeighborhoods.anseAuxPins},
+      {"Anse Boileau": SeychellesNeighborhoods.anseBoileau},
+      {"Anse Etoile": SeychellesNeighborhoods.anseEtoile},
+      {"Anse Royale": SeychellesNeighborhoods.anseRoyale},
+      {"Au Cap": SeychellesNeighborhoods.auCap},
+      {"Baie Lazare": SeychellesNeighborhoods.baieLazare},
+      {"Baie Sainte Anne": SeychellesNeighborhoods.baieSainteAnne},
+      {"Beau Vallon": SeychellesNeighborhoods.beauVallon},
+      {"Bel Air": SeychellesNeighborhoods.belAir},
+      {"Bel Ombre": SeychellesNeighborhoods.belOmbre},
+      {"Cascade": SeychellesNeighborhoods.cascade},
+      {"Glacis": SeychellesNeighborhoods.glacis},
+      {"Grand Anse Mahe": SeychellesNeighborhoods.grandAnseMahe},
+      {"Grand Anse Praslin": SeychellesNeighborhoods.grandAnsePraslin},
+      {"La Digue": SeychellesNeighborhoods.laDigue},
+      {"Les Mamelles": SeychellesNeighborhoods.lesMamelles},
+      {"Mont Buxton": SeychellesNeighborhoods.montBuxton},
+      {"Mont Fleuri": SeychellesNeighborhoods.montFleuri},
+      {"Plaisance": SeychellesNeighborhoods.plaisance},
+      {"Pointe La Rue": SeychellesNeighborhoods.pointeLaRue},
+      {"Port Glaud": SeychellesNeighborhoods.portGlaud},
+      {"Roche Caiman": SeychellesNeighborhoods.rocheCaiman},
+      {"Saint Louis": SeychellesNeighborhoods.saintLouis},
+      {"Takamaka": SeychellesNeighborhoods.takamaka},
+      {"Anse La Mouche": SeychellesNeighborhoods.anseLaMouche},
+      // Add more divisions and their neighborhoods here...
+    ]
+  },
+
+  {
+    "Serbia": [
+      {"Belgrade (Beograd)": Belgrade.neighborhoods},
+      {"Bor": Bor.neighborhoods},
+      {"Braničevo": Branicevo.neighborhoods},
+      {"Jablanica": Jablanica.neighborhoods},
+      {"Kolubara": Kolubara.neighborhoods},
+      {"Mačva": Macva.neighborhoods},
+      {"Moravica": Moravica.neighborhoods},
+      {"Nišava": Nisava.neighborhoods},
+      {"Pčinja": Pcinja.neighborhoods},
+      {"Pirot": Pirot.neighborhoods},
+      {"Podunavlje": Podunavlje.neighborhoods},
+      {"Pomoravlje": Pomoravlje.neighborhoods},
+      {"Rasina": Rasina.neighborhoods},
+      {"Raška": Raska.neighborhoods},
+      {"Šumadija": Sumadija.neighborhoods},
+      {"Toplica": Toplica.neighborhoods},
+      {"Zaječar": Zajecar.neighborhoods},
+      // Add more divisions here
+    ]
+  },
+
+  {
+    "Singapore": [
+      {"Ang Mo Kio": AngMoKio.neighborhoods},
+      {"Bedok": Bedok.neighborhoods},
+      {"Bishan": Bishan.neighborhoods},
+      {"Boon Lay": BoonLay.neighborhoods},
+      {"Bukit Batok": BukitBatok.neighborhoods},
+      {"Bukit Merah": BukitMerah.neighborhoods},
+      {"Bukit Panjang": BukitPanjang.neighborhoods},
+      {"Bukit Timah": BukitTimah.neighborhoods},
+      {"Central Water Catchment": CentralWaterCatchment.neighborhoods},
+      {"Changi": Changi.neighborhoods},
+      {"Choa Chu Kang": ChoaChuKang.neighborhoods},
+      {"Clementi": Clementi.neighborhoods},
+      {"Downtown Core": DowntownCore.neighborhoods},
+      {"Geylang": Geylang.neighborhoods},
+      {"Hougang": Hougang.neighborhoods},
+      {"Jurong East": JurongEast.neighborhoods},
+      {"Jurong West": JurongWest.neighborhoods},
+      {"Kallang": Kallang.neighborhoods},
+      {"Lim Chu Kang": LimChuKang.neighborhoods},
+      {"Mandai": Mandai.neighborhoods},
+      {"Marine Parade": MarineParade.neighborhoods},
+      {"Museum": Museum.neighborhoods},
+      {"Newton": Newton.neighborhoods},
+      {"North-Eastern Islands": NorthEasternIslands.neighborhoods},
+      {"Novena": Novena.neighborhoods},
+      {"Orchard": Orchard.neighborhoods},
+      {"Outram": Outram.neighborhoods},
+      {"Pasir Ris": PasirRis.neighborhoods},
+      {"Paya Lebar": PayaLebar.neighborhoods},
+      {"Pioneer": Pioneer.neighborhoods},
+      {"Punggol": Punggol.neighborhoods},
+      {"Queenstown": Queenstown.neighborhoods},
+      {"River Valley": RiverValley.neighborhoods},
+      {"Rochor": Rochor.neighborhoods},
+      {"Seletar": Seletar.neighborhoods},
+      {"Sembawang": Sembawang.neighborhoods},
+      {"Sengkang": Sengkang.neighborhoods},
+      {"Serangoon": Serangoon.neighborhoods},
+      {"Simpang": Simpang.neighborhoods},
+      {"Singapore River": SingaporeRiver.neighborhoods},
+      {"Southern Islands": SouthernIslands.neighborhoods},
+      {"Straits View": StraitsView.neighborhoods},
+      {"Sungei Kadut": SungeiKadut.neighborhoods},
+      {"Tampines": Tampines.neighborhoods},
+      {"Tanglin": Tanglin.neighborhoods},
+      {"Tengah": Tengah.neighborhoods},
+      {"Toa Payoh": ToaPayoh.neighborhoods},
+      {"Tuas": Tuas.neighborhoods},
+      {"Western Islands": WesternIslands.neighborhoods},
+      {"Western Water Catchment": WesternWaterCatchment.neighborhoods},
+      {"Woodlands": Woodlands.neighborhoods},
+      {"Yishun": Yishun.neighborhoods},
+    ]
+  },
+
+  {
+    "Slovakia": [
+      {"Bratislavský kraj": BratislavaRegion.citiesAndTowns},
+      {"Trnavský kraj": TrnavaRegion.citiesAndTowns},
+      {"Trenčiansky kraj": TrencinRegion.citiesAndTowns},
+      {"Nitriansky kraj": NitraRegion.citiesAndTowns},
+      {"Žilinský kraj": ZilinaRegion.citiesAndTowns},
+      {"Banskobystrický kraj": BanskaBystricaRegion.citiesAndTowns},
+      {"Prešovský kraj": PresovRegion.citiesAndTowns},
+      {"Košický kraj": KosiceRegion.citiesAndTowns},
+    ],
+  },
+
+  {
+    "Sierra Leone": [
+      {"Kailahun": SierraLeoneDistricts.kailahunDistrict},
+      {"Kenema": SierraLeoneDistricts.kenemaDistrict},
+      {"Kono": SierraLeoneDistricts.konoDistrict},
+      {"Bombali": SierraLeoneDistricts.bombaliDistrict},
+      {"Kambia": SierraLeoneDistricts.kambiaDistrict},
+      {"Port Loko": SierraLeoneDistricts.portLokoDistrict},
+      {"Moyamba": SierraLeoneDistricts.moyambaDistrict},
+      {"Bo": SierraLeoneDistricts.boDistrict},
+      {"Pujehun": SierraLeoneDistricts.pujehunDistrict},
+      {"Bonthe": SierraLeoneDistricts.bontheDistrict},
+      {"Port Loko": SierraLeoneDistricts.portLokoDistrict},
+      {"Western Area Urban (Freetown)": SierraLeoneDistricts.westernAreaUrban},
+      {"Western Area Rural": SierraLeoneDistricts.westernAreaRural},
+
+      // Add more districts as needed
+    ],
+  },
+  {
+    "Solomon Islands": [
+      {"Central Islands Province": CentralIslandsProvince.cities},
+      {"Choiseul Province": ChoiseulProvince.cities},
+      {"Guadalcanal Province": GuadalcanalProvince.cities},
+      {"Honiara (Capital Territory)": HoniaraCapitalTerritory.cities},
+      {"Isabel Province": IsabelProvince.cities},
+      {"Makira-Ulawa Province": MakiraUlawaProvince.cities},
+      {"Malaita Province": MalaitaProvince.cities},
+      {"Rennell and Bellona Province": RennellBellonaProvince.cities},
+      {"Temotu Province": TemotuProvince.cities},
+      {"Western Province": WesternProvinceSolomon.cities},
+    ]
+  },
+
+  {
+    "Slovenia": [
+      {"Pomurska (Mura Statistical Region)": SloveniaRegions.Pomurska},
+      {"Podravska (Drava Statistical Region)": SloveniaRegions.Podravska},
+      {"Koroška (Carinthia Statistical Region)": SloveniaRegions.Koroska},
+      {"Savinjska (Savinja Statistical Region)": SloveniaRegions.Savinjska},
+      {"Zasavska (Central Sava Statistical Region)": SloveniaRegions.Zasavska},
+      {"Posavska (Lower Sava Statistical Region)": SloveniaRegions.Posavska},
+      {"Jugovzhodna Slovenija (Southeast Slovenia Statistical Region)": SloveniaRegions.JugovzhodnaSlovenija},
+      {"Osrednjeslovenska (Central Slovenia Statistical Region)": SloveniaRegions.Osrednjeslovenska},
+      {"Gorenjska (Upper Carniola Statistical Region)": SloveniaRegions.Gorenjska},
+      {"Primorsko-notranjska (Littoral-Karst Statistical Region)": SloveniaRegions.PrimorskoNotranjska},
+      {"Goriška (Gorizia Statistical Region)": SloveniaRegions.Goriska},
+      {"Obalno-kraška (Coastal-Karst Statistical Region)": SloveniaRegions.ObalnoKraska},
+    ],
+  },
+
+  {"Somalia": [
+    {"Awdal": AwdalRegion.citiesAndTowns},
+    {"Bakool": BakoolRegion.citiesAndTowns},
+    {"Banaadir": BanaadirRegion.citiesAndTowns},
+    {"Bari": BariRegion.citiesAndTowns},
+    {"Bay": BayRegion.citiesAndTowns},
+    {"Galguduud": GalguduudRegion.citiesAndTowns},
+    {"Gedo": GedoRegion.citiesAndTowns},
+    {"Hiiraan": HiiraanRegion.citiesAndTowns},
+    {"Middle Juba": MiddleJubaRegion.citiesAndTowns},
+    {"Lower Juba": LowerJubaRegion.citiesAndTowns},
+    {"Middle Shebelle": MiddleShebelleRegion.citiesAndTowns},
+    {"Lower Shebelle": LowerShebelleRegion.citiesAndTowns},
+    {"Mudug": MudugRegion.citiesAndTowns},
+    {"Nugaal": NugaalRegion.citiesAndTowns},
+    {"Sanaag": SanaagRegion.citiesAndTowns},
+    {"Sool": SoolRegion.citiesAndTowns},
+    {"Togdheer": TogdheerRegion.citiesAndTowns},
+    {"Woqooyi Galbeed": WoqooyiGalbeedRegion.citiesAndTowns},
+
+  ],},
+
+  {
+    "Sri Lanka": [
+      {"Central Province": SriLankaNeighborhoods.centralProvince},
+      {"Eastern Province": SriLankaNeighborhoods.easternProvince},
+      {"North Central Province": SriLankaNeighborhoods.northCentralProvince},
+      {"Northern Province": SriLankaNeighborhoods.northernProvince},
+      {"North Western Province": SriLankaNeighborhoods.northWesternProvince},
+      {"Sabaragamuwa Province": SriLankaNeighborhoods.sabaragamuwaProvince},
+      {"Southern Province": SriLankaNeighborhoods.southernProvince},
+      {"Uva Province": SriLankaNeighborhoods.uvaProvince},
+      {"Western Province": SriLankaNeighborhoods.westernProvince}
+    ]
+  },
+
+  {
+    "South Africa": [
+      {"Eastern Cape": EasternCape.citiesAndTowns},
+      {"Free State": FreeState.citiesAndTowns},
+      {"Gauteng": Gauteng.citiesAndTowns},
+      {"KwaZulu-Natal": KwaZuluNatal.citiesAndTowns},
+      {"Limpopo": Limpopo.citiesAndTowns},
+      {"Mpumalanga": Mpumalanga.citiesAndTowns},
+      {"Northern Cape": NorthernCape.citiesAndTowns},
+      {"North West": NorthWest.citiesAndTowns},
+      {"Western Cape": WesternCape.citiesAndTowns}
+    ]
+  },
+
+  {
+    "Sudan": [
+      {"Red Sea": RedSeaState.cities},
+      {"Northern": NorthernState.cities},
+      {"River Nile": RiverNileState.cities},
+      {"North Darfur": NorthDarfurState.cities},
+      {"Kassala": KassalaState.cities},
+      {"Al Jazirah": AlJazirahState.cities},
+      {"Khartoum": KhartoumState.cities},
+      {"Blue Nile": BlueNileState.cities},
+      {"West Darfur": WestDarfurState.cities},
+      {"White Nile": WhiteNileState.cities},
+      {"South Darfur": SouthDarfurState.cities},
+      {"Sennar": SennarState.cities},
+      {"Gedaref": GedarefState.cities},
+      {"North Kordofan": NorthKordofanState.cities},
+      {"North Kurdufan": NorthKurdufanState.cities},
+      {"South Kordofan": SouthKordofanState.cities},
+      {"West Kurdufan": WestKurdufanState.cities},
+      {"East Darfur": EastDarfurState.cities},
+      {"Central Darfur": CentralDarfurState.cities},
+      {"South Kurdufan": SouthKurdufanState.cities},
+      {"Al Qadarif": AlQadarifState.cities},
+    ]
+  },
+
+  {
+    "Spain": [
+      {"Andalusia": Andalusia.citiesAndTowns},
+      {"Aragon": Aragon.citiesAndTowns},
+      {"Asturias": Asturias.citiesAndTowns},
+      {"Balearic Islands": BalearicIslands.citiesAndTowns},
+      {"Basque Country": BasqueCountry.citiesAndTowns},
+      {"Canary Islands": CanaryIslands.citiesAndTowns},
+      {"Cantabria": Cantabria.citiesAndTowns},
+      {"Castile and León": CastileAndLeon.citiesAndTowns},
+      {"Castilla-La Mancha": CastillaLaMancha.citiesAndTowns},
+      {"Catalonia": Catalonia.citiesAndTowns},
+      {"Ceuta": Ceuta.citiesAndTowns},
+      {"Extremadura": Extremadura.citiesAndTowns},
+      {"Galicia": Galicia.citiesAndTowns},
+      {"La Rioja": LaRioja.citiesAndTowns},
+      {"Madrid": Madrid.citiesAndTowns},
+      {"Melilla": Melilla.citiesAndTowns},
+      {"Murcia": Murcia.citiesAndTowns},
+      {"Navarre": Navarre.citiesAndTowns},
+      {"Valencian Community": ValencianCommunity.citiesAndTowns}
+    ]
+  },
+
+  {
+    "Swaziland (Eswatini)": [
+      {"Hhohho": HhohhoDistrict.citiesAndTowns},
+      {"Lubombo": LubomboDistrict.citiesAndTowns},
+      {"Manzini": ManziniDistrict.citiesAndTowns},
+      {"Shiselweni": ShiselweniDistrict.citiesAndTowns}
+    ]
+  },
+
+  {
+    "Sweden": [
+      {"Blekinge County": BlekingeCounty.neighborhoods},
+      {"Dalarna County": DalarnaCounty.neighborhoods},
+      {"Gotland County": GotlandCounty.neighborhoods},
+      {"Gävleborg County": GavleborgCounty.neighborhoods},
+      {"Halland County": HallandCounty.neighborhoods},
+      {"Jämtland County": JamtlandCounty.neighborhoods},
+      {"Jönköping County": JonkopingCounty.neighborhoods},
+      {"Kalmar County": KalmarCounty.neighborhoods},
+      {"Kronoberg County": KronobergCounty.neighborhoods},
+      {"Norrbotten County": NorrbottenCounty.neighborhoods},
+      {"Örebro County": OrebroCounty.neighborhoods},
+      {"Östergötland County": OstergotlandCounty.neighborhoods},
+      {"Skåne County": SkaneCounty.neighborhoods},
+      {"Södermanland County": SodermanlandCounty.neighborhoods},
+      {"Stockholm County": StockholmCounty.neighborhoods},
+      {"Uppsala County": UppsalaCounty.neighborhoods},
+      {"Värmland County": VarmlandCounty.neighborhoods},
+      {"Västerbotten County": VasterbottenCounty.neighborhoods},
+      {"Västernorrland County": VasternorrlandCounty.neighborhoods},
+      {"Västmanland County": VastmanlandCounty.neighborhoods},
+      {"Västra Götaland County": VastraGotalandCounty.neighborhoods},
+      {"Östergötland County": OstergotlandCounty.neighborhoods}
+    ]
+  },
+
+  {
+    "Switzerland": [
+      {"Aargau": Aargau.cities},
+      {"Appenzell Ausserrhoden": AppenzellAusserrhoden.cities},
+      {"Appenzell Innerrhoden": AppenzellInnerrhoden.cities},
+      {"Basel-Landschaft": BaselLandschaft.cities},
+      {"Basel-Stadt": BaselStadt.cities},
+      {"Bern": Bern.cities},
+      {"Fribourg": Fribourg.cities},
+      {"Geneva": Geneva.cities},
+      {"Glarus": Glarus.cities},
+      {"Graubünden": Graubuenden.cities},
+      {"Jura": Jura.cities},
+      {"Lucerne": Lucerne.cities},
+      {"Neuchâtel": Neuchatel.cities},
+      {"Nidwalden": Nidwalden.cities},
+      {"Obwalden": Obwalden.cities},
+      {"Schaffhausen": Schaffhausen.cities},
+      {"Schwyz": Schwyz.cities},
+      {"Solothurn": Solothurn.cities},
+      {"St. Gallen": StGallen.cities},
+      {"Thurgau": Thurgau.cities},
+      {"Ticino": Ticino.cities},
+      {"Uri": UriSw.cities},
+      {"Valais": Valais.cities},
+      {"Vaud": Vaud.cities},
+      {"Zug": Zug.cities},
+      {"Zurich": Zurich.cities},
+    ]
+  },
+  {
+    "Tajikistan": [
+      {"Sughd Province": SughdProvince.neighborhoods},
+      {"Khatlon Province": KhatlonProvince.neighborhoods},
+      {"Districts of Republican Subordination": DistrictsOfRepublicanSubordination.neighborhoods}
+    ]
+  },
+  {
+    "Taiwan": [
+      {"New Taipei City": NewTaipeiCity.neighborhoods},
+      {"Taipei City": TaipeiCity.neighborhoods},
+      {"Taichung City": TaichungCity.neighborhoods},
+      {"Tainan City": TainanCity.neighborhoods},
+      {"Kaohsiung City": KaohsiungCity.neighborhoods},
+      {"Keelung City": KeelungCity.neighborhoods},
+      {"Hsinchu City": HsinchuCity.neighborhoods},
+      // Add more cities here
+    ]
+  },
+  {
+    "Syria": [
+      {"Aleppo": AleppoGovernorate.citiesAndTowns},
+      {"Damascus": DamascusGovernorate.citiesAndTowns},
+      {"Daraa": DaraaGovernorate.citiesAndTowns},
+      {"Deir ez-Zor": DeirEzZorGovernorate.citiesAndTowns},
+      {"Hama": HamaGovernorate.citiesAndTowns},
+      {"Homs": HomsGovernorate.citiesAndTowns},
+      {"Idlib": IdlibGovernorate.citiesAndTowns},
+      {"Latakia": LatakiaGovernorate.citiesAndTowns},
+      {"Quneitra": QuneitraGovernorate.citiesAndTowns},
+      {"Raqqa": RaqqaGovernorate.citiesAndTowns},
+      {"Suwayda": SuwaydaGovernorate.citiesAndTowns},
+      {"Tartus": TartusGovernorate.citiesAndTowns},
+      {"As-Suwayda": AsSuwaydaGovernorate.citiesAndTowns},
+      {"Ar-Raqqah": ArRaqqahGovernorate.citiesAndTowns},
+      {"Al-Hasakah": AlHasakahGovernorate.citiesAndTowns},
+    ]
+  },
+
+  {
+    "Tanzania": [
+      {"Arusha Region": ArushaRegion.cities},
+      {"Dar es Salaam Region": DarEsSalaamRegion.cities},
+      {"Dodoma Region": DodomaRegion.cities},
+      {"Geita Region": GeitaRegion.cities},
+      {"Iringa Region": IringaRegion.cities},
+      {"Kagera Region": KageraRegion.cities},
+      {"Katavi Region": KataviRegion.cities},
+      {"Kigoma Region": KigomaRegion.cities},
+      {"Kilimanjaro Region": KilimanjaroRegion.cities},
+      {"Lindi Region": LindiRegion.cities},
+      {"Manyara Region": ManyaraRegion.cities},
+      {"Mara Region": MaraRegion.cities},
+      {"Mbeya Region": MbeyaRegion.cities},
+      {"Morogoro Region": MorogoroRegion.cities},
+      {"Mtwara Region": MtwaraRegion.cities},
+      {"Mwanza Region": MwanzaRegion.cities},
+      {"Njombe Region": NjombeRegion.cities},
+      {"Pwani Region": PwaniRegion.cities},
+      {"Rukwa Region": RukwaRegion.cities},
+      {"Ruvuma Region": RuvumaRegion.cities},
+      {"Shinyanga Region": ShinyangaRegion.cities},
+      {"Simiyu Region": SimiyuRegion.cities},
+      {"Singida Region": SingidaRegion.cities},
+      {"Tabora Region": TaboraRegion.cities},
+      {"Tanga Region": TangaRegion.cities},
+      {"Zanzibar Central/South Region": ZanzibarCentralSouthRegion.cities},
+      {"Zanzibar North Region": ZanzibarNorthRegion.cities},
+      {"Zanzibar Urban/West Region": ZanzibarUrbanWestRegion.cities},
+    ]
+  },
+
+  {
+    "Togo": [
+      {"Savanes Region": SavanesRegion.neighborhoods},
+      {"Kara Region": KaraRegion.neighborhoods},
+      {"Centrale Region": CentraleRegion.neighborhoods},
+      {"Plateaux Region": PlateauxRegion.neighborhoods},
+      {"Maritime Region": MaritimeRegion.neighborhoods}
+    ]
+  },
+  {
+    "Tokelau": [
+      {"Atafu Atoll": AtafuAtoll.villages},
+      {"Nukunonu Atoll": NukunonuAtoll.villages},
+      {"Fakaofo Atoll": FakaofoAtoll.villages},
+    ]
+  },
+  {
+    "Tonga": [
+      {"TongatapuGroup": TongatapuGroup.neighborhoods},
+      {"VavauGroup": VavauGroup.neighborhoods},
+      {"HaapaiGroup": HaapaiGroup.neighborhoods},
+      {"EuaGroup": EuaGroup.neighborhoods},
+      {"NiuaGroup": NiuaGroup.neighborhoods},
+    ]
+  },
+
+  {
+    "Tunisia": [
+      {"Ariana": ArianaGovernorate.neighborhoods},
+      {"Beja": BejaGovernorate.neighborhoods},
+      {"Ben Arous": BenArousGovernorate.neighborhoods},
+      {"Bizerte": BizerteGovernorate.neighborhoods},
+      {"Gabes": GabesGovernorate.neighborhoods},
+      {"Gafsa": GafsaGovernorate.neighborhoods},
+      {"Jendouba": JendoubaGovernorate.neighborhoods},
+      {"Kairouan": KairouanGovernorate.neighborhoods},
+      {"Kasserine": KasserineGovernorate.neighborhoods},
+      {"Kebili": KebiliGovernorate.neighborhoods},
+      {"Kef": KefGovernorate.neighborhoods},
+      {"Mahdia": MahdiaGovernorate.neighborhoods},
+      {"Manouba": ManoubaGovernorate.neighborhoods},
+      {"Medenine": MedenineGovernorate.neighborhoods},
+      {"Monastir": MonastirGovernorate.neighborhoods},
+      {"Nabeul": NabeulGovernorate.neighborhoods},
+      {"Sfax": SfaxGovernorate.neighborhoods},
+      {"Sidi Bouzid": SidiBouzidGovernorate.neighborhoods},
+      {"Siliana": SilianaGovernorate.neighborhoods},
+      {"Sousse": SousseGovernorate.neighborhoods},
+      {"Tataouine": TataouineGovernorate.neighborhoods},
+      {"Tozeur": TozeurGovernorate.neighborhoods},
+      {"Tunis": TunisGovernorate.neighborhoods},
+      {"Zaghouan": ZaghouanGovernorate.neighborhoods},
+    ]
+  },
+
+{
+"Turkey": [
+{"Adana": Adana.citiesAndTowns},
+{"Adıyaman": Adiyaman.citiesAndTowns},
+{"Afyonkarahisar": Afyonkarahisar.citiesAndTowns},
+{"Ağrı": Agri.citiesAndTowns},
+{"Aksaray": Aksaray.citiesAndTowns},
+{"Amasya": Amasya.citiesAndTowns},
+{"Ankara": Ankara.citiesAndTowns},
+{"Antalya": Antalya.citiesAndTowns},
+{"Ardahan": Ardahan.citiesAndTowns},
+{"Artvin": Artvin.citiesAndTowns},
+{"Aydın": Aydin.citiesAndTowns},
+{"Balıkesir": Balikesir.citiesAndTowns},
+{"Bartın": Bartin.citiesAndTowns},
+{"Batman": Batman.citiesAndTowns},
+{"Bayburt": Bayburt.citiesAndTowns},
+{"Bilecik": Bilecik.citiesAndTowns},
+{"Bingöl": Bingol.citiesAndTowns},
+{"Bitlis": Bitlis.citiesAndTowns},
+{"Bolu": Bolu.citiesAndTowns},
+{"Burdur": Burdur.citiesAndTowns},
+{"Bursa": Bursa.citiesAndTowns},
+{"Çanakkale": Canakkale.citiesAndTowns},
+{"Çankırı": Cankiri.citiesAndTowns},
+{"Çorum": Corum.citiesAndTowns},
+{"Denizli": Denizli.citiesAndTowns},
+{"Diyarbakır": Diyarbakir.citiesAndTowns},
+{"Düzce": Duzce.citiesAndTowns},
+{"Edirne": Edirne.citiesAndTowns},
+{"Elazığ": Elazig.citiesAndTowns},
+{"Erzincan": Erzincan.citiesAndTowns},
+{"Erzurum": Erzurum.citiesAndTowns},
+{"Eskişehir": Eskisehir.citiesAndTowns},
+{"Gaziantep": Gaziantep.citiesAndTowns},
+{"Giresun": Giresun.citiesAndTowns},
+{"Gümüşhane": Gumushane.citiesAndTowns},
+{"Hakkari": Hakkari.citiesAndTowns},
+{"Hatay": Hatay.citiesAndTowns},
+{"Iğdır": Igdir.citiesAndTowns},
+{"Isparta": Isparta.citiesAndTowns},
+{"İstanbul": Istanbul.citiesAndTowns},
+{"İzmir": Izmir.citiesAndTowns},
+{"Kahramanmaraş": Kahramanmaras.citiesAndTowns},
+{"Karabük": Karabuk.citiesAndTowns},
+{"Karaman": Karaman.citiesAndTowns},
+{"Kars": Kars.citiesAndTowns},
+{"Kastamonu": Kastamonu.citiesAndTowns},
+{"Kayseri": Kayseri.citiesAndTowns},
+{"Kırıkkale": Kirikkale.citiesAndTowns},
+{"Kırklareli": Kirklareli.citiesAndTowns},
+{"Kırşehir": Kirsehir.citiesAndTowns},
+{"Kilis": Kilis.citiesAndTowns},
+{"Kocaeli": Kocaeli.citiesAndTowns},
+{"Konya": Konya.citiesAndTowns},
+{"Kütahya": Kutahya.citiesAndTowns},
+{"Malatya": Malatya.citiesAndTowns},
+{"Manisa": Manisa.citiesAndTowns},
+{"Mardin": Mardin.citiesAndTowns},
+{"Mersin": Mersin.citiesAndTowns},
+{"Muğla": Mugla.citiesAndTowns},
+{"Muş": Mus.citiesAndTowns},
+{"Nevşehir": Nevsehir.citiesAndTowns},
+{"Niğde": Nigde.citiesAndTowns},
+{"Ordu": Ordu.citiesAndTowns},
+{"Osmaniye": Osmaniye.citiesAndTowns},
+{"Rize": Rize.citiesAndTowns},
+{"Sakarya": Sakarya.citiesAndTowns},
+{"Samsun": Samsun.citiesAndTowns},
+{"Siirt": Siirt.citiesAndTowns},
+{"Sinop": Sinop.citiesAndTowns},
+{"Sivas": Sivas.citiesAndTowns},
+{"Şanlıurfa": Sanliurfa.citiesAndTowns},
+{"Şırnak": Sirnak.citiesAndTowns},
+{"Tekirdağ": Tekirdag.citiesAndTowns},
+{"Tokat": Tokat.citiesAndTowns},
+{"Trabzon": Trabzon.citiesAndTowns},
+{"Tunceli": Tunceli.citiesAndTowns},
+{"Uşak": Usak.citiesAndTowns},
+{"Van": Van.citiesAndTowns},
+{"Yalova": Yalova.citiesAndTowns},
+{"Yozgat": Yozgat.citiesAndTowns},
+{"Zonguldak": Zonguldak.citiesAndTowns},
+]
+},
+  {
+    "Trinidad and Tobago": [
+      {"Tobago": Tobago.neighborhoods},
+      {"EasternTrinidad": EasternTrinidad.neighborhoods},
+      {"NorthEastTrinidad": NorthEastTrinidad.neighborhoods},
+      {"Arima": Arima.neighborhoods},
+      {"PortOfSpain": PortOfSpain.neighborhoods},
+      {"Chaguanas": Chaguanas.neighborhoods},
+      {"CouvaTabaquiteTalparo": CouvaTabaquiteTalparo.neighborhoods},
+      {"DiegoMartin": DiegoMartin.neighborhoods},
+      {"MayaroRioClaro": MayaroRioClaro.neighborhoods},
+      {"PenalDebe": PenalDebe.neighborhoods},
+      // Add more regions here
+    ]
+  },
+
+  {
+    "Turkmenistan": [
+      {"Ahal": AhalProvince.citiesAndTowns},
+      {"Balkan": BalkanProvince.citiesAndTowns},
+      {"Dashoguz": DashoguzProvince.citiesAndTowns},
+      {"Lebap": LebapProvince.citiesAndTowns},
+      {"Mary": MaryProvince.citiesAndTowns},
+    ]
+  },
+
+  {
+    {
+      "Turks and Caicos": [
+        {"Providenciales District": TurksAndCaicosDistricts.providencialesDistrict},
+        {"North Caicos District": TurksAndCaicosDistricts.northCaicosDistrict},
+        {"Middle Caicos District": TurksAndCaicosDistricts.middleCaicosDistrict},
+        {"South Caicos District": TurksAndCaicosDistricts.southCaicosDistrict},
+        {"Grand Turk District": TurksAndCaicosDistricts.grandTurkDistrict},
+        {"Salt Cay District": TurksAndCaicosDistricts.saltCayDistrict}
+      ]
+    }
+
+  },
+  {
+    "Tuvalu": [
+      {"Funafuti": Funafuti.settlements},
+      {"Nanumea": Nanumea.settlements},
+      {"Nanumanga": Nanumanga.settlements},
+      {"Niutao": Niutao.settlements},
+      {"Nui": Nui.settlements},
+      {"Nukufetau": Nukufetau.settlements},
+      {"Nukulaelae": Nukulaelae.settlements},
+      {"Vaitupu": Vaitupu.settlements},
+      {"Niulakita": Niulakita.settlements}
+    ]
+  },
+
+
+    {
+      "United Arab Emirates": [
+        {"Abu Dhabi": AdditionalCities.abuDhabi},
+        {"Dubai": AdditionalCities.dubai},
+        {"Sharjah": AdditionalCities.sharjah},
+        {"Ajman": AdditionalCities.ajman},
+        {"Umm Al-Quwain": AdditionalCities.ummAlQuwain},
+        {"Ras Al Khaimah": AdditionalCities.rasAlKhaimah},
+        {"Fujairah": AdditionalCities.fujairah}
+      ]
+    },
+
+  {
+   "United Kingdom": [
+      {
+        "England": England.regions,
+      },
+      {
+        "Scotland": Scotland.regions,
+      },
+      {
+        "Wales": Wales.regions,
+      },
+      {
+        "Northern Ireland": NorthernIreland.regions,
+      },
+    ]
+  },
+
+  {
+    "Uganda": [
+      {"Kampala": KampalaDistrict.neighborhoods},
+      {"Wakiso": WakisoDistrict.neighborhoods},
+      {"Mukono": MukonoDistrict.neighborhoods},
+      {"Mpigi": MpigiDistrict.neighborhoods},
+      {"Luweero": LuweeroDistrict.neighborhoods},
+      {"Nakasongola": NakasongolaDistrict.neighborhoods},
+      {"Mityana": MityanaDistrict.neighborhoods},
+      {"Buikwe": BuikweDistrict.neighborhoods},
+      {"Kayunga": KayungaDistrict.neighborhoods},
+      {"Buvuma": BuvumaDistrict.neighborhoods},
+      {"Jinja": JinjaDistrict.neighborhoods},
+      {"Kamuli": KamuliDistrict.neighborhoods},
+      {"Iganga": IgangaDistrict.neighborhoods},
+      {"Bugiri": BugiriDistrict.neighborhoods},
+      {"Mayuge": MayugeDistrict.neighborhoods},
+      {"Buyende": BuyendeDistrict.neighborhoods},
+      {"Luuka": LuukaDistrict.neighborhoods},
+      {"Kaliro": KaliroDistrict.neighborhoods},
+      {"Namutumba": NamutumbaDistrict.neighborhoods},
+      {"Busia": BusiaDistrict.neighborhoods},
+      {"Tororo": TororoDistrict.neighborhoods},
+      {"Pallisa": PallisaDistrict.neighborhoods},
+      {"Kumi": KumiDistrict.neighborhoods},
+      {"Bukedea": BukedeaDistrict.neighborhoods},
+      {"Soroti": SorotiDistrict.neighborhoods},
+      {"Serere": SerereDistrict.neighborhoods},
+      {"Kaberamaido": KaberamaidoDistrict.neighborhoods},
+      {"Amuria": AmuriaDistrict.neighborhoods},
+      {"Budaka": BudakaDistrict.neighborhoods},
+      {"Mbale": MbaleDistrict.neighborhoods},
+      {"Sironko": SironkoDistrict.neighborhoods},
+      {"Manafwa": ManafwaDistrict.neighborhoods},
+      {"Bududa": BududaDistrict.neighborhoods},
+      {"Namisindwa": NamisindwaDistrict.neighborhoods},
+      {"Butaleja": ButalejaDistrict.neighborhoods},
+      {"Bulambuli": BulambuliDistrict.neighborhoods},
+      {"Kibuku": KibukuDistrict.neighborhoods},
+      {"Ngora": NgoraDistrict.neighborhoods},
+      {"Butebo": ButeboDistrict.neighborhoods},
+      {"Kapchorwa": KapchorwaDistrict.neighborhoods},
+      {"Bukwo": BukwoDistrict.neighborhoods},
+      {"Kabarole": KabaroleDistrict.neighborhoods},
+      {"Kamwenge": KamwengeDistrict.neighborhoods},
+      {"Kyenjojo": KyenjojoDistrict.neighborhoods},
+      {"Kyegegwa": KyegegwaDistrict.neighborhoods},
+      {"Ntoroko": NtorokoDistrict.neighborhoods},
+      {"Bundibugyo": BundibugyoDistrict.neighborhoods},
+      {"Kasese": KaseseDistrict.neighborhoods},
+      {"Rubirizi": RubiriziDistrict.neighborhoods},
+      {"Kanungu": KanunguDistrict.neighborhoods},
+      {"Rukungiri": RukungiriDistrict.neighborhoods},
+      {"Mitooma": MitoomaDistrict.neighborhoods},
+      {"Bushenyi": BushenyiDistrict.neighborhoods},
+      {"Sheema": SheemaDistrict.neighborhoods},
+      {"Buhweju": BuhwejuDistrict.neighborhoods},
+      {"Mbarara": MbararaDistrict.neighborhoods},
+      {"Isingiro": IsingiroDistrict.neighborhoods},
+      {"Kiruhura": KiruhuraDistrict.neighborhoods},
+      {"Ibanda": IbandaDistrict.neighborhoods},
+      {"Rubanda": RubandaDistrict.neighborhoods},
+      {"Kabale": KabaleDistrict.neighborhoods},
+      {"Rukiga": RukigaDistrict.neighborhoods},
+      {"Ntungamo": NtungamoDistrict.neighborhoods},
+      {"Kazo": KazoDistrict.neighborhoods},
+      {"Gulu": GuluDistrict.neighborhoods},
+      {"Omoro": OmoroDistrict.neighborhoods},
+      {"Nwoya": NwoyaDistrict.neighborhoods},
+      {"Amuru": AmuruDistrict.neighborhoods},
+      {"Pader": PaderDistrict.neighborhoods},
+      {"Kitgum": KitgumDistrict.neighborhoods},
+      {"Agago": AgagoDistrict.neighborhoods},
+      {"Lamwo": LamwoDistrict.neighborhoods},
+      {"Kotido": KotidoDistrict.neighborhoods},
+      {"Kaabong": KaabongDistrict.neighborhoods},
+      {"Abim": AbimDistrict.neighborhoods},
+      {"Otuke": OtukeDistrict.neighborhoods},
+      {"Moroto": MorotoDistrict.neighborhoods},
+      {"Nakapiripirit": NakapiripiritDistrict.neighborhoods},
+      {"Napak": NapakDistrict.neighborhoods},
+      {"Amudat": AmudatDistrict.neighborhoods},
+      {"Kabong": KabongDistrict.neighborhoods},
+      {"Karenga": KarengaDistrict.neighborhoods},
+      {"Katakwi": KatakwiDistrict.neighborhoods},
+      {"Kumi": KumiDistrict.neighborhoods},
+      {"Ngora": NgoraDistrict.neighborhoods},
+      {"Karamoja Region": KaramojaRegion.neighborhoods},
+      {"Nabilatuk": NabilatukDistrict.neighborhoods}
+    ]
+  },
+
+  {
+    "Vanuatu": [
+      {"Malampa": MalampaProvince.neighborhoods},
+      {"Penama": PenamaProvince.neighborhoods},
+      {"Sanma": SanmaProvince.neighborhoods},
+      {"Shefa": ShefaProvince.neighborhoods},
+      {"Tafea": TafeaProvince.neighborhoods},
+      {"Torba": TorbaProvince.neighborhoods}
+    ]
+  },
+
+  {
+    "Uruguay": [
+      {"Artigas": UruguayCities.artigasDepartment},
+      {"Canelones": UruguayCities.canelonesDepartment},
+      {"Cerro Largo": UruguayCities.cerroLargoDepartment},
+      {"Colonia": UruguayCities.coloniaDepartment},
+      {"Durazno": UruguayCities.duraznoDepartment},
+      {"Flores": UruguayCities.floresDepartment},
+      {"Florida": UruguayCities.floridaDepartment},
+      {"Lavalleja": UruguayCities.lavallejaDepartment},
+      {"Maldonado": UruguayCities.maldonadoDepartment},
+      {"Montevideo": UruguayCities.montevideoDepartment},
+      {"Paysandú": UruguayCities.paysanduDepartment},
+      {"Río Negro": UruguayCities.rioNegroDepartment},
+      {"Rivera": UruguayCities.riveraDepartment},
+      {"Rocha": UruguayCities.rochaDepartment},
+      {"Salto": UruguayCities.saltoDepartment},
+      {"San José": UruguayCities.sanJoseDepartment},
+      {"Soriano": UruguayCities.sorianoDepartment},
+      {"Tacuarembó": UruguayCities.tacuaremboDepartment},
+      {"Treinta y Tres": UruguayCities.treintaYTresDepartment}
+    ]
+  },
+
+  {
+    "Uzbekistan": [
+      {"Andijan Region": AndijanRegion.citiesAndTowns},
+      {"Bukhara Region": BukharaRegion.citiesAndTowns},
+      {"Fergana Region": FerganaRegion.citiesAndTowns},
+      {"Jizzakh Region": JizzakhRegion.citiesAndTowns},
+      {"Namangan Region": NamanganRegion.citiesAndTowns},
+      {"Navoiy Region": NavoiRegion.citiesAndTowns},
+      {"Qashqadaryo Region": QashqadaryoRegion.citiesAndTowns},
+      {"Samarqand Region": SamarqandRegion.citiesAndTowns},
+      {"Sirdaryo Region": SirdaryoRegion.citiesAndTowns},
+      {"Surxondaryo Region": SurxondaryoRegion.citiesAndTowns},
+      {"Tashkent Region": TashkentRegion.citiesAndTowns},
+      {"Xorazm Region": XorazmRegion.citiesAndTowns},
+      {"Tashkent City": TashkentRegion.citiesAndTowns},
+    ]
+  },
+
+{
+ "United States of America": [
+  {"Alabama": Alabama.additionalCities},
+  {"Alaska": Alaska.additionalCities},
+  {"Arizona": Arizona.additionalCities},
+  {"Arkansas": Arkansas.additionalCities},
+  {"California": California.additionalCities},
+  {"Colorado": Colorado.additionalCities},
+  {"Connecticut": Connecticut.additionalCities},
+  {"Delaware": Delaware.additionalCities},
+  {"Florida": FloridaUSA.cities},
+  {"Georgia": Georgia.cities},
+  {"Hawaii": Hawaii.cities},
+  {"Idaho": Idaho.cities},
+  {"Illinois": Illinois.cities},
+  {"Indiana": Indiana.cities},
+  {"Iowa": Iowa.cities},
+  {"Kansas": Kansas.cities},
+  {"Kentucky": Kentucky.cities},
+  {"Louisiana": Louisiana.cities},
+  {"Maine": Maine.cities},
+  {"Maryland": Maryland.cities},
+  {"Massachusetts": Massachusetts.cities},
+  {"Michigan": Michigan.cities},
+  {"Minnesota": Minnesota.cities},
+  {"Mississippi": Mississippi.cities},
+  {"Missouri": Missouri.cities},
+  {"Montana": Montana.cities},
+  {"Nebraska": Nebraska.cities},
+  {"Nevada": Nevada.cities},
+  {"New Hampshire": NewHampshire.cities},
+  {"New Jersey": NewJersey.cities},
+  {"New Mexico": NewMexico.cities},
+  {"New York": NewYork.cities},
+  {"North Carolina": NorthCarolina.cities},
+  {"North Dakota": NorthDakota.cities},
+  {"Ohio": Ohio.cities},
+  {"Oklahoma": Oklahoma.cities},
+  {"Oregon": Oregon.cities},
+  {"Pennsylvania": Pennsylvania.additionalCities},
+  {"Rhode Island": RhodeIsland.additionalCities},
+  {"South Carolina": SouthCarolina.additionalCities},
+  {"South Dakota": SouthDakota.additionalCities},
+  {"Tennessee": Tennessee.additionalCities},
+  {"Texas": Texas.additionalCities},
+  {"Utah": Utah.additionalCities},
+  {"Vermont": Vermont.additionalCities},
+  {"Virginia": Virginia.additionalCities},
+  {"Washington": Washington.additionalCities},
+  {"West Virginia": WestVirginia.additionalCities},
+  {"Wisconsin": Wisconsin.additionalCities},
+  {"Wyoming": Wyoming.additionalCities},
+  ]
+  },
+
+
+{
+"Wallis": [
+
+{"Hihifo": WallisAndFutuna.hihifoDistrict},
+{"Hahake": WallisAndFutuna.hahakeDistrict},
+{"Sigave": WallisAndFutuna.sigaveDistrict},
+]
+  },
+
+  {
+    "Venezuela": [
+      {"Amazonas": AmazonasStateVenezuela.citiesAndTowns},
+      {"Anzoátegui": AnzoateguiState.citiesAndTowns},
+      {"Apure": ApureState.citiesAndTowns},
+      {"Aragua": AraguaState.citiesAndTowns},
+      {"Barinas": BarinasState.citiesAndTowns},
+      {"Bolívar": BolivarState.citiesAndTowns},
+      {"Carabobo": CaraboboState.citiesAndTowns},
+      {"Cojedes": CojedesState.citiesAndTowns},
+      {"Delta Amacuro": DeltaAmacuroState.citiesAndTowns},
+      {"Falcón": FalconState.citiesAndTowns},
+      {"Guárico": GuaricoState.citiesAndTowns},
+      {"Lara": LaraState.citiesAndTowns},
+      {"Mérida": MeridaState.citiesAndTowns},
+      {"Miranda": MirandaState.citiesAndTowns},
+      {"Monagas": MonagasState.citiesAndTowns},
+      {"Nueva Esparta": NuevaEspartaState.citiesAndTowns},
+      {"Portuguesa": PortuguesaState.citiesAndTowns},
+      {"Sucre": SucreState.citiesAndTowns},
+      {"Táchira": TachiraState.citiesAndTowns},
+      {"Trujillo": TrujilloState.citiesAndTowns},
+      {"Vargas": VargasState.citiesAndTowns},
+      {"Yaracuy": YaracuyState.citiesAndTowns},
+      {"Zulia": ZuliaState.citiesAndTowns}
+    ]
+  },
+
+  {
+    "Yemen": [
+      {"Abyan": YemenCities.Abyan},
+      {"Ad Dali": YemenCities.AdDali},
+      {"Aden": YemenCities.Aden},
+      {"Al Bayda": YemenCities.AlBayda},
+      {"Al Hudaydah": YemenCities.AlHudaydah},
+      {"Al Jawf": YemenCities.AlJawf},
+      {"Al Mahrah": YemenCities.AlMahrah},
+      {"Al Mahwit": YemenCities.AlMahwit},
+      {"Amran": YemenCities.Amran},
+      {"Dhamar": YemenCities.Dhamar},
+      {"Hadhramaut": YemenCities.Hadhramaut},
+      {"Hajjah": YemenCities.Hajjah},
+      {"Ibb": YemenCities.Ibb},
+      {"Lahij": YemenCities.Lahij},
+      {"Ma'rib": YemenCities.Marib},
+      {"Raymah": YemenCities.Raymah},
+      {"Saada": YemenCities.Saada},
+      {"Sanaa": YemenCities.Sanaa},
+      {"Shabwah": YemenCities.Shabwah},
+      {"Socotra": YemenCities.Socotra},
+      {"Taiz": YemenCities.Taizz}
+    ]
+  },
+
+  {
+    "Vietnam": [
+      {"An Giang": AnGiang.citiesAndTowns},
+      {"Ba Ria-Vung Tau": BaRiaVungTau.citiesAndTowns},
+      {"Bac Lieu": BacLieu.citiesAndTowns},
+      {"Bac Kan": BacKan.citiesAndTowns},
+      {"Bac Giang": BacGiang.citiesAndTowns},
+      {"Bac Ninh": BacNinh.citiesAndTowns},
+      {"Ben Tre": BenTre.citiesAndTowns},
+      {"Binh Duong": BinhDuong.citiesAndTowns},
+      {"Binh Dinh": BinhDinh.citiesAndTowns},
+      {"Binh Phuoc": BinhPhuoc.citiesAndTowns},
+      {"Binh Thuan": BinhThuan.citiesAndTowns},
+      {"Ca Mau": CaMau.citiesAndTowns},
+      {"Cao Bang": CaoBang.citiesAndTowns},
+      {"Can Tho": CanTho.citiesAndTowns},
+      {"Da Nang": DaNang.citiesAndTowns},
+      {"Dac Lak": DacLak.citiesAndTowns},
+      {"Dac Nong": DacNong.citiesAndTowns},
+      {"Dien Bien": DienBien.citiesAndTowns},
+      {"Dong Nai": DongNai.citiesAndTowns},
+      {"Dong Thap": DongThap.citiesAndTowns},
+      {"Gia Lai": GiaLai.citiesAndTowns},
+      {"Ha Giang": HaGiang.citiesAndTowns},
+      {"Ha Nam": HaNam.citiesAndTowns},
+      {"Ha Noi": HaNoi.citiesAndTowns},
+      {"Ha Tinh": HaTinh.citiesAndTowns},
+      {"Hai Duong": HaiDuong.citiesAndTowns},
+      {"Hai Phong": HaiPhong.citiesAndTowns},
+      {"Ho Chi Minh City": HoChiMinhCity.citiesAndTowns},
+      {"Hau Giang": HauGiang.citiesAndTowns},
+      {"Hoa Binh": HoaBinh.citiesAndTowns},
+      {"Hung Yen": HungYen.citiesAndTowns},
+      {"Khanh Hoa": KhanhHoa.citiesAndTowns},
+      {"Kien Giang": KienGiang.citiesAndTowns},
+      {"Kon Tum": KonTum.citiesAndTowns},
+      {"Lai Chau": LaiChau.citiesAndTowns},
+      {"Lang Son": LangSon.citiesAndTowns},
+      {"Lao Cai": LaoCai.citiesAndTowns},
+      {"Lam Dong": LamDong.citiesAndTowns},
+      {"Long An": LongAn.citiesAndTowns},
+      {"Nam Dinh": NamDinh.citiesAndTowns},
+      {"Nghe An": NgheAn.citiesAndTowns},
+      {"Ninh Binh": NinhBinh.citiesAndTowns},
+      {"Ninh Thuan": NinhThuan.citiesAndTowns},
+      {"Phu Tho": PhuTho.citiesAndTowns},
+      {"Phu Yen": PhuYen.citiesAndTowns},
+      {"Quang Binh": QuangBinh.citiesAndTowns},
+      {"Quang Nam": QuangNam.citiesAndTowns},
+      {"Quang Ngai": QuangNgai.citiesAndTowns},
+      {"Quang Ninh": QuangNinh.citiesAndTowns},
+      {"Quang Tri": QuangTri.citiesAndTowns},
+      {"Soc Trang": SocTrang.citiesAndTowns},
+      {"Son La": SonLa.citiesAndTowns},
+      {"Tay Ninh": TayNinh.citiesAndTowns},
+      {"Thai Binh": ThaiBinh.citiesAndTowns},
+      {"Thai Nguyen": ThaiNguyen.citiesAndTowns},
+      {"Thanh Hoa": ThanhHoa.citiesAndTowns},
+      {"Thua Thien-Hue": ThuaThienHue.citiesAndTowns},
+      {"Tien Giang": TienGiang.citiesAndTowns},
+      {"Tra Vinh": TraVinh.citiesAndTowns},
+      {"Tuyen Quang": TuyenQuang.citiesAndTowns},
+      {"Vinh Long": VinhLong.citiesAndTowns},
+      {"Vinh Phuc": VinhPhuc.citiesAndTowns},
+      {"Yen Bai": YenBai.citiesAndTowns}
+    ]
+  },
+
+  {
+    "Zimbabwe": [
+      {"Bulawayo": ZimbabweCities.Bulawayo},
+      {"Harare": ZimbabweCities.Harare},
+      {"Manicaland": ZimbabweCities.Manicaland},
+      {"Mashonaland Central": ZimbabweCities.MashonalandCentral},
+      {"Mashonaland East": ZimbabweCities.MashonalandEast},
+      {"Mashonaland West": ZimbabweCities.MashonalandWest},
+      {"Masvingo": ZimbabweCities.Masvingo},
+      {"Matabeleland North": ZimbabweCities.MatabelelandNorth},
+      {"Matabeleland South": ZimbabweCities.MatabelelandSouth},
+      {"Midlands": ZimbabweCities.Midlands},
+    ]
+  },
+
+  {
+    "Thailand": [
+      {"Bangkok": Bangkok.citiesAndTowns},
+      {"Samut Prakan": SamutPrakan.citiesAndTowns},
+      {"Nonthaburi": Nonthaburi.citiesAndTowns},
+      {"Pathum Thani": PathumThani.citiesAndTowns},
+      {"Samut Sakhon": SamutSakhon.citiesAndTowns},
+      {"Nakhon Pathom": NakhonPathom.citiesAndTowns},
+      {"Samut Songkhram": SamutSongkhram.citiesAndTowns},
+      {"Phra Nakhon Si Ayutthaya": PhraNakhonSiAyutthaya.citiesAndTowns},
+      {"Ang Thong": AngThong.citiesAndTowns},
+      {"Lop Buri": LopBuri.citiesAndTowns},
+      {"Sing Buri": SingBuri.citiesAndTowns},
+      {"Chai Nat": ChaiNat.citiesAndTowns},
+      {"Saraburi": Saraburi.citiesAndTowns},
+      {"Suphan Buri": SuphanBuri.citiesAndTowns},
+      {"Ratchaburi": Ratchaburi.citiesAndTowns},
+      {"Kanchanaburi": Kanchanaburi.citiesAndTowns},
+      {"Uthai Thani": UthaiThani.citiesAndTowns},
+      {"Chaiyaphum": Chaiyaphum.citiesAndTowns},
+      {"Nakhon Ratchasima": NakhonRatchasima.citiesAndTowns},
+      {"Buriram": Buriram.citiesAndTowns},
+      {"Surin": Surin.citiesAndTowns},
+      {"Si Sa Ket": SiSaKet.citiesAndTowns},
+      {"Ubon Ratchathani": UbonRatchathani.citiesAndTowns},
+      {"Yasothon": Yasothon.citiesAndTowns},
+      {"Chaiyaphum": Chaiyaphum.citiesAndTowns},
+      {"Nakhon Phanom": NakhonPhanom.citiesAndTowns},
+      {"Mukdahan": Mukdahan.citiesAndTowns},
+      {"Kalasin": Kalasin.citiesAndTowns},
+      {"Sakon Nakhon": SakonNakhon.citiesAndTowns},
+      {"Nakhon Si Thammarat": NakhonSiThammarat.citiesAndTowns},
+      {"Krabi": Krabi.citiesAndTowns},
+      {"Phang Nga": PhangNga.citiesAndTowns},
+      {"Phuket": Phuket.citiesAndTowns},
+      {"Surat Thani": SuratThani.citiesAndTowns},
+      {"Ranong": Ranong.citiesAndTowns},
+      {"Chumphon": Chumphon.citiesAndTowns},
+      {"Songkhla": Songkhla.citiesAndTowns},
+      {"Satun": Satun.citiesAndTowns},
+      {"Trang": Trang.citiesAndTowns},
+      {"Phattalung": PhatthalungDistricts.citiesAndTowns},
+      {"Pattani": Pattani.citiesAndTowns},
+      {"Yala": Yala.citiesAndTowns},
+      {"Narathiwat": Narathiwat.citiesAndTowns},
+      {"Prachin Buri": PrachinBuri.citiesAndTowns},
+      {"Chachoengsao": Chachoengsao.citiesAndTowns},
+      {"Chonburi": Chonburi.citiesAndTowns},
+      {"Rayong": Rayong.citiesAndTowns},
+      {"Chanthaburi": Chanthaburi.citiesAndTowns},
+      {"Trat": Trat.citiesAndTowns},
+      {"Nakhon Nayok": NakhonNayok.citiesAndTowns},
+      {"Sa Kaeo": SaKaeo.citiesAndTowns},
+      {"Mae Hong Son": MaeHongSon.citiesAndTowns},
+      {"Chiang Mai": ChiangMai.citiesAndTowns},
+      {"Lamphun": Lamphun.citiesAndTowns},
+      {"Lampang": Lampang.citiesAndTowns},
+      {"Uttaradit": Uttaradit.citiesAndTowns},
+      {"Phrae": Phrae.citiesAndTowns},
+      {"Nan": Nan.citiesAndTowns},
+      {"Phayao": Phayao.citiesAndTowns},
+      {"Chiang Rai": ChiangRai.citiesAndTowns},
+      {"Mueang Phitsanulok": MueangPhitsanulok.citiesAndTowns},
+      {"Phichit": Phichit.citiesAndTowns},
+      {"Phitsanulok": PhitsanulokDistricts.citiesAndTowns},
+      {"Phetchabun": Phetchabun.citiesAndTowns},
+      {"Sukhothai": Sukhothai.citiesAndTowns},
+      {"Kamphaeng Phet": KamphaengPhet.citiesAndTowns},
+      {"Tak": Tak.citiesAndTowns},
+      {"Nakhon Sawan": NakhonSawan.citiesAndTowns},
+      {"Uthai Thani": UthaiThani.citiesAndTowns},
+      {"Suphan Buri": SuphanBuri.citiesAndTowns},
+      {"Kanchanaburi": Kanchanaburi.citiesAndTowns},
+      {"Samut Songkhram": SamutSongkhram.citiesAndTowns},
+      {"Phetchaburi": Phetchaburi.citiesAndTowns},
+      {"Prachuap Khiri Khan": PrachuapKhiriKhan.citiesAndTowns},
+      {"Ratchaburi": Ratchaburi.citiesAndTowns},
+      {"Nakhon Pathom": NakhonPathom.citiesAndTowns},
+      {"Samut Sakhon": SamutSakhon.citiesAndTowns}
+    ]
   }
+
+
 
 
 
@@ -3335,7 +4555,7 @@ var allStatescity = [
 
 /*
 
-pleases put it in a dart list like this class CentralAndWestern {
+please put them in a dart list like this class CentralAndWestern {
   static List<String> neighborhoods = [
     "Central",
     ]
@@ -3349,7 +4569,7 @@ pleases put it in a dart list like this class CentralAndWestern {
       ]
       }
 
-Create a dart list for only the district
+Create a dart list for only the region
 
 Please list all the cities for each administrative regions. don't hide anyone. e.g class CentralAndWestern {
   static List<String> neighborhoods = [
@@ -3360,9 +4580,91 @@ Please list all the cities for each administrative regions. don't hide anyone. e
 
 I noticed each region has nine cities in number. Is that correct?. Please add more cities and towns you know for each region
 
-Please list all the cities in each country both major and small towns. Make it comprehensive.
+Please list all the cities in each region both major and small towns. Make it comprehensive.
 
 If you have more cities and town for each division, Can you please add them
 
 
+
+Sure, here is a list of all the states in the United States of America:
+
+
+
+Bangkok
+Samut Prakan
+Nonthaburi
+Pathum Thani
+Samut Sakhon
+Nakhon Pathom
+Samut Songkhram
+Phra Nakhon Si Ayutthaya
+Ang Thong
+Lop Buri
+Sing Buri
+Chai Nat
+Saraburi
+Suphan Buri
+Ratchaburi
+Kanchanaburi
+Uthai Thani
+Chaiyaphum
+Nakhon Ratchasima
+Buriram
+Surin
+Si Sa Ket
+Ubon Ratchathani
+Yasothon
+Chaiyaphum
+Nakhon Phanom
+Mukdahan
+Kalasin
+Sakon Nakhon
+Nakhon Si Thammarat
+Krabi
+Phang Nga
+Phuket
+Surat Thani
+Ranong
+Chumphon
+Songkhla
+Satun
+Trang
+Phattalung
+Pattani
+Yala
+Narathiwat
+Prachin Buri
+Chachoengsao
+Chonburi
+Rayong
+Chanthaburi
+Trat
+Nakhon Nayok
+Sa Kaeo
+Mae Hong Son
+Chiang Mai
+Lamphun
+Lampang
+Uttaradit
+Phrae
+Nan
+Phayao
+Chiang Rai
+Mueang Phitsanulok
+Phichit
+Phitsanulok
+Phetchabun
+Sukhothai
+Kamphaeng Phet
+Tak
+Nakhon Sawan
+Uthai Thani
+Suphan Buri
+Kanchanaburi
+Samut Songkhram
+Phetchaburi
+Prachuap Khiri Khan
+Ratchaburi
+Nakhon Pathom
+Samut Sakhon
 */
