@@ -1,3 +1,11 @@
+<h1>1.0.0</h1>
+<hr>
+<ul>
+<li>I modified the states, province, district or region of each country</li>
+<li>I significantly expanded the data to include subnational divisions (states, provinces, etc.) and their constituent cities.
+</li>
+</ul>
+
 <h1>0.2.9</h1>
 <hr>
 <ul>

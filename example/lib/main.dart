@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_country_state/flutter_country_state.dart';
-
+import 'package:flutter_country_state/state_screen.dart';
+import 'package:flutter_country_state/city_screen.dart';
+String selectedState = "";
+String selectedCity = "";
+String selectedCountry = "";
 void main() {
   runApp(const MyApp());
 }
@@ -24,8 +28,9 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.blue,
+        bottomSheetTheme: BottomSheetThemeData(backgroundColor: Colors.white)
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Flutter_counntry_state Demo'),
     );
   }
 }
@@ -49,8 +54,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String selectedCountry = "";
-  String selectedState = "";
+
+
 
 
   @override
@@ -71,16 +76,23 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(selectedCountry),
 
-            Text(Variables.state),
+            Text(selectedState),
+            Text(selectedCity),
+
+            const SizedBox(height: 40,),
             ElevatedButton(
               onPressed: (){
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (context) => CountryScreen()),
+                // );
                 showModalBottomSheet(
                     isScrollControlled: true,
                     context: context,
                     isDismissible: false,
                     builder: (context) =>  SizedBox(
                       height: MediaQuery.of(context).size.height * 0.7,
-                      child: ShowMyDialog(
+                      child: ShowCountryDialog(
                         searchHint: 'Search for a country',
                         substringBackground: Colors.black,
                         style: const TextStyle(color: Colors.black,fontWeight: FontWeight.bold),
@@ -90,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         selectedCountryBackgroundColor: Colors.pink,
                         notSelectedCountryBackgroundColor: Colors.white,
                         onSelectCountry: (){setState(() {
-                          selectedCountry = Variables.country;
+                          selectedCountry = Selected.country;
                         });},
                       ),
                     ),
@@ -99,16 +111,22 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               child: const Text("select country"),
             ),
-
+            const SizedBox(height: 20,),
             ElevatedButton(
               onPressed: (){
+
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (context) => TestStateFull()),
+                // );
+
                 showModalBottomSheet(
                   isScrollControlled: true,
                   context: context,
                   isDismissible: false,
                   builder: (context) => SizedBox(
                     height: MediaQuery.of(context).size.height * 0.7,
-                    child: StateDialog(
+                    child: ShowStateDialog(
                       style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
                       stateHeaderStyle: const TextStyle(color: Colors.black,fontWeight: FontWeight.bold),
                       subStringStyle: const TextStyle(color: Colors.white),
@@ -117,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       notSelectedStateBackgroundColor: Colors.white,
                       onSelectedState: (){
                         setState(() {
-                          selectedState = Variables.state;
+                          selectedState = Selected.state;
                         });
                       },
                     ),
@@ -126,6 +144,44 @@ class _MyHomePageState extends State<MyHomePage> {
                 );
               },
               child: const Text("select state"),
+            ),
+            const SizedBox(height: 20,),
+
+
+            ElevatedButton(
+              onPressed: (){
+
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (context) => TestFullClass()),
+                // );
+
+
+
+
+                showModalBottomSheet(
+                  isScrollControlled: true,
+                  context: context,
+                  isDismissible: false,
+                  builder: (context) => SizedBox(
+                    height: MediaQuery.of(context).size.height * 0.7,
+                    child: ShowCityDialog(
+                      style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
+                      subStringStyle: const TextStyle(color: Colors.white),
+                      substringBackground: Colors.black,
+                      selectedCityBackgroundColor: Colors.orange,
+                      notSelectedCityBackgroundColor: Colors.white,
+                      onSelectedCity: (){
+                        setState(() {
+                          selectedCity = Selected.city;
+                        });
+                      },
+                    ),
+                  ),
+
+                );
+              },
+              child: const Text("select city"),
             ),
 
 
@@ -136,3 +192,88 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
+class CityScreen extends StatefulWidget {
+  const CityScreen({super.key});
+
+  @override
+  State<CityScreen> createState() => _CityScreenState();
+}
+
+class _CityScreenState extends State<CityScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: ShowCityDialog(
+        style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
+        subStringStyle: const TextStyle(color: Colors.white),
+        substringBackground: Colors.black,
+        selectedCityBackgroundColor: Colors.orange,
+        notSelectedCityBackgroundColor: Colors.white,
+        onSelectedCity: (){
+          setState(() {
+            selectedCity = Selected.city;
+          });
+        },
+      ),
+    );
+  }
+}
+
+class CountryScreen extends StatefulWidget {
+  const CountryScreen({super.key});
+
+  @override
+  State<CountryScreen> createState() => _CountryScreenState();
+}
+
+class _CountryScreenState extends State<CountryScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: ShowCountryDialog(
+        searchHint: 'Search for a country',
+        substringBackground: Colors.black,
+        style: const TextStyle(color: Colors.black,fontWeight: FontWeight.bold),
+        countryHeaderStyle: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
+        searchStyle: const TextStyle(color: Colors.black),
+        subStringStyle: const TextStyle(color: Colors.white),
+        selectedCountryBackgroundColor: Colors.pink,
+        notSelectedCountryBackgroundColor: Colors.white,
+        onSelectCountry: (){setState(() {
+          selectedCountry = Selected.country;
+        });},
+      ),
+    );
+  }
+}
+
+class StateScreen extends StatefulWidget {
+  const StateScreen({super.key});
+
+  @override
+  State<StateScreen> createState() => _StateScreenState();
+}
+
+class _StateScreenState extends State<StateScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: ShowStateDialog(
+        style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
+        stateHeaderStyle: const TextStyle(color: Colors.black,fontWeight: FontWeight.bold),
+        subStringStyle: const TextStyle(color: Colors.white),
+        substringBackground: Colors.black,
+        selectedStateBackgroundColor: Colors.orange,
+        notSelectedStateBackgroundColor: Colors.white,
+        onSelectedState: (){
+          setState(() {
+            selectedState = Selected.state;
+          });
+        },
+      ),
+    );
+  }
+}
+
