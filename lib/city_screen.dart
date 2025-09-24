@@ -1,23 +1,19 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_country_state/complied_cities.dart';
 import 'package:flutter_country_state/flutter_country_state.dart';
 
-
-
-
 class ShowCityDialog extends StatefulWidget {
   ShowCityDialog({
-     this.substringBackground,
-     this.searchHint,
+    this.substringBackground,
+    this.searchHint,
     this.cityListTitle,
-     this.subStringStyle,
-     this.style,
-     this.searchStyle,
-     this.selectedCityBackgroundColor,
-     this.notSelectedCityBackgroundColor,
-     required this.onSelectedCity,
-     this.countryHeaderStyle,
+    this.subStringStyle,
+    this.style,
+    this.searchStyle,
+    this.selectedCityBackgroundColor,
+    this.notSelectedCityBackgroundColor,
+    required this.onSelectedCity,
+    this.countryHeaderStyle,
     this.inputDecoration,
     this.closeIcon,
   });
@@ -42,19 +38,19 @@ class _ShowCityDialogState extends State<ShowCityDialog> {
   TextEditingController searchController = new TextEditingController();
   String filter = '';
   var itemscolor = <String>[];
-  getTheCities(){
+  getTheCities() {
     List<Map<String, dynamic>>? selectedCountryData;
 
-// Find the selected country
+    // Find the selected country
     for (var countryData in allStatesWithCities) {
-      if (countryData is Map<String, dynamic> && countryData.containsKey(Selected.country)) {
-
+      if (countryData is Map<String, dynamic> &&
+          countryData.containsKey(Selected.country)) {
         selectedCountryData = countryData[Selected.country];
         break;
       }
     }
 
-// Check if the selected country was found
+    // Check if the selected country was found
     if (selectedCountryData != null) {
       // Find the selected state and get its cities
       for (var stateData in selectedCountryData) {
@@ -71,8 +67,8 @@ class _ShowCityDialogState extends State<ShowCityDialog> {
     } else {
       print('Selected country not found');
     }
-
   }
+
   @override
   initState() {
     super.initState();
@@ -96,85 +92,103 @@ class _ShowCityDialogState extends State<ShowCityDialog> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        widget.closeIcon??Container(
-          padding: EdgeInsets.all(10),
-          alignment: Alignment.topRight,
-          child: IconButton(onPressed: (){Navigator.pop(context);},icon: Icon(Icons.close,color: Colors.red,),),
-        ),
+        widget.closeIcon ??
+            Container(
+              padding: EdgeInsets.all(10),
+              alignment: Alignment.topRight,
+              child: IconButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                icon: Icon(Icons.close, color: Colors.red),
+              ),
+            ),
         Padding(
           padding: const EdgeInsets.all(18.0),
-          child: Text(widget.cityListTitle??"Cities found in ${Selected.state}".toUpperCase(),
-              style: widget.countryHeaderStyle?? TextStyle(fontSize: 20)),
+          child: Text(
+            widget.cityListTitle ??
+                "Cities found in ${Selected.state}".toUpperCase(),
+            style: widget.countryHeaderStyle ?? TextStyle(fontSize: 20),
+          ),
         ),
         Padding(
           padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 20),
           child: TextField(
-            style: widget.searchStyle??TextStyle(fontSize: 16),
+            style: widget.searchStyle ?? TextStyle(fontSize: 16),
             controller: searchController,
-            decoration: widget.inputDecoration??InputDecoration(
-              hintText: "Search for a city...",
-              contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-              border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
-            ),
+            decoration:
+                widget.inputDecoration ??
+                InputDecoration(
+                  hintText: "Search for a city...",
+                  contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(32.0),
+                  ),
+                ),
           ),
         ),
         Expanded(
           child: ListView(
             children: [
               ListView.builder(
-                  shrinkWrap: true,
-                  physics: BouncingScrollPhysics(),
-                  itemCount: Selected.selectedCityList.length,
-                  itemBuilder: (context, index) {
-                     var pickedCity = Selected.selectedCityList[index];
-                    return filter == ""
-                        ? Container(
-                        padding: const EdgeInsets.all(10.0),
-                        width: double.maxFinite,
-                        // color: selectedIndex.contains(index)
-                        //     ? widget.selectedCityBackgroundColor??Colors.blue
-                        //     : widget.notSelectedCityBackgroundColor??Colors.transparent,
-                        child: ListTile(
+                shrinkWrap: true,
+                physics: BouncingScrollPhysics(),
+                itemCount: Selected.selectedCityList.length,
+                itemBuilder: (context, index) {
+                  var pickedCity = Selected.selectedCityList[index];
+                  return filter == ""
+                      ? Container(
+                          padding: const EdgeInsets.all(10.0),
+                          width: double.maxFinite,
+                          // color: selectedIndex.contains(index)
+                          //     ? widget.selectedCityBackgroundColor??Colors.blue
+                          //     : widget.notSelectedCityBackgroundColor??Colors.transparent,
+                          child: ListTile(
                             leading: CircleAvatar(
-                              backgroundColor: widget.substringBackground?? Colors.blue,
+                              backgroundColor:
+                                  widget.substringBackground ?? Colors.blue,
                               child: Text(
-                                  pickedCity.substring(0, 1).toUpperCase(),
-                                  style: widget.subStringStyle?? TextStyle(fontSize: 16)),
+                                pickedCity.substring(0, 1).toUpperCase(),
+                                style:
+                                    widget.subStringStyle ??
+                                    TextStyle(fontSize: 16),
+                              ),
                             ),
                             title: Text(pickedCity, style: widget.style),
                             onTap: () {
                               _selectedICountry(pickedCity, index);
-                            }))
-                        : '$pickedCity'
-                        .toLowerCase()
-                        .contains(filter.toLowerCase())
-                        ? Padding(
+                            },
+                          ),
+                        )
+                      : '$pickedCity'.toLowerCase().contains(
+                          filter.toLowerCase(),
+                        )
+                      ? Padding(
                           padding: const EdgeInsets.all(18.0),
                           child: Container(
                             padding: const EdgeInsets.all(10.0),
-                                                width: double.maxFinite,
-                          //                       color: selectedIndex.contains(index)
-                          //                     ? widget.selectedCityBackgroundColor??Colors.blue
-                          // : widget.notSelectedCityBackgroundColor??Colors.black,
-                                                child: ListTile(
-                            leading: CircleAvatar(
-                              backgroundColor:
-                              widget.substringBackground,
-                              child: Text(
+                            width: double.maxFinite,
+                            //                       color: selectedIndex.contains(index)
+                            //                     ? widget.selectedCityBackgroundColor??Colors.blue
+                            // : widget.notSelectedCityBackgroundColor??Colors.black,
+                            child: ListTile(
+                              leading: CircleAvatar(
+                                backgroundColor: widget.substringBackground,
+                                child: Text(
                                   pickedCity.substring(0, 1).toUpperCase(),
-                                  style: widget.subStringStyle),
+                                  style: widget.subStringStyle,
+                                ),
+                              ),
+                              title: Text(pickedCity, style: widget.style),
+                              onTap: () async {
+                                _selectedICountry(pickedCity, index);
+                              },
                             ),
-                            title:
-                            Text(pickedCity, style: widget.style),
-                            onTap: () async {
-                              _selectedICountry(Selected.city[index], index);
-                            }),
-                                              ),
+                          ),
                         )
-                        : Container(
-                      width: double.maxFinite,
-                    );
-                  }),
+                      : Container(width: double.maxFinite);
+                },
+              ),
             ],
           ),
         ),
@@ -187,7 +201,6 @@ class _ShowCityDialogState extends State<ShowCityDialog> {
       Selected.city = data;
       selectedIndex.clear();
       selectedIndex.add(index);
-
     });
     widget.onSelectedCity();
     setState(() {});
