@@ -28,9 +28,9 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.blue,
-        bottomSheetTheme: BottomSheetThemeData(backgroundColor: Colors.white)
+        bottomSheetTheme: const BottomSheetThemeData(backgroundColor: Colors.white)
       ),
-      home: const MyHomePage(title: 'Flutter_counntry_state Demo'),
+      home: const MyHomePage(title: 'Flutter_country_state Demo'),
     );
   }
 }

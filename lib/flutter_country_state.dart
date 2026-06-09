@@ -1,6 +1,5 @@
 library flutter_country_state;
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_country_state/cty-list.dart';
 import 'package:flutter_country_state/select_state.dart';

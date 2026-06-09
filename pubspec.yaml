@@ -1,11 +1,11 @@
 name: flutter_country_state
 description: An intuitive and versatile Flutter package designed to simplify the display of countries, states, and cities within your application. With seamless integration, it offers a comprehensive list of countries worldwide, allowing users to effortlessly navigate through states and cities. Featuring a user-friendly search functionality and extensive customization options, it can be easily integrated into both bottom sheets and full-screen layouts, enhancing the user experience and streamlining development.
 
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/mimi-tech/flutter_country_state
 
 environment:
-  sdk: ^3.4.0
+  sdk: ^3.11.5
 
 dependencies:
   flutter:

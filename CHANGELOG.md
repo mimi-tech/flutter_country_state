@@ -5,6 +5,13 @@
 <li>Upgraded the dart SDK</li>
 </ul>
 
+<h1>1.0.2</h1>
+<hr>
+<ul>
+<li>Fixed all SonarQube code quality warnings</li>
+<li>Improved code maintainability and compliance with best practices.</li>
+</ul>
+
 <h1>1.0.0</h1>
 <hr>
 <ul>
